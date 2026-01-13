@@ -1,6 +1,17 @@
 import re
 import json
 import os
+import requests
+
+def fetch_content(url):
+    """Fetch content from a URL."""
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+        return response.text
+    except Exception as e:
+        print(f"Error fetching {url}: {e}")
+        return None
 
 def is_open_source_url(url):
     """
@@ -50,9 +61,8 @@ def is_open_source_url(url):
         
     return False
 
-def parse_awesome_mcp(file_path):
-    with open(file_path, 'r', encoding='utf-8') as f:
-        lines = f.readlines()
+def parse_awesome_mcp(content):
+    lines = content.split('\n')
 
     servers = []
     current_category = ""
@@ -129,10 +139,7 @@ def parse_awesome_mcp(file_path):
             
     return servers
 
-def parse_official_mcp(file_path):
-    with open(file_path, 'r', encoding='utf-8') as f:
-        content = f.read()
-
+def parse_official_mcp(content):
     data = {
         "reference_servers": [],
         "third_party": {
@@ -190,22 +197,33 @@ def parse_official_mcp(file_path):
     return data
 
 def main():
-    awesome_file = 'awesome-mcp-servers.md'
-    official_file = 'modelcontextprotocol-servers.md'
+    # Remote URLs
+    awesome_url = 'https://raw.githubusercontent.com/punkpeye/awesome-mcp-servers/main/README.md'
+    official_url = 'https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md'
     
-    if os.path.exists(awesome_file):
-        print(f"Parsing {awesome_file}...")
-        awesome_data = parse_awesome_mcp(awesome_file)
+    # 1. Process Awesome MCP Servers
+    print("Processing Awesome MCP Servers...")
+    awesome_content = fetch_content(awesome_url)
+            
+    if awesome_content:
+        awesome_data = parse_awesome_mcp(awesome_content)
         with open('awesome_mcp_servers.json', 'w', encoding='utf-8') as f:
             json.dump(awesome_data, f, indent=2, ensure_ascii=False)
         print(f"Saved {len(awesome_data)} servers to awesome_mcp_servers.json")
+    else:
+        print("Skipping Awesome MCP update due to fetch failure")
 
-    if os.path.exists(official_file):
-        print(f"Parsing {official_file}...")
-        official_data = parse_official_mcp(official_file)
+    # 2. Process Official MCP Servers
+    print("\nProcessing Official MCP Servers...")
+    official_content = fetch_content(official_url)
+            
+    if official_content:
+        official_data = parse_official_mcp(official_content)
         with open('mcp_official_servers.json', 'w', encoding='utf-8') as f:
             json.dump(official_data, f, indent=2, ensure_ascii=False)
         print(f"Saved official servers to mcp_official_servers.json")
+    else:
+        print("Skipping Official MCP update due to fetch failure")
 
 if __name__ == "__main__":
     main()
