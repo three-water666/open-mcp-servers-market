@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCP Server Market - 发现最好的 MCP 服务</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        [v-cloak] { display: none; }
+        .card-hover:hover { transform: translateY(-4px); transition: all 0.3s ease; }
+        .custom-scrollbar::-webkit-scrollbar { width: 6px; }
+        .custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
+        .custom-scrollbar::-webkit-scrollbar-thumb { background: #e2e8f0; border-radius: 10px; }
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover { background: #cbd5e1; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans">
+    <div id="app" v-cloak class="min-h-screen flex flex-col">
+        <!-- Header -->
+        <header class="bg-white border-b sticky top-0 z-50">
+            <div class="max-w-7xl mx-auto px-4 py-4 sm:px-6 lg:px-8 flex flex-col md:flex-row md:items-center justify-between gap-4">
+                <div class="flex items-center gap-4">
+                    <div class="flex items-center gap-2">
+                        <i class="fas fa-store text-blue-600 text-2xl"></i>
+                        <h1 class="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-indigo-600">
+                            MCP Market
+                        </h1>
+                    </div>
+                    
+                    <!-- Tabs -->
+                    <nav class="flex bg-gray-100 p-1 rounded-lg ml-4">
+                        <button 
+                            @click="activeTab = 'official'"
+                            :class="[
+                                'px-4 py-1.5 text-sm font-medium rounded-md transition-all',
+                                activeTab === 'official' ? 'bg-white shadow-sm text-blue-600' : 'text-gray-500 hover:text-gray-700'
+                            ]"
+                        >
+                            官方源 (Official)
+                        </button>
+                        <button 
+                            @click="activeTab = 'awesome'"
+                            :class="[
+                                'px-4 py-1.5 text-sm font-medium rounded-md transition-all',
+                                activeTab === 'awesome' ? 'bg-white shadow-sm text-blue-600' : 'text-gray-500 hover:text-gray-700'
+                            ]"
+                        >
+                            社区源 (Awesome)
+                        </button>
+                    </nav>
+                </div>
+                
+                <div class="relative flex-1 max-w-xl">
+                    <span class="absolute inset-y-0 left-0 pl-3 flex items-center text-gray-400">
+                        <i class="fas fa-search"></i>
+                    </span>
+                    <input 
+                        type="text" 
+                        v-model="searchQuery" 
+                        placeholder="搜索服务名称、描述..." 
+                        class="block w-full pl-10 pr-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-gray-50 transition-all"
+                    >
+                </div>
+            </div>
+        </header>
+
+        <main class="max-w-7xl mx-auto px-4 py-8 sm:px-6 lg:px-8 flex-1 w-full">
+            <div class="flex flex-col lg:flex-row gap-8">
+                
+                <!-- Sidebar Filters (Only for Awesome tab) -->
+                <aside v-if="activeTab === 'awesome'" class="w-full lg:w-64 space-y-8 flex-shrink-0">
+                    <div>
+                        <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-3 flex justify-between items-center">
+                            分类筛选
+                            <button @click="selectedCategories = []" class="text-xs text-blue-600 hover:underline font-normal">重置</button>
+                        </h3>
+                        <div class="space-y-2 max-h-96 overflow-y-auto pr-2 custom-scrollbar text-sm">
+                            <label v-for="cat in awesomeCategories" :key="cat" class="flex items-center gap-2 cursor-pointer group">
+                                <input type="checkbox" :value="cat" v-model="selectedCategories" class="rounded text-blue-600 focus:ring-blue-500">
+                                <span class="text-gray-700 group-hover:text-blue-600 transition-colors truncate" :title="cat">{{ cat }}</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-3">开发语言</h3>
+                        <div class="flex flex-wrap gap-2">
+                            <button 
+                                v-for="lang in awesomeLanguages" 
+                                :key="lang"
+                                @click="toggleLanguage(lang)"
+                                :class="[
+                                    'px-3 py-1 rounded-full text-xs font-medium transition-all border',
+                                    selectedLanguages.includes(lang) 
+                                        ? 'bg-blue-100 border-blue-200 text-blue-700 shadow-sm' 
+                                        : 'bg-white border-gray-200 text-gray-600 hover:border-blue-300 hover:text-blue-600'
+                                ]"
+                            >
+                                {{ lang }}
+                            </button>
+                        </div>
+                    </div>
+                </aside>
+
+                <!-- Sidebar Filters (Only for Official tab) -->
+                <aside v-else class="w-full lg:w-64 space-y-8 flex-shrink-0">
+                    <div>
+                        <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-3">服务类型</h3>
+                        <div class="space-y-2">
+                            <label class="flex items-center gap-2 cursor-pointer group">
+                                <input type="checkbox" value="reference" v-model="officialTypes" class="rounded text-blue-600 focus:ring-blue-500">
+                                <span class="text-gray-700 group-hover:text-blue-600 transition-colors">参考实现 (Reference)</span>
+                            </label>
+                            <label class="flex items-center gap-2 cursor-pointer group">
+                                <input type="checkbox" value="integration" v-model="officialTypes" class="rounded text-blue-600 focus:ring-blue-500">
+                                <span class="text-gray-700 group-hover:text-blue-600 transition-colors">官方集成 (Integrations)</span>
+                            </label>
+                            <label class="flex items-center gap-2 cursor-pointer group">
+                                <input type="checkbox" value="community" v-model="officialTypes" class="rounded text-blue-600 focus:ring-blue-500">
+                                <span class="text-gray-700 group-hover:text-blue-600 transition-colors">社区服务 (Community)</span>
+                            </label>
+                        </div>
+                    </div>
+                </aside>
+
+                <!-- Grid -->
+                <div class="flex-1">
+                    <div v-if="loading" class="flex justify-center py-20">
+                        <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600"></div>
+                    </div>
+
+                    <div v-else-if="currentFilteredList.length === 0" class="text-center py-20 bg-white rounded-xl border-2 border-dashed border-gray-200">
+                        <i class="fas fa-box-open text-gray-300 text-5xl mb-4"></i>
+                        <p class="text-gray-500">没有找到匹配的服务</p>
+                    </div>
+
+                    <div v-else>
+                        <div class="mb-6 flex justify-between items-center">
+                            <h2 class="text-lg font-bold text-gray-800">
+                                {{ activeTab === 'official' ? 'Model Context Protocol 官方仓库列表' : 'Awesome MCP 社区精选列表' }}
+                            </h2>
+                            <span class="text-sm text-gray-500">已显示 {{ displayedItems.length }} / {{ currentFilteredList.length }}</span>
+                        </div>
+
+                        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+                            <div 
+                                v-for="item in displayedItems" 
+                                :key="item.url + item.name"
+                                class="bg-white rounded-xl border border-gray-200 overflow-hidden card-hover shadow-sm hover:shadow-md flex flex-col"
+                            >
+                                <div class="p-5 flex-1">
+                                    <div class="flex justify-between items-start mb-3">
+                                        <div class="flex items-center gap-3">
+                                            <!-- Logo or Icon -->
+                                            <div v-if="item.logo" class="w-10 h-10 rounded-lg overflow-hidden flex-shrink-0 border border-gray-100 bg-white">
+                                                <img :src="item.logo" class="w-full h-full object-contain p-1" @error="item.logo = null">
+                                            </div>
+                                            <div v-else :class="['w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0', getIconBg(item)]">
+                                                <i :class="['fas', getIcon(item)]"></i>
+                                            </div>
+                                            
+                                            <div>
+                                                <h3 class="font-bold text-gray-900 leading-tight line-clamp-1" :title="item.name">{{ item.name }}</h3>
+                                                <span class="text-[10px] px-1.5 py-0.5 rounded-full bg-gray-100 text-gray-500 font-medium">
+                                                    {{ item.type_label || item.category || 'MCP Server' }}
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div v-if="item.is_official" class="text-yellow-500" title="官方/参考实现">
+                                            <i class="fas fa-award"></i>
+                                        </div>
+                                    </div>
+                                    
+                                    <p class="text-sm text-gray-600 line-clamp-3 mb-4 h-15 overflow-hidden">
+                                        {{ item.description || '暂无详细描述。' }}
+                                    </p>
+
+                                    <!-- Tags based on availability -->
+                                    <div class="flex flex-wrap gap-1.5 mt-auto">
+                                        <span v-for="lang in item.languages" :key="lang" class="px-2 py-0.5 rounded bg-blue-50 text-blue-600 text-[10px] font-medium">
+                                            {{ lang }}
+                                        </span>
+                                        <span v-for="scope in item.scopes" :key="scope" class="px-2 py-0.5 rounded bg-green-50 text-green-600 text-[10px] font-medium">
+                                            {{ scope }}
+                                        </span>
+                                        <span v-if="item.is_official && activeTab === 'awesome'" class="px-2 py-0.5 rounded bg-yellow-50 text-yellow-600 text-[10px] font-medium">
+                                            Official
+                                        </span>
+                                    </div>
+                                </div>
+                                
+                                <div class="px-5 py-3 bg-gray-50 border-t border-gray-100 flex justify-between items-center">
+                                    <div class="flex gap-2">
+                                        <i v-for="plat in item.platforms" :key="plat" 
+                                           :class="[
+                                               plat === 'macOS' ? 'fab fa-apple' : '',
+                                               plat === 'Windows' ? 'fab fa-windows' : '',
+                                               plat === 'Linux' ? 'fab fa-linux' : '',
+                                               'text-gray-400 text-xs'
+                                           ]" :title="plat"></i>
+                                    </div>
+                                    <a :href="item.url" target="_blank" class="text-xs font-semibold text-blue-600 hover:text-blue-700 flex items-center gap-1 group">
+                                        获取源码 
+                                        <i class="fas fa-arrow-right text-[10px] transition-transform group-hover:translate-x-0.5"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Load More -->
+                        <div v-if="displayedItems.length < currentFilteredList.length" class="mt-12 text-center pb-12">
+                            <button @click="loadMore" class="px-8 py-2.5 bg-white border border-gray-300 rounded-full text-gray-700 font-medium hover:bg-gray-50 transition-all shadow-sm active:scale-95">
+                                加载更多服务 ({{ currentFilteredList.length - displayedItems.length }} 剩余)
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <footer class="bg-white border-t py-6 text-center text-gray-400 text-xs">
+            <p>基于开源 MCP 列表构建 &copy; 2026</p>
+        </footer>
+    </div>
+
+    <script>
+        const { createApp, ref, computed, onMounted, watch } = Vue;
+
+        createApp({
+            setup() {
+                const activeTab = ref('official');
+                const awesomeData = ref([]);
+                const officialData = ref({
+                    reference_servers: [],
+                    third_party: { official_integrations: [], community_servers: [] }
+                });
+                const loading = ref(true);
+                const searchQuery = ref('');
+                
+                // Awesome filters
+                const selectedCategories = ref([]);
+                const selectedLanguages = ref([]);
+                
+                // Official filters
+                const officialTypes = ref(['reference', 'integration', 'community']);
+                
+                const displayLimit = ref(24);
+
+                const getIcon = (item) => {
+                    if (item.category === 'Databases' || item.category === '🗄️ Databases') return 'fa-database';
+                    if (item.category === 'Cloud Platforms' || item.category === '☁️ Cloud Platforms') return 'fa-cloud';
+                    if (item.category === 'Communication' || item.category === '💬 Communication') return 'fa-comments';
+                    if (item.category === 'Developer Tools' || item.category === '🛠️ Developer Tools') return 'fa-tools';
+                    if (item.type === 'reference') return 'fa-book';
+                    return 'fa-code';
+                };
+
+                const getIconBg = (item) => {
+                    if (item.type === 'reference') return 'bg-indigo-50 text-indigo-500';
+                    if (item.is_official) return 'bg-yellow-50 text-yellow-500';
+                    return 'bg-blue-50 text-blue-500';
+                };
+
+                const awesomeLanguages = computed(() => {
+                    const langs = new Set();
+                    awesomeData.value.forEach(s => {
+                        if (s.languages) s.languages.forEach(l => langs.add(l));
+                    });
+                    return Array.from(langs).sort();
+                });
+
+                const awesomeCategories = computed(() => {
+                    const cats = new Set();
+                    awesomeData.value.forEach(s => {
+                        if (s.category) cats.add(s.category);
+                    });
+                    return Array.from(cats).sort();
+                });
+
+                const officialList = computed(() => {
+                    const list = [];
+                    officialData.value.reference_servers.forEach(s => {
+                        list.push({
+                            ...s,
+                            type: 'reference',
+                            type_label: '官方参考实现',
+                            is_official: true,
+                            url: s.url.startsWith('http') ? s.url : `https://github.com/modelcontextprotocol/servers/tree/main/${s.url}`
+                        });
+                    });
+                    officialData.value.third_party.official_integrations.forEach(s => {
+                        list.push({
+                            ...s,
+                            type: 'integration',
+                            type_label: '三方官方集成',
+                            is_official: true
+                        });
+                    });
+                    officialData.value.third_party.community_servers.forEach(s => {
+                        list.push({
+                            ...s,
+                            type: 'community',
+                            type_label: '社区贡献服务',
+                            is_official: false
+                        });
+                    });
+                    return list;
+                });
+
+                const currentFilteredList = computed(() => {
+                    const query = searchQuery.value.toLowerCase();
+                    
+                    if (activeTab.value === 'official') {
+                        return officialList.value.filter(s => {
+                            if (!officialTypes.value.includes(s.type)) return false;
+                            if (query) {
+                                return s.name.toLowerCase().includes(query) || 
+                                       (s.description && s.description.toLowerCase().includes(query));
+                            }
+                            return true;
+                        });
+                    } else {
+                        return awesomeData.value.filter(s => {
+                            if (selectedCategories.value.length > 0 && !selectedCategories.value.includes(s.category)) return false;
+                            if (selectedLanguages.value.length > 0) {
+                                if (!s.languages || !selectedLanguages.value.some(l => s.languages.includes(l))) return false;
+                            }
+                            if (query) {
+                                return s.name.toLowerCase().includes(query) || 
+                                       (s.description && s.description.toLowerCase().includes(query)) ||
+                                       (s.category && s.category.toLowerCase().includes(query));
+                            }
+                            return true;
+                        });
+                    }
+                });
+
+                const displayedItems = computed(() => {
+                    return currentFilteredList.value.slice(0, displayLimit.value);
+                });
+
+                const loadMore = () => {
+                    displayLimit.value += 24;
+                };
+
+                const toggleLanguage = (lang) => {
+                    const index = selectedLanguages.value.indexOf(lang);
+                    if (index === -1) selectedLanguages.value.push(lang);
+                    else selectedLanguages.value.splice(index, 1);
+                };
+
+                const loadData = async () => {
+                    loading.value = true;
+                    try {
+                        const [awesomeRes, officialRes] = await Promise.all([
+                            fetch('awesome_mcp_servers.json'),
+                            fetch('mcp_official_servers.json')
+                        ]);
+                        awesomeData.value = await awesomeRes.json();
+                        officialData.value = await officialRes.json();
+                    } catch (error) {
+                        console.error('加载数据失败:', error);
+                    } finally {
+                        loading.value = false;
+                    }
+                };
+
+                onMounted(loadData);
+
+                watch([activeTab, searchQuery, selectedCategories, selectedLanguages, officialTypes], () => {
+                    displayLimit.value = 24;
+                });
+
+                return {
+                    activeTab,
+                    loading,
+                    searchQuery,
+                    awesomeCategories,
+                    awesomeLanguages,
+                    selectedCategories,
+                    selectedLanguages,
+                    officialTypes,
+                    currentFilteredList,
+                    displayedItems,
+                    loadMore,
+                    toggleLanguage,
+                    getIcon,
+                    getIconBg
+                };
+            }
+        }).mount('#app');
+    </script>
+</body>
+</html>
