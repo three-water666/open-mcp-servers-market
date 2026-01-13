@@ -73,8 +73,56 @@
                 <aside v-if="activeTab === 'awesome'" class="w-full lg:w-64 space-y-8 flex-shrink-0">
                     <div>
                         <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-3 flex justify-between items-center">
+                            开源状态
+                        </h3>
+                        <div class="flex flex-col gap-2">
+                            <label class="flex items-center gap-2 cursor-pointer group text-sm">
+                                <input type="radio" value="all" v-model="selectedSourceType" class="text-blue-600 focus:ring-blue-500">
+                                <span class="text-gray-700 group-hover:text-blue-600 transition-colors">全部</span>
+                            </label>
+                            <label class="flex items-center gap-2 cursor-pointer group text-sm">
+                                <input type="radio" value="open" v-model="selectedSourceType" class="text-blue-600 focus:ring-blue-500">
+                                <span class="text-gray-700 group-hover:text-blue-600 transition-colors">仅开源 (GitHub/GitLab等)</span>
+                            </label>
+                            <label class="flex items-center gap-2 cursor-pointer group text-sm">
+                                <input type="radio" value="closed" v-model="selectedSourceType" class="text-blue-600 focus:ring-blue-500">
+                                <span class="text-gray-700 group-hover:text-blue-600 transition-colors">非开源/其他</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-3">官方标记</h3>
+                        <label class="flex items-center gap-2 cursor-pointer group text-sm">
+                            <input type="checkbox" v-model="onlyOfficialAwesome" class="rounded text-blue-600 focus:ring-blue-500">
+                            <span class="text-gray-700 group-hover:text-blue-600 transition-colors">仅显示官方 🎖️</span>
+                        </label>
+                    </div>
+
+                    <div>
+                        <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-3">运行范围 (Scopes)</h3>
+                        <div class="space-y-2">
+                            <label v-for="scope in awesomeScopes" :key="scope" class="flex items-center gap-2 cursor-pointer group text-sm">
+                                <input type="checkbox" :value="scope" v-model="selectedScopes" class="rounded text-blue-600 focus:ring-blue-500">
+                                <span class="text-gray-700 group-hover:text-blue-600 transition-colors">{{ scope }}</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-3">操作系统 (Platforms)</h3>
+                        <div class="space-y-2">
+                            <label v-for="plat in awesomePlatforms" :key="plat" class="flex items-center gap-2 cursor-pointer group text-sm">
+                                <input type="checkbox" :value="plat" v-model="selectedPlatforms" class="rounded text-blue-600 focus:ring-blue-500">
+                                <span class="text-gray-700 group-hover:text-blue-600 transition-colors">{{ plat }}</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-3 flex justify-between items-center">
                             分类筛选
-                            <button @click="selectedCategories = []" class="text-xs text-blue-600 hover:underline font-normal">重置</button>
+                            <button @click="resetFilters" class="text-xs text-blue-600 hover:underline font-normal">全部重置</button>
                         </h3>
                         <div class="space-y-2 max-h-96 overflow-y-auto pr-2 custom-scrollbar text-sm">
                             <label v-for="cat in awesomeCategories" :key="cat" class="flex items-center gap-2 cursor-pointer group">
@@ -107,7 +155,30 @@
                 <!-- Sidebar Filters (Only for Official tab) -->
                 <aside v-else class="w-full lg:w-64 space-y-8 flex-shrink-0">
                     <div>
-                        <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-3">服务类型</h3>
+                        <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-3 flex justify-between items-center">
+                            开源状态
+                        </h3>
+                        <div class="flex flex-col gap-2">
+                            <label class="flex items-center gap-2 cursor-pointer group text-sm">
+                                <input type="radio" value="all" v-model="selectedSourceType" class="text-blue-600 focus:ring-blue-500">
+                                <span class="text-gray-700 group-hover:text-blue-600 transition-colors">全部</span>
+                            </label>
+                            <label class="flex items-center gap-2 cursor-pointer group text-sm">
+                                <input type="radio" value="open" v-model="selectedSourceType" class="text-blue-600 focus:ring-blue-500">
+                                <span class="text-gray-700 group-hover:text-blue-600 transition-colors">仅开源 (GitHub/GitLab等)</span>
+                            </label>
+                            <label class="flex items-center gap-2 cursor-pointer group text-sm">
+                                <input type="radio" value="closed" v-model="selectedSourceType" class="text-blue-600 focus:ring-blue-500">
+                                <span class="text-gray-700 group-hover:text-blue-600 transition-colors">非开源/其他</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-3 flex justify-between items-center">
+                            服务类型
+                            <button @click="resetFilters" class="text-xs text-blue-600 hover:underline font-normal">全部重置</button>
+                        </h3>
                         <div class="space-y-2">
                             <label class="flex items-center gap-2 cursor-pointer group">
                                 <input type="checkbox" value="reference" v-model="officialTypes" class="rounded text-blue-600 focus:ring-blue-500">
@@ -166,6 +237,12 @@
                                                 <span class="text-[10px] px-1.5 py-0.5 rounded-full bg-gray-100 text-gray-500 font-medium">
                                                     {{ item.type_label || item.category || 'MCP Server' }}
                                                 </span>
+                                                <span v-if="item.is_open_source" class="text-[10px] px-1.5 py-0.5 rounded-full bg-green-50 text-green-600 font-medium ml-1">
+                                                     <i class="fas fa-code mr-0.5"></i>开源
+                                                 </span>
+                                                 <span v-else class="text-[10px] px-1.5 py-0.5 rounded-full bg-orange-50 text-orange-600 font-medium ml-1">
+                                                     <i class="fas fa-external-link-alt mr-0.5"></i>非开源
+                                                 </span>
                                             </div>
                                         </div>
                                         <div v-if="item.is_official" class="text-yellow-500" title="官方/参考实现">
@@ -202,18 +279,34 @@
                                            ]" :title="plat"></i>
                                     </div>
                                     <a :href="item.url" target="_blank" class="text-xs font-semibold text-blue-600 hover:text-blue-700 flex items-center gap-1 group">
-                                        获取源码 
+                                        {{ item.is_open_source ? '获取源码' : '立即访问' }}
                                         <i class="fas fa-arrow-right text-[10px] transition-transform group-hover:translate-x-0.5"></i>
                                     </a>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- Load More -->
-                        <div v-if="displayedItems.length < currentFilteredList.length" class="mt-12 text-center pb-12">
-                            <button @click="loadMore" class="px-8 py-2.5 bg-white border border-gray-300 rounded-full text-gray-700 font-medium hover:bg-gray-50 transition-all shadow-sm active:scale-95">
-                                加载更多服务 ({{ currentFilteredList.length - displayedItems.length }} 剩余)
+                        <!-- Empty State -->
+                        <div v-if="!loading && currentFilteredList.length === 0" class="flex flex-col items-center justify-center py-20 bg-white rounded-2xl border border-gray-100 shadow-sm">
+                            <div class="w-20 h-20 bg-gray-50 rounded-full flex items-center justify-center mb-4">
+                                <i class="fas fa-search text-gray-300 text-3xl"></i>
+                            </div>
+                            <h3 class="text-lg font-medium text-gray-900 mb-1">未找到相关服务</h3>
+                            <p class="text-gray-500 text-center max-w-xs">
+                                尝试调整搜索关键词或筛选条件
+                            </p>
+                            <button @click="resetFilters" class="mt-6 text-blue-600 hover:text-blue-700 font-medium flex items-center gap-2">
+                                <i class="fas fa-undo-alt text-sm"></i>
+                                重置所有筛选
                             </button>
+                        </div>
+
+                        <!-- Info Footer -->
+                        <div v-if="!loading && currentFilteredList.length > 0" class="mt-12 flex flex-col items-center gap-4">
+                            <div class="h-px w-24 bg-gray-200"></div>
+                            <div class="text-gray-400 text-sm italic">
+                                已显示全部 {{ currentFilteredList.length }} 个服务
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -242,12 +335,16 @@
                 // Awesome filters
                 const selectedCategories = ref([]);
                 const selectedLanguages = ref([]);
+                const selectedScopes = ref([]);
+                const selectedPlatforms = ref([]);
+                const onlyOfficialAwesome = ref(false);
+                
+                // Common filters
+                const selectedSourceType = ref('all'); // all, open, closed
                 
                 // Official filters
                 const officialTypes = ref(['reference', 'integration', 'community']);
                 
-                const displayLimit = ref(24);
-
                 const getIcon = (item) => {
                     if (item.category === 'Databases' || item.category === '🗄️ Databases') return 'fa-database';
                     if (item.category === 'Cloud Platforms' || item.category === '☁️ Cloud Platforms') return 'fa-cloud';
@@ -279,6 +376,22 @@
                     return Array.from(cats).sort();
                 });
 
+                const awesomeScopes = computed(() => {
+                    const scopes = new Set();
+                    awesomeData.value.forEach(s => {
+                        if (s.scopes) s.scopes.forEach(sc => scopes.add(sc));
+                    });
+                    return Array.from(scopes).sort();
+                });
+
+                const awesomePlatforms = computed(() => {
+                    const platforms = new Set();
+                    awesomeData.value.forEach(s => {
+                        if (s.platforms) s.platforms.forEach(p => platforms.add(p));
+                    });
+                    return Array.from(platforms).sort();
+                });
+
                 const officialList = computed(() => {
                     const list = [];
                     officialData.value.reference_servers.forEach(s => {
@@ -286,8 +399,7 @@
                             ...s,
                             type: 'reference',
                             type_label: '官方参考实现',
-                            is_official: true,
-                            url: s.url.startsWith('http') ? s.url : `https://github.com/modelcontextprotocol/servers/tree/main/${s.url}`
+                            is_official: true
                         });
                     });
                     officialData.value.third_party.official_integrations.forEach(s => {
@@ -312,8 +424,9 @@
                 const currentFilteredList = computed(() => {
                     const query = searchQuery.value.toLowerCase();
                     
+                    let filtered = [];
                     if (activeTab.value === 'official') {
-                        return officialList.value.filter(s => {
+                        filtered = officialList.value.filter(s => {
                             if (!officialTypes.value.includes(s.type)) return false;
                             if (query) {
                                 return s.name.toLowerCase().includes(query) || 
@@ -322,11 +435,18 @@
                             return true;
                         });
                     } else {
-                        return awesomeData.value.filter(s => {
+                        filtered = awesomeData.value.filter(s => {
                             if (selectedCategories.value.length > 0 && !selectedCategories.value.includes(s.category)) return false;
                             if (selectedLanguages.value.length > 0) {
                                 if (!s.languages || !selectedLanguages.value.some(l => s.languages.includes(l))) return false;
                             }
+                            if (selectedScopes.value.length > 0) {
+                                if (!s.scopes || !selectedScopes.value.some(sc => s.scopes.includes(sc))) return false;
+                            }
+                            if (selectedPlatforms.value.length > 0) {
+                                if (!s.platforms || !selectedPlatforms.value.some(p => s.platforms.includes(p))) return false;
+                            }
+                            if (onlyOfficialAwesome.value && !s.is_official) return false;
                             if (query) {
                                 return s.name.toLowerCase().includes(query) || 
                                        (s.description && s.description.toLowerCase().includes(query)) ||
@@ -335,15 +455,20 @@
                             return true;
                         });
                     }
+
+                    // Apply source type filter
+                    if (selectedSourceType.value === 'open') {
+                        filtered = filtered.filter(s => s.is_open_source);
+                    } else if (selectedSourceType.value === 'closed') {
+                        filtered = filtered.filter(s => !s.is_open_source);
+                    }
+
+                    return filtered;
                 });
 
                 const displayedItems = computed(() => {
-                    return currentFilteredList.value.slice(0, displayLimit.value);
+                    return currentFilteredList.value;
                 });
-
-                const loadMore = () => {
-                    displayLimit.value += 24;
-                };
 
                 const toggleLanguage = (lang) => {
                     const index = selectedLanguages.value.indexOf(lang);
@@ -367,10 +492,22 @@
                     }
                 };
 
-                onMounted(loadData);
+                onMounted(() => {
+                    loadData();
+                });
 
-                watch([activeTab, searchQuery, selectedCategories, selectedLanguages, officialTypes], () => {
-                    displayLimit.value = 24;
+                const resetFilters = () => {
+                    selectedCategories.value = [];
+                    selectedLanguages.value = [];
+                    selectedScopes.value = [];
+                    selectedPlatforms.value = [];
+                    onlyOfficialAwesome.value = false;
+                    selectedSourceType.value = 'all';
+                    officialTypes.value = ['reference', 'integration', 'community'];
+                };
+
+                watch([activeTab, searchQuery, selectedCategories, selectedLanguages, selectedScopes, selectedPlatforms, onlyOfficialAwesome, officialTypes, selectedSourceType], () => {
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
                 });
 
                 return {
@@ -379,13 +516,19 @@
                     searchQuery,
                     awesomeCategories,
                     awesomeLanguages,
+                    awesomeScopes,
+                    awesomePlatforms,
                     selectedCategories,
                     selectedLanguages,
+                    selectedScopes,
+                    selectedPlatforms,
+                    onlyOfficialAwesome,
+                    selectedSourceType,
                     officialTypes,
                     currentFilteredList,
                     displayedItems,
-                    loadMore,
                     toggleLanguage,
+                    resetFilters,
                     getIcon,
                     getIconBg
                 };

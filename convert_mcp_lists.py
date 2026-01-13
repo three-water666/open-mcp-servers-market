@@ -2,6 +2,54 @@ import re
 import json
 import os
 
+def is_open_source_url(url):
+    """
+    Improved logic to detect if a URL points to an open source repository.
+    Includes major hosting platforms and self-hosted instances.
+    """
+    if not url:
+        return False
+        
+    url_lower = url.lower()
+    
+    # Common open source hosting platforms
+    os_platforms = [
+        'github.com',
+        'gitlab.com',
+        'gitea.com',
+        'gitea.io',
+        'bitbucket.org',
+        'codeberg.org',
+        'sourcehut.org',
+        'sr.ht',
+        'savannah.gnu.org',
+        'git.sr.ht',
+        'sourceforge.net',
+        'launchpad.net'
+    ]
+    
+    # Check if any platform is in the URL
+    if any(platform in url_lower for platform in os_platforms):
+        return True
+        
+    # Relative URLs in the official repo are considered open source (GitHub)
+    if not url.startswith('http'):
+        return True
+        
+    # Common self-hosted patterns
+    self_hosted_patterns = [
+        '/git/',
+        'git.',
+        'gitea.',
+        'gitlab.'
+    ]
+    if any(pattern in url_lower for pattern in self_hosted_patterns):
+        # Additional check to avoid false positives for just any "git" in domain
+        # This is a heuristic and might need adjustment
+        return True
+        
+    return False
+
 def parse_awesome_mcp(file_path):
     with open(file_path, 'r', encoding='utf-8') as f:
         lines = f.readlines()
@@ -65,6 +113,7 @@ def parse_awesome_mcp(file_path):
             scopes = [scope_icons[icon] for icon in scope_icons if icon in icons_part]
             platforms = [os_icons[icon] for icon in os_icons if icon in icons_part]
             is_official = '🎖️' in icons_part
+            is_open_source = is_open_source_url(url)
             
             servers.append({
                 "name": name,
@@ -74,7 +123,8 @@ def parse_awesome_mcp(file_path):
                 "languages": languages,
                 "scopes": scopes,
                 "platforms": platforms,
-                "is_official": is_official
+                "is_official": is_official,
+                "is_open_source": is_open_source
             })
             
     return servers
@@ -96,10 +146,16 @@ def parse_official_mcp(file_path):
     if ref_section:
         items = re.findall(r'-\s+\*\*\[([^\]]+)\]\(([^)]+)\)\*\*\s+-\s+(.*?)(?=\n-|\n\n|$)', ref_section.group(1), re.S)
         for name, url, desc in items:
+            is_open_source = is_open_source_url(url)
+            full_url = url.strip()
+            if not full_url.startswith('http'):
+                full_url = f"https://github.com/modelcontextprotocol/servers/tree/main/{full_url}"
+            
             data["reference_servers"].append({
                 "name": name.strip(),
-                "url": url.strip(),
-                "description": desc.strip().replace('\n', ' ')
+                "url": full_url,
+                "description": desc.strip().replace('\n', ' '),
+                "is_open_source": is_open_source
             })
 
     # Extract Third-Party - Official Integrations
@@ -109,11 +165,13 @@ def parse_official_mcp(file_path):
         # Also handle items without logo: - **[name](url)** - description
         items = re.findall(r'-\s+(?:<img[^>]+src="([^"]+)"[^>]*>\s+)?\*\*\[([^\]]+)\]\(([^)]+)\)\*\*(?:\s+—|\s+-)\s+(.*?)(?=\n-|\n\n|$)', official_section.group(1), re.S)
         for logo, name, url, desc in items:
+            is_open_source = is_open_source_url(url)
             data["third_party"]["official_integrations"].append({
                 "name": name.strip(),
                 "url": url.strip(),
                 "description": desc.strip().replace('\n', ' '),
-                "logo": logo.strip() if logo else None
+                "logo": logo.strip() if logo else None,
+                "is_open_source": is_open_source
             })
 
     # Extract Third-Party - Community Servers
@@ -121,10 +179,12 @@ def parse_official_mcp(file_path):
     if community_section:
         items = re.findall(r'-\s+\*\*\[([^\]]+)\]\(([^)]+)\)\*\*\s+-\s+(.*?)(?=\n-|\n\n|$)', community_section.group(1), re.S)
         for name, url, desc in items:
+            is_open_source = is_open_source_url(url)
             data["third_party"]["community_servers"].append({
                 "name": name.strip(),
                 "url": url.strip(),
-                "description": desc.strip().replace('\n', ' ')
+                "description": desc.strip().replace('\n', ' '),
+                "is_open_source": is_open_source
             })
 
     return data
