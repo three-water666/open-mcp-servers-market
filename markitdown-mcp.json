@@ -1,0 +1,95 @@
+{
+    "id": "markitdown-mcp",
+    "name": "MarkItDown",
+    "description": "Microsoft出品的工具，可将各种文件（PDF, PPTX, Word等）转换为Markdown格式。支持本地、Docker及HTTP服务模式。",
+    "author": "Microsoft AutoGen Team",
+    "icon": "https://img.shields.io/pypi/v/markitdown-mcp.svg",
+    "version": "latest",
+    "modes": [
+        {
+            "type": "stdio",
+            "runner": "docker",
+            "isDefault": true,
+            "description": "推荐方式。运行在隔离的 Docker 容器中，需要安装 Docker。",
+            "prerequisites": [
+                "docker"
+            ],
+            "inputs": [
+                {
+                    "id": "mount_path",
+                    "label": "本地挂载路径 (可选)",
+                    "type": "path",
+                    "description": "选择包含待转换文件的本地文件夹。如果不填，只能处理远程URL。",
+                    "placeholder": "/home/user/data",
+                    "required": false
+                }
+            ],
+            "commandTemplate": {
+                "command": "docker",
+                "args": [
+                    "run",
+                    "-i",
+                    "--rm",
+                    {
+                        "flag": "if_set",
+                        "variable": "mount_path",
+                        "values": [
+                            "-v",
+                            "{{mount_path}}:/workdir"
+                        ]
+                    },
+                    "markitdown-mcp:latest"
+                ]
+            }
+        },
+        {
+            "type": "stdio",
+            "runner": "binary",
+            "isDefault": false,
+            "description": "直接在本地运行。需要先通过 pip install markitdown-mcp 安装。",
+            "prerequisites": [
+                "python",
+                "pip"
+            ],
+            "inputs": [],
+            "commandTemplate": {
+                "command": "markitdown-mcp",
+                "args": []
+            }
+        },
+        {
+            "type": "sse",
+            "runner": "binary",
+            "isDefault": false,
+            "description": "作为 HTTP/SSE 服务运行，支持远程调用。",
+            "inputs": [
+                {
+                    "id": "host",
+                    "label": "Host",
+                    "type": "text",
+                    "defaultValue": "127.0.0.1",
+                    "required": true,
+                    "description": "绑定的网络接口"
+                },
+                {
+                    "id": "port",
+                    "label": "Port",
+                    "type": "text",
+                    "defaultValue": "3001",
+                    "required": true,
+                    "description": "服务端口"
+                }
+            ],
+            "commandTemplate": {
+                "command": "markitdown-mcp",
+                "args": [
+                    "--http",
+                    "--host",
+                    "{{host}}",
+                    "--port",
+                    "{{port}}"
+                ]
+            }
+        }
+    ]
+}
