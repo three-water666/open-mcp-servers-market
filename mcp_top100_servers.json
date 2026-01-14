@@ -1,0 +1,1678 @@
+[
+  {
+    "name": "microsoft/markitdown",
+    "url": "https://github.com/microsoft/markitdown/tree/main/packages/markitdown-mcp",
+    "description": "MCP tool access to MarkItDown -- a library that converts many file formats (local or remote) to Markdown for LLM consumption.",
+    "category": "File Systems",
+    "languages": [
+      "Python"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [],
+    "is_official": true,
+    "is_open_source": true,
+    "star_count": 85221,
+    "source": "awesome",
+    "type": null
+  },
+  {
+    "name": "Netdata",
+    "url": "https://github.com/netdata/netdata/blob/master/src/web/mcp/README.md",
+    "description": "Discovery, exploration, reporting and root cause analysis using all observability data, including metrics, logs, systems, containers, processes, and network connections",
+    "category": "Monitoring",
+    "languages": [],
+    "scopes": [
+      "Cloud",
+      "Local",
+      "Embedded"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "is_official": true,
+    "is_open_source": true,
+    "star_count": 77332,
+    "logo": "https://www.netdata.cloud/favicon-32x32.png",
+    "source": "awesome",
+    "type": "integration"
+  },
+  {
+    "name": "Everything",
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/everything",
+    "description": "Reference / test server with prompts, resources, and tools.",
+    "category": "Other Tools and Integrations",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 76150,
+    "source": "awesome",
+    "type": "reference"
+  },
+  {
+    "name": "Fetch",
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/fetch",
+    "description": "Web content fetching and conversion for efficient LLM usage.",
+    "category": null,
+    "languages": [],
+    "scopes": [],
+    "platforms": [],
+    "is_official": true,
+    "is_open_source": true,
+    "star_count": 76150,
+    "source": "official",
+    "type": "reference"
+  },
+  {
+    "name": "Filesystem",
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem",
+    "description": "Secure file operations with configurable access controls.",
+    "category": null,
+    "languages": [],
+    "scopes": [],
+    "platforms": [],
+    "is_official": true,
+    "is_open_source": true,
+    "star_count": 76150,
+    "source": "official",
+    "type": "reference"
+  },
+  {
+    "name": "Git",
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/git",
+    "description": "Tools to read, search, and manipulate Git repositories.",
+    "category": null,
+    "languages": [],
+    "scopes": [],
+    "platforms": [],
+    "is_official": true,
+    "is_open_source": true,
+    "star_count": 76150,
+    "source": "official",
+    "type": "reference"
+  },
+  {
+    "name": "Memory",
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/memory",
+    "description": "Knowledge graph-based persistent memory system.",
+    "category": null,
+    "languages": [],
+    "scopes": [],
+    "platforms": [],
+    "is_official": true,
+    "is_open_source": true,
+    "star_count": 76150,
+    "source": "official",
+    "type": "reference"
+  },
+  {
+    "name": "Sequential Thinking",
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking",
+    "description": "Dynamic and reflective problem-solving through thought sequences.",
+    "category": null,
+    "languages": [],
+    "scopes": [],
+    "platforms": [],
+    "is_official": true,
+    "is_open_source": true,
+    "star_count": 76150,
+    "source": "official",
+    "type": "reference"
+  },
+  {
+    "name": "Time",
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/time",
+    "description": "Time and timezone conversion capabilities.",
+    "category": null,
+    "languages": [],
+    "scopes": [],
+    "platforms": [],
+    "is_official": true,
+    "is_open_source": true,
+    "star_count": 76150,
+    "source": "official",
+    "type": "reference"
+  },
+  {
+    "name": "Daytona",
+    "url": "https://github.com/daytonaio/daytona/tree/main/apps/cli/mcp",
+    "description": "Fast and secure execution of your AI generated code with [Daytona](https://daytona.io) sandboxes",
+    "category": null,
+    "languages": [],
+    "scopes": [],
+    "platforms": [],
+    "is_official": true,
+    "is_open_source": true,
+    "star_count": 45967,
+    "logo": "https://www.daytona.io/brand/social-daytona-icon.png",
+    "source": "official",
+    "type": "integration"
+  },
+  {
+    "name": "upstash/context7",
+    "url": "https://github.com/upstash/context7",
+    "description": "Up-to-date code documentation for LLMs and AI code editors.",
+    "category": "Knowledge & Memory",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Cloud"
+    ],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 41830,
+    "source": "awesome",
+    "type": null
+  },
+  {
+    "name": "mindsdb/mindsdb",
+    "url": "https://github.com/mindsdb/mindsdb",
+    "description": null,
+    "category": "Aggregators",
+    "languages": [],
+    "scopes": [],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 38256,
+    "source": "awesome",
+    "type": null
+  },
+  {
+    "name": "GitHub",
+    "url": "https://github.com/github/github-mcp-server",
+    "description": "GitHub's official MCP Server.",
+    "category": "Version Control",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Cloud"
+    ],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 25877,
+    "logo": "https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png",
+    "source": "awesome",
+    "type": "integration"
+  },
+  {
+    "name": "Playwright",
+    "url": "https://github.com/microsoft/playwright-mcp",
+    "description": "Browser automation MCP server using Playwright to run tests, navigate pages, capture screenshots, scrape content, and automate web interactions reliably.",
+    "category": "Browser Automation",
+    "languages": [],
+    "scopes": [],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 25507,
+    "logo": "https://playwright.dev/img/playwright-logo.ico",
+    "source": "awesome",
+    "type": "integration"
+  },
+  {
+    "name": "eyaltoledano/claude-task-master",
+    "url": "https://github.com/eyaltoledano/claude-task-master",
+    "description": "AI-powered task management system for AI-driven development. Features PRD parsing, task expansion, multi-provider support (Claude, OpenAI, Gemini, Perplexity, xAI), and selective tool loading for optimized context usage.",
+    "category": "Developer Tools",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Cloud",
+      "Local"
+    ],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 24801,
+    "source": "awesome",
+    "type": null
+  },
+  {
+    "name": "agent-infra/mcp-server-browser",
+    "url": "https://github.com/bytedance/UI-TARS-desktop/tree/main/packages/agent-infra/mcp-servers/browser",
+    "description": "Browser automation capabilities using Puppeteer, both support local and remote browser connection.",
+    "category": "Browser Automation",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 23497,
+    "source": "awesome",
+    "type": null
+  },
+  {
+    "name": "FastMCP",
+    "url": "https://github.com/jlowin/fastmcp",
+    "description": "A high-level framework for building MCP servers in Python",
+    "category": "Other Tools and Integrations",
+    "languages": [
+      "Python"
+    ],
+    "scopes": [],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 21921,
+    "source": "awesome",
+    "type": null
+  },
+  {
+    "name": "Chrome DevTools",
+    "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+    "description": "Enable AI coding assistants to debug web pages directly in Chrome, providing runtime insights and debugging capabilities.",
+    "category": null,
+    "languages": [],
+    "scopes": [],
+    "platforms": [],
+    "is_official": true,
+    "is_open_source": true,
+    "star_count": 20821,
+    "logo": "https://www.google.com/chrome/static/images/favicons/favicon-32x32.png",
+    "source": "official",
+    "type": "integration"
+  },
+  {
+    "name": "Skyvern",
+    "url": "https://github.com/Skyvern-AI/skyvern/tree/main/integrations/mcp",
+    "description": "MCP to let Claude / Windsurf / Cursor / your LLM control the browser",
+    "category": null,
+    "languages": [],
+    "scopes": [],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 20105,
+    "source": "official",
+    "type": "community"
+  },
+  {
+    "name": "SafeLine",
+    "url": "https://github.com/chaitin/SafeLine/tree/main/mcp_server",
+    "description": "[SafeLine](https://safepoint.cloud/landing/safeline) is a self-hosted WAF(Web Application Firewall) to protect your web apps from attacks and exploits.",
+    "category": null,
+    "languages": [],
+    "scopes": [],
+    "platforms": [],
+    "is_official": true,
+    "is_open_source": true,
+    "star_count": 20091,
+    "logo": "https://waf-ce.chaitin.cn/favicon.ico",
+    "source": "official",
+    "type": "integration"
+  },
+  {
+    "name": "oraios/serena",
+    "url": "https://github.com/oraios/serena",
+    "description": "A fully-featured coding agent that relies on symbolic code operations by using language servers.",
+    "category": "Coding Agents",
+    "languages": [
+      "Python"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 18597,
+    "source": "awesome",
+    "type": null
+  },
+  {
+    "name": "mediar-ai/screenpipe",
+    "url": "https://github.com/mediar-ai/screenpipe",
+    "description": "enables building context-aware AI agents through a NextJS plugin ecosystem.",
+    "category": "Other Tools and Integrations",
+    "languages": [
+      "Rust"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [
+      "macOS"
+    ],
+    "is_official": true,
+    "is_open_source": true,
+    "star_count": 16408,
+    "source": "awesome",
+    "type": null
+  },
+  {
+    "name": "ahujasid/blender-mcp",
+    "url": "https://github.com/ahujasid/blender-mcp",
+    "description": "MCP server for working with Blender",
+    "category": "Art & Culture",
+    "languages": [
+      "Python"
+    ],
+    "scopes": [],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 15263,
+    "source": "awesome",
+    "type": null
+  },
+  {
+    "name": "Dagster",
+    "url": "https://github.com/dagster-io/dagster/tree/master/python_modules/libraries/dagster-dg-cli",
+    "description": "An MCP server to easily build data pipelines using [Dagster](https://dagster.io/).",
+    "category": null,
+    "languages": [],
+    "scopes": [],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 14745,
+    "source": "official",
+    "type": "community"
+  },
+  {
+    "name": "pydantic/pydantic-ai/mcp-run-python",
+    "url": "https://github.com/pydantic/pydantic-ai/tree/main/mcp-run-python",
+    "description": "Run Python code in a secure sandbox via MCP tool calls, powered by Deno and Pyodide",
+    "category": "Code Execution",
+    "languages": [
+      "Python"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 14277,
+    "source": "awesome",
+    "type": "community"
+  },
+  {
+    "name": "Semgrep",
+    "url": "https://github.com/semgrep/semgrep/blob/develop/cli/src/semgrep/mcp/README.md",
+    "description": "Enable AI agents to secure code with [Semgrep](https://semgrep.dev/).",
+    "category": null,
+    "languages": [],
+    "scopes": [],
+    "platforms": [],
+    "is_official": true,
+    "is_open_source": true,
+    "star_count": 13829,
+    "logo": "https://semgrep.dev/favicon.ico",
+    "source": "official",
+    "type": "integration"
+  },
+  {
+    "name": "mickaelkerjean/filestash",
+    "url": "https://github.com/mickael-kerjean/filestash/tree/master/server/plugin/plg_handler_mcp",
+    "description": "Remote Storage Access: SFTP, S3, FTP, SMB, NFS, WebDAV, GIT, FTPS, gcloud, azure blob, sharepoint, etc.",
+    "category": "File Systems",
+    "languages": [
+      "Go"
+    ],
+    "scopes": [
+      "Cloud"
+    ],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 13411,
+    "source": "awesome",
+    "type": null
+  },
+  {
+    "name": "Figma",
+    "url": "https://github.com/GLips/Figma-Context-MCP",
+    "description": "Give your coding agent direct access to Figma file data, helping it one-shot design implementation.",
+    "category": "Developer Tools",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 12515,
+    "source": "awesome",
+    "type": "community"
+  },
+  {
+    "name": "MCP Toolbox for Databases",
+    "url": "https://github.com/googleapis/genai-toolbox",
+    "description": "Open source MCP server specializing in easy, fast, and secure tools for Databases. Supports  AlloyDB, BigQuery, Bigtable, Cloud SQL, Dgraph, Looker, MySQL, Neo4j, Postgres, Spanner, and more.",
+    "category": "Databases",
+    "languages": [
+      "Go"
+    ],
+    "scopes": [
+      "Cloud"
+    ],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 12401,
+    "logo": "https://googleapis.github.io/genai-toolbox/favicons/favicon.ico",
+    "source": "awesome",
+    "type": "integration"
+  },
+  {
+    "name": "Pipedream",
+    "url": "https://github.com/PipedreamHQ/pipedream/tree/master/modelcontextprotocol",
+    "description": "Connect with 2,500 APIs with 8,000+ prebuilt tools.",
+    "category": "Aggregators",
+    "languages": [],
+    "scopes": [
+      "Cloud",
+      "Local"
+    ],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 10996,
+    "logo": "https://pipedream.com/favicon.ico",
+    "source": "awesome",
+    "type": "integration"
+  },
+  {
+    "name": "topoteretes/cognee",
+    "url": "https://github.com/topoteretes/cognee/tree/dev/cognee-mcp",
+    "description": "Memory manager for AI apps and Agents using various graph and vector stores and allowing ingestion from 30+ data sources",
+    "category": "Knowledge & Memory",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 10864,
+    "source": "awesome",
+    "type": null
+  },
+  {
+    "name": "cognee-mcp",
+    "url": "https://github.com/topoteretes/cognee/tree/main/cognee-mcp",
+    "description": "GraphRAG memory server with customizable ingestion, data processing and search",
+    "category": null,
+    "languages": [],
+    "scopes": [],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 10864,
+    "source": "official",
+    "type": "community"
+  },
+  {
+    "name": "Inbox Zero",
+    "url": "https://github.com/elie222/inbox-zero/tree/main/apps/mcp-server",
+    "description": "AI personal assistant for email [Inbox Zero](https://www.getinboxzero.com)",
+    "category": "Communication",
+    "languages": [
+      "Python"
+    ],
+    "scopes": [
+      "Cloud"
+    ],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 9800,
+    "logo": "https://www.getinboxzero.com/icon.png",
+    "source": "awesome",
+    "type": "integration"
+  },
+  {
+    "name": "Arize Phoenix",
+    "url": "https://github.com/Arize-ai/phoenix/tree/main/js/packages/phoenix-mcp",
+    "description": "Inspect traces, manage prompts, curate datasets, and run experiments using [Arize Phoenix](https://github.com/Arize-ai/phoenix), an open-source AI and LLM observability tool.",
+    "category": null,
+    "languages": [],
+    "scopes": [],
+    "platforms": [],
+    "is_official": true,
+    "is_open_source": true,
+    "star_count": 8232,
+    "logo": "https://phoenix.arize.com/wp-content/uploads/2023/04/cropped-Favicon-32x32.png",
+    "source": "official",
+    "type": "integration"
+  },
+  {
+    "name": "AWS",
+    "url": "https://github.com/awslabs/mcp",
+    "description": "Specialized MCP servers that bring AWS best practices directly to your development workflow.",
+    "category": "Cloud Platforms",
+    "languages": [],
+    "scopes": [
+      "Cloud"
+    ],
+    "platforms": [],
+    "is_official": true,
+    "is_open_source": true,
+    "star_count": 7854,
+    "logo": "https://a0.awsstatic.com/libra-css/images/site/fav/favicon.ico",
+    "source": "awesome",
+    "type": "integration"
+  },
+  {
+    "name": "GitMCP",
+    "url": "https://github.com/idosal/git-mcp",
+    "description": "gitmcp.io is a generic remote MCP server to connect to ANY GitHub repository or project documentation effortlessly",
+    "category": "Developer Tools",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Cloud"
+    ],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 7372,
+    "source": "awesome",
+    "type": "community"
+  },
+  {
+    "name": "LaurieWired/GhidraMCP",
+    "url": "https://github.com/LaurieWired/GhidraMCP",
+    "description": "A Model Context Protocol server for Ghidra that enables LLMs to autonomously reverse engineer applications. Provides tools for decompiling binaries, renaming methods and data, and listing methods, classes, imports, and exports.",
+    "category": "Security",
+    "languages": [
+      "Java"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 7053,
+    "source": "awesome",
+    "type": null
+  },
+  {
+    "name": "Talk To Figma",
+    "url": "https://github.com/sonnylazuardi/cursor-talk-to-figma-mcp",
+    "description": "This MCP server enables LLMs to interact with Figma, allowing them to read and modify designs programmatically.",
+    "category": null,
+    "languages": [],
+    "scopes": [],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 5904,
+    "source": "official",
+    "type": "community"
+  },
+  {
+    "name": "YouTube",
+    "url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/youtube",
+    "description": "Extract Youtube video information (with proxies support).",
+    "category": "Other Tools and Integrations",
+    "languages": [
+      "Python",
+      "TypeScript"
+    ],
+    "scopes": [],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 5587,
+    "source": "awesome",
+    "type": "community"
+  },
+  {
+    "name": "Klavis ReportGen",
+    "url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/report_generation",
+    "description": "Create professional reports from a simple user query.",
+    "category": null,
+    "languages": [],
+    "scopes": [],
+    "platforms": [],
+    "is_official": true,
+    "is_open_source": true,
+    "star_count": 5587,
+    "logo": "https://raw.githubusercontent.com/klavis-ai/klavis/main/static/klavis-ai.png",
+    "source": "official",
+    "type": "integration"
+  },
+  {
+    "name": "Discord",
+    "url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/discord",
+    "description": "For Discord API integration by Klavis AI",
+    "category": null,
+    "languages": [],
+    "scopes": [],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 5587,
+    "source": "official",
+    "type": "community"
+  },
+  {
+    "name": "Markdown2doc",
+    "url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/pandoc",
+    "description": "Convert between various file formats using Pandoc",
+    "category": null,
+    "languages": [],
+    "scopes": [],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 5587,
+    "source": "official",
+    "type": "community"
+  },
+  {
+    "name": "Markitdown",
+    "url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/markitdown",
+    "description": "Convert files to Markdown",
+    "category": null,
+    "languages": [],
+    "scopes": [],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 5587,
+    "source": "official",
+    "type": "community"
+  },
+  {
+    "name": "Resend",
+    "url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/resend",
+    "description": "Send email using Resend services",
+    "category": null,
+    "languages": [],
+    "scopes": [],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 5587,
+    "source": "official",
+    "type": "community"
+  },
+  {
+    "name": "browsermcp/mcp",
+    "url": "https://github.com/browsermcp/mcp",
+    "description": "Automate your local Chrome browser",
+    "category": "Browser Automation",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 5427,
+    "source": "awesome",
+    "type": null
+  },
+  {
+    "name": "Firecrawl",
+    "url": "https://github.com/firecrawl/firecrawl-mcp-server",
+    "description": "Extract web data with [Firecrawl](https://firecrawl.dev)",
+    "category": null,
+    "languages": [],
+    "scopes": [],
+    "platforms": [],
+    "is_official": true,
+    "is_open_source": true,
+    "star_count": 5257,
+    "logo": "https://firecrawl.dev/favicon.ico",
+    "source": "official",
+    "type": "integration"
+  },
+  {
+    "name": "DesktopCommander",
+    "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+    "description": "Let AI edit and manage files on your computer, run terminal commands, and connect to remote servers via SSH - all powered by one of the most popular local MCP servers.",
+    "category": "Command Line",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 5236,
+    "source": "awesome",
+    "type": "community"
+  },
+  {
+    "name": "WhatsApp MCP Server",
+    "url": "https://github.com/lharries/whatsapp-mcp",
+    "description": "MCP server for your personal WhatsApp handling individuals, groups, searching and sending.",
+    "category": "Communication",
+    "languages": [
+      "Python",
+      "Go"
+    ],
+    "scopes": [],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 5208,
+    "source": "awesome",
+    "type": "community"
+  },
+  {
+    "name": "Playwright",
+    "url": "https://github.com/executeautomation/mcp-playwright",
+    "description": "This MCP Server will help you run browser automation and webscraping using Playwright",
+    "category": "Browser Automation",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 5137,
+    "source": "awesome",
+    "type": "community"
+  },
+  {
+    "name": "Lingo.dev",
+    "url": "https://github.com/lingodotdev/lingo.dev/blob/main/mcp.md",
+    "description": "Make your AI agent speak every language on the planet, using [Lingo.dev](https://lingo.dev) Localization Engine.",
+    "category": null,
+    "languages": [],
+    "scopes": [],
+    "platforms": [],
+    "is_official": true,
+    "is_open_source": true,
+    "star_count": 5106,
+    "logo": "https://lingo.dev/favicon.ico",
+    "source": "official",
+    "type": "integration"
+  },
+  {
+    "name": "Claude Context",
+    "url": "https://github.com/zilliztech/claude-context",
+    "description": "Bring your codebase as context to Claude Code",
+    "category": null,
+    "languages": [],
+    "scopes": [],
+    "platforms": [],
+    "is_official": true,
+    "is_open_source": true,
+    "star_count": 5036,
+    "logo": "https://assets.zilliz.com/Zilliz_Logo_Mark_White_20230223_041013_86057436cc.png",
+    "source": "official",
+    "type": "integration"
+  },
+  {
+    "name": "mrexodia/ida-pro-mcp",
+    "url": "https://github.com/mrexodia/ida-pro-mcp",
+    "description": "MCP server for IDA Pro, allowing you to perform binary analysis with AI assistants. This plugin implement decompilation, disassembly and allows you to generate malware analysis reports automatically.",
+    "category": "Security",
+    "languages": [
+      "Python"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 5013,
+    "source": "awesome",
+    "type": null
+  },
+  {
+    "name": "Kiln",
+    "url": "https://github.com/Kiln-AI/Kiln",
+    "description": "A free open-source platform for building production-ready AI systems. It supports RAG pipelines, AI agents, MCP tool-calling, evaluations, synthetic data generation, and fine-tuning — all in one unified framework by [Kiln-AI](https://kiln.tech/).",
+    "category": null,
+    "languages": [],
+    "scopes": [],
+    "platforms": [],
+    "is_official": true,
+    "is_open_source": true,
+    "star_count": 4533,
+    "logo": "https://kiln.tech/images/animated_logo.svg",
+    "source": "official",
+    "type": "integration"
+  },
+  {
+    "name": "Firebase",
+    "url": "https://github.com/firebase/firebase-tools/blob/master/src/mcp",
+    "description": "Firebase's experimental [MCP Server](https://firebase.google.com/docs/cli/mcp-server) to power your AI Tools",
+    "category": null,
+    "languages": [],
+    "scopes": [],
+    "platforms": [],
+    "is_official": true,
+    "is_open_source": true,
+    "star_count": 4308,
+    "logo": "https://www.gstatic.com/devrel-devsite/prod/v7aeef7f1393bb1d75a4489145c511cdd5aeaa8e13ad0a83ec1b5b03612e66330/firebase/images/favicon.png",
+    "source": "official",
+    "type": "integration"
+  },
+  {
+    "name": "21st.dev Magic",
+    "url": "https://github.com/21st-dev/magic-mcp",
+    "description": "Create crafted UI components inspired by the best 21st.dev design engineers.",
+    "category": "Developer Tools",
+    "languages": [],
+    "scopes": [],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 4113,
+    "logo": "https://www.21st.dev/favicon.ico",
+    "source": "awesome",
+    "type": "integration"
+  },
+  {
+    "name": "txn2/kubefwd",
+    "url": "https://github.com/txn2/kubefwd",
+    "description": "Kubernetes bulk port forwarding with service discovery, /etc/hosts management, traffic monitoring, and pod log streaming",
+    "category": "Cloud Platforms",
+    "languages": [
+      "Go"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 4001,
+    "source": "awesome",
+    "type": null
+  },
+  {
+    "name": "Atlassian",
+    "url": "https://github.com/sooperset/mcp-atlassian",
+    "description": "Interact with Atlassian Cloud products (Confluence and Jira) including searching/reading Confluence spaces/pages, accessing Jira issues, and project metadata.",
+    "category": "Other Tools and Integrations",
+    "languages": [
+      "Python"
+    ],
+    "scopes": [
+      "Cloud"
+    ],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 3963,
+    "source": "awesome",
+    "type": "community"
+  },
+  {
+    "name": "bram2w/baserow",
+    "url": "https://github.com/bram2w/baserow",
+    "description": null,
+    "category": "Databases",
+    "languages": [],
+    "scopes": [],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 3761,
+    "source": "awesome",
+    "type": null
+  },
+  {
+    "name": "Vizro",
+    "url": "https://github.com/mckinsey/vizro/tree/main/vizro-mcp",
+    "description": "Tools and templates to create validated and maintainable data charts and dashboards",
+    "category": "Data Science Tools",
+    "languages": [
+      "Python"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [],
+    "is_official": true,
+    "is_open_source": true,
+    "star_count": 3547,
+    "logo": "https://raw.githubusercontent.com/mckinsey/vizro/main/vizro-core/docs/assets/images/favicon.png",
+    "source": "awesome",
+    "type": "integration"
+  },
+  {
+    "name": "Exa",
+    "url": "https://github.com/exa-labs/exa-mcp-server",
+    "description": "Search Engine made for AIs by [Exa](https://exa.ai)",
+    "category": "Search & Data Extraction",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Cloud"
+    ],
+    "platforms": [],
+    "is_official": true,
+    "is_open_source": true,
+    "star_count": 3546,
+    "logo": "https://exa.ai/images/favicon-32x32.png",
+    "source": "awesome",
+    "type": "integration"
+  },
+  {
+    "name": "AntV Chart",
+    "url": "https://github.com/antvis/mcp-server-chart",
+    "description": "A Model Context Protocol server for generating 15+ visual charts using [AntV](https://github.com/antvis).",
+    "category": "Customer Data Platforms",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Cloud"
+    ],
+    "platforms": [],
+    "is_official": true,
+    "is_open_source": true,
+    "star_count": 3503,
+    "source": "awesome",
+    "type": "community"
+  },
+  {
+    "name": "dagger/container-use",
+    "url": "https://github.com/dagger/container-use",
+    "description": "Containerized environments for coding agents. Multiple agents can work independently, isolated in fresh containers and git branches. No conflicts, many experiments. Full execution history, terminal access to agent environments, git workflow. Any agent/model/infra stack.",
+    "category": "Code Execution",
+    "languages": [
+      "Go"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 3453,
+    "source": "awesome",
+    "type": null
+  },
+  {
+    "name": "Cloudflare",
+    "url": "https://github.com/cloudflare/mcp-server-cloudflare",
+    "description": "Deploy, configure & interrogate your resources on the Cloudflare developer platform (e.g. Workers/KV/R2/D1)",
+    "category": "Cloud Platforms",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Cloud"
+    ],
+    "platforms": [],
+    "is_official": true,
+    "is_open_source": true,
+    "star_count": 3281,
+    "logo": "https://cdn.simpleicons.org/cloudflare",
+    "source": "awesome",
+    "type": "integration"
+  },
+  {
+    "name": "metorial/metorial",
+    "url": "https://github.com/metorial/metorial",
+    "description": "OAuth, scaling, and monitoring included",
+    "category": "Other Tools and Integrations",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Cloud"
+    ],
+    "platforms": [],
+    "is_official": true,
+    "is_open_source": true,
+    "star_count": 3203,
+    "source": "awesome",
+    "type": null
+  },
+  {
+    "name": "Excel",
+    "url": "https://github.com/haris-musa/excel-mcp-server",
+    "description": "Excel manipulation including data reading/writing, worksheet management, formatting, charts, and pivot table.",
+    "category": "Developer Tools",
+    "languages": [
+      "Python"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 3118,
+    "source": "awesome",
+    "type": "community"
+  },
+  {
+    "name": "mobile-next/mobile-mcp",
+    "url": "https://github.com/mobile-next/mobile-mcp",
+    "description": "MCP Server for Android/iOS application and device automation, development and app scraping. Simulator/Emulator/Physical devices like iPhone, Google Pixel, Samsung supported.",
+    "category": "Developer Tools",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [
+      "macOS",
+      "Linux"
+    ],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 3056,
+    "source": "awesome",
+    "type": null
+  },
+  {
+    "name": "Browserbase",
+    "url": "https://github.com/browserbase/mcp-server-browserbase",
+    "description": "Automate browser interactions in the cloud (e.g. web navigation, data extraction, form filling, and more)",
+    "category": "Browser Automation",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [],
+    "platforms": [],
+    "is_official": true,
+    "is_open_source": true,
+    "star_count": 3050,
+    "logo": "https://browserbase.com/favicon.ico",
+    "source": "awesome",
+    "type": "integration"
+  },
+  {
+    "name": "Tianji",
+    "url": "https://github.com/msgbyte/tianji/tree/master/apps/mcp-server",
+    "description": "Interact with Tianji platform whatever selfhosted or cloud platform, powered by [Tianji](https://tianji.msgbyte.com/).",
+    "category": null,
+    "languages": [],
+    "scopes": [],
+    "platforms": [],
+    "is_official": true,
+    "is_open_source": true,
+    "star_count": 2970,
+    "logo": "https://tianji.msgbyte.com/img/dark-brand.svg",
+    "source": "official",
+    "type": "integration"
+  },
+  {
+    "name": "FastMCP",
+    "url": "https://github.com/punkpeye/fastmcp",
+    "description": "A high-level framework for building MCP servers in TypeScript",
+    "category": "Other Tools and Integrations",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 2874,
+    "source": "awesome",
+    "type": null
+  },
+  {
+    "name": "MarkusPfundstein/mcp-obsidian",
+    "url": "https://github.com/MarkusPfundstein/mcp-obsidian",
+    "description": "Interacting with Obsidian via REST API",
+    "category": "Other Tools and Integrations",
+    "languages": [
+      "Python"
+    ],
+    "scopes": [
+      "Cloud",
+      "Local"
+    ],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 2695,
+    "source": "awesome",
+    "type": null
+  },
+  {
+    "name": "devflowinc/trieve",
+    "url": "https://github.com/devflowinc/trieve/tree/main/clients/mcp-server",
+    "description": "Crawl, embed, chunk, search, and retrieve information from datasets through [Trieve](https://trieve.ai)",
+    "category": "Search & Data Extraction",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Cloud",
+      "Local"
+    ],
+    "platforms": [],
+    "is_official": true,
+    "is_open_source": true,
+    "star_count": 2597,
+    "source": "awesome",
+    "type": null
+  },
+  {
+    "name": "Jpisnice/shadcn-ui-mcp-server",
+    "url": "https://github.com/Jpisnice/shadcn-ui-mcp-server",
+    "description": "MCP server that gives AI assistants seamless access to shadcn/ui v4 components, blocks, demos, and metadata.",
+    "category": "Developer Tools",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 2593,
+    "source": "awesome",
+    "type": null
+  },
+  {
+    "name": "Azure",
+    "url": "https://github.com/microsoft/mcp/tree/main/servers/Azure.Mcp.Server",
+    "description": "The Azure MCP Server gives MCP Clients access to key Azure services and tools like Azure Storage, Cosmos DB, the Azure CLI, and more.",
+    "category": null,
+    "languages": [],
+    "scopes": [],
+    "platforms": [],
+    "is_official": true,
+    "is_open_source": true,
+    "star_count": 2424,
+    "logo": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/acom_social_icon_azure",
+    "source": "official",
+    "type": "integration"
+  },
+  {
+    "name": "Supabase",
+    "url": "https://github.com/supabase-community/supabase-mcp",
+    "description": "Interact with Supabase: Create tables, query data, deploy edge functions, and more.",
+    "category": "Databases",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Cloud"
+    ],
+    "platforms": [],
+    "is_official": true,
+    "is_open_source": true,
+    "star_count": 2380,
+    "logo": "https://supabase.com/favicon/favicon.ico",
+    "source": "awesome",
+    "type": "integration"
+  },
+  {
+    "name": "zcaceres/markdownify-mcp",
+    "url": "https://github.com/zcaceres/markdownify-mcp",
+    "description": "An MCP server to convert almost any file or web content into Markdown",
+    "category": "Data Science Tools",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 2348,
+    "source": "awesome",
+    "type": null
+  },
+  {
+    "name": "Markdownify",
+    "url": "https://github.com/zcaceres/mcp-markdownify-server",
+    "description": "MCP to convert almost anything to Markdown (PPTX, HTML, PDF, Youtube Transcripts and more)",
+    "category": null,
+    "languages": [],
+    "scopes": [],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 2348,
+    "source": "official",
+    "type": "community"
+  },
+  {
+    "name": "Basic Memory",
+    "url": "https://github.com/basicmachines-co/basic-memory",
+    "description": "Local-first knowledge management system that builds a semantic graph from Markdown files, enabling persistent memory across conversations with LLMs.",
+    "category": null,
+    "languages": [],
+    "scopes": [],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 2346,
+    "source": "official",
+    "type": "community"
+  },
+  {
+    "name": "mcp-proxy",
+    "url": "https://github.com/sparfenyuk/mcp-proxy",
+    "description": "Connect to MCP servers that run on SSE transport, or expose stdio servers as an SSE server.",
+    "category": null,
+    "languages": [],
+    "scopes": [],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 2154,
+    "source": "official",
+    "type": "community"
+  },
+  {
+    "name": "Grafana",
+    "url": "https://github.com/grafana/mcp-grafana",
+    "description": "Search dashboards, investigate incidents and query datasources in your Grafana instance",
+    "category": "Monitoring",
+    "languages": [
+      "Python"
+    ],
+    "scopes": [
+      "Cloud",
+      "Local"
+    ],
+    "platforms": [],
+    "is_official": true,
+    "is_open_source": true,
+    "star_count": 2118,
+    "logo": "https://grafana.com/favicon.ico",
+    "source": "awesome",
+    "type": "integration"
+  },
+  {
+    "name": "blazickjp/arxiv-mcp-server",
+    "url": "https://github.com/blazickjp/arxiv-mcp-server",
+    "description": "Search ArXiv research papers",
+    "category": "Search & Data Extraction",
+    "languages": [
+      "Python"
+    ],
+    "scopes": [
+      "Cloud"
+    ],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 2036,
+    "source": "awesome",
+    "type": null
+  },
+  {
+    "name": "cjo4m06/mcp-shrimp-task-manager",
+    "url": "https://github.com/cjo4m06/mcp-shrimp-task-manager",
+    "description": null,
+    "category": "Developer Tools",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Cloud",
+      "Local"
+    ],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 1970,
+    "source": "awesome",
+    "type": null
+  },
+  {
+    "name": "metatool-ai/metatool-app",
+    "url": "https://github.com/metatool-ai/metatool-app",
+    "description": "MetaMCP is the one unified middleware MCP server that manages your MCP connections with GUI.",
+    "category": "Aggregators",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Cloud",
+      "Local"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 1898,
+    "source": "awesome",
+    "type": null
+  },
+  {
+    "name": "DBHub",
+    "url": "https://github.com/bytebase/dbhub/",
+    "description": "Universal database MCP server connecting to MySQL, MariaDB, PostgreSQL, and SQL Server.",
+    "category": null,
+    "languages": [],
+    "scopes": [],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 1896,
+    "source": "official",
+    "type": "community"
+  },
+  {
+    "name": "BrightData",
+    "url": "https://github.com/luminati-io/brightdata-mcp",
+    "description": "Discover, extract, and interact with the web - one interface powering automated access across the public internet.",
+    "category": "Search & Data Extraction",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Cloud"
+    ],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 1888,
+    "logo": "https://www.brightdata.com/favicon.ico",
+    "source": "awesome",
+    "type": "integration"
+  },
+  {
+    "name": "Perplexity",
+    "url": "https://github.com/ppl-ai/modelcontextprotocol",
+    "description": "An MCP server that connects to Perplexity's Sonar API, enabling real-time web-wide research in conversational AI.",
+    "category": null,
+    "languages": [],
+    "scopes": [],
+    "platforms": [],
+    "is_official": true,
+    "is_open_source": true,
+    "star_count": 1875,
+    "logo": "https://www.perplexity.ai/favicon.ico",
+    "source": "official",
+    "type": "integration"
+  },
+  {
+    "name": "crystaldba/postgres-mcp",
+    "url": "https://github.com/crystaldba/postgres-mcp",
+    "description": "All-in-one MCP server for Postgres development and operations, with tools for performance analysis, tuning, and health checks",
+    "category": "Databases",
+    "languages": [
+      "Python"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 1820,
+    "source": "awesome",
+    "type": null
+  },
+  {
+    "name": "chrishayuk/mcp-cli",
+    "url": "https://github.com/chrishayuk/mcp-cli",
+    "description": "Yet another CLI tool for testing MCP servers",
+    "category": "Other Tools and Integrations",
+    "languages": [
+      "Python"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 1816,
+    "source": "awesome",
+    "type": null
+  },
+  {
+    "name": "mariocandela/beelzebub",
+    "url": "https://github.com/mariocandela/beelzebub",
+    "description": "Beelzebub is a honeypot framework that lets you build honeypot tools using MCP. Its purpose is to detect prompt injection or malicious agent behavior. The underlying idea is to provide the agent with tools it would never use in its normal work.",
+    "category": "Security",
+    "languages": [],
+    "scopes": [
+      "Cloud"
+    ],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 1810,
+    "source": "awesome",
+    "type": null
+  },
+  {
+    "name": "ezyang/codemcp",
+    "url": "https://github.com/ezyang/codemcp",
+    "description": "Coding agent with basic read, write and command line tools.",
+    "category": "Coding Agents",
+    "languages": [
+      "Python"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 1596,
+    "source": "awesome",
+    "type": null
+  },
+  {
+    "name": "Solana Agent Kit",
+    "url": "https://github.com/sendaifun/solana-agent-kit/tree/main/examples/agent-kit-mcp-server",
+    "description": "This MCP server enables LLMs to interact with the Solana blockchain with help of Solana Agent Kit by SendAI, allowing for 40+ protocol actions and growing",
+    "category": null,
+    "languages": [],
+    "scopes": [],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 1589,
+    "source": "official",
+    "type": "community"
+  },
+  {
+    "name": "julien040/anyquery",
+    "url": "https://github.com/julien040/anyquery",
+    "description": "Query more than 40 apps with one binary using SQL. It can also connect to your PostgreSQL, MySQL, or SQLite compatible database. Local-first and private by design.",
+    "category": "Aggregators",
+    "languages": [
+      "Go"
+    ],
+    "scopes": [
+      "Cloud",
+      "Local"
+    ],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 1586,
+    "source": "awesome",
+    "type": null
+  },
+  {
+    "name": "n8n",
+    "url": "https://github.com/leonardsellem/n8n-mcp-server",
+    "description": "This MCP server provides tools and resources for AI assistants to manage n8n workflows and executions, including listing, creating, updating, and deleting workflows, as well as monitoring their execution status.",
+    "category": null,
+    "languages": [],
+    "scopes": [],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 1541,
+    "source": "official",
+    "type": "community"
+  },
+  {
+    "name": "MCP Installer",
+    "url": "https://github.com/anaisbetts/mcp-installer",
+    "description": "This server is a server that installs other MCP servers for you.",
+    "category": "Other Tools and Integrations",
+    "languages": [
+      "Python"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 1493,
+    "source": "awesome",
+    "type": "community"
+  },
+  {
+    "name": "ios-simulator-mcp",
+    "url": "https://github.com/joshuayoes/ios-simulator-mcp",
+    "description": "A Model Context Protocol (MCP) server for interacting with iOS simulators. This server allows you to interact with iOS simulators by getting information about them, controlling UI interactions, and inspecting UI elements.",
+    "category": "Developer Tools",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [
+      "macOS"
+    ],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 1450,
+    "source": "awesome",
+    "type": null
+  },
+  {
+    "name": "Office-PowerPoint-MCP-Server",
+    "url": "https://github.com/GongRzhe/Office-PowerPoint-MCP-Server",
+    "description": "A Model Context Protocol (MCP) server for creating, reading, and manipulating Microsoft PowerPoint documents.",
+    "category": null,
+    "languages": [],
+    "scopes": [],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 1409,
+    "source": "official",
+    "type": "community"
+  },
+  {
+    "name": "Office-Word-MCP-Server",
+    "url": "https://github.com/GongRzhe/Office-Word-MCP-Server",
+    "description": "A Model Context Protocol (MCP) server for creating, reading, and manipulating Microsoft Word documents.",
+    "category": null,
+    "languages": [],
+    "scopes": [],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 1408,
+    "source": "official",
+    "type": "community"
+  },
+  {
+    "name": "Nx",
+    "url": "https://github.com/nrwl/nx-console/blob/master/apps/nx-mcp",
+    "description": "Makes [Nx's understanding](https://nx.dev/features/enhance-AI) of your codebase accessible to LLMs, providing insights into the codebase architecture, project relationships and runnable tasks thus allowing AI to make precise code suggestions.",
+    "category": null,
+    "languages": [],
+    "scopes": [],
+    "platforms": [],
+    "is_official": true,
+    "is_open_source": true,
+    "star_count": 1392,
+    "logo": "https://nx.dev/favicon/favicon.svg",
+    "source": "official",
+    "type": "integration"
+  },
+  {
+    "name": "Language Server",
+    "url": "https://github.com/isaacphi/mcp-language-server",
+    "description": "MCP Language Server helps MCP enabled clients navigate codebases more easily by giving them access to semantic tools like get definition, references, rename, and diagnostics.",
+    "category": "Developer Tools",
+    "languages": [
+      "Go"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 1381,
+    "source": "awesome",
+    "type": "community"
+  },
+  {
+    "name": "Godot",
+    "url": "https://github.com/Coding-Solo/godot-mcp",
+    "description": "An MCP server providing comprehensive Godot engine integration for project editing, debugging, and scene management.",
+    "category": "Gaming",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true,
+    "star_count": 1379,
+    "source": "awesome",
+    "type": "community"
+  },
+  {
+    "name": "Microsoft Learn Docs",
+    "url": "https://github.com/microsoftdocs/mcp",
+    "description": "An MCP server that provides structured access to Microsoft's official documentation. Retrieves accurate, authoritative, and context-aware technical content for code generation, question answering, and workflow grounding.",
+    "category": null,
+    "languages": [],
+    "scopes": [],
+    "platforms": [],
+    "is_official": true,
+    "is_open_source": true,
+    "star_count": 1282,
+    "logo": "https://learn.microsoft.com/favicon.ico",
+    "source": "official",
+    "type": "integration"
+  }
+]
