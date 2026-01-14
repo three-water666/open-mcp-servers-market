@@ -212,7 +212,21 @@
                             <h2 class="text-lg font-bold text-gray-800">
                                 {{ activeTab === 'official' ? 'Model Context Protocol 官方仓库列表' : 'Awesome MCP 社区精选列表' }}
                             </h2>
-                            <span class="text-sm text-gray-500">已显示 {{ displayedItems.length }} / {{ currentFilteredList.length }}</span>
+                            <div class="flex items-center gap-4">
+                                <span class="text-sm text-gray-500">已显示 {{ displayedItems.length }} / {{ currentFilteredList.length }}</span>
+                                <label class="inline-flex items-center gap-1 text-xs text-gray-600">
+                                    <input type="checkbox" v-model="onlyWithStars" class="rounded text-blue-600 focus:ring-blue-500">
+                                    <span>只显示有 Star 的 GitHub 仓库</span>
+                                </label>
+                                <select 
+                                    v-model="starSort" 
+                                    class="text-xs border border-gray-300 rounded-md px-2 py-1 bg-white text-gray-700 focus:outline-none focus:ring-1 focus:ring-blue-500"
+                                >
+                                    <option value="default">默认排序</option>
+                                    <option value="desc">按 Star 数从高到低</option>
+                                    <option value="asc">按 Star 数从低到高</option>
+                                </select>
+                            </div>
                         </div>
 
                         <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
@@ -243,6 +257,10 @@
                                                  <span v-else class="text-[10px] px-1.5 py-0.5 rounded-full bg-orange-50 text-orange-600 font-medium ml-1">
                                                      <i class="fas fa-external-link-alt mr-0.5"></i>非开源
                                                  </span>
+                                                <div v-if="typeof item.star_count === 'number'" class="mt-1 inline-flex items-center px-2 py-0.5 rounded-full bg-yellow-50 text-yellow-600 text-[10px] font-medium">
+                                                    <i class="fab fa-github mr-1"></i>
+                                                    <span>{{ item.star_count }}</span>
+                                                </div>
                                             </div>
                                         </div>
                                         <div v-if="item.is_official" class="text-yellow-500" title="官方/参考实现">
@@ -331,6 +349,8 @@
                 });
                 const loading = ref(true);
                 const searchQuery = ref('');
+                const starSort = ref('default');
+                const onlyWithStars = ref(false);
                 
                 // Awesome filters
                 const selectedCategories = ref([]);
@@ -463,6 +483,16 @@
                         filtered = filtered.filter(s => !s.is_open_source);
                     }
 
+                    if (onlyWithStars.value) {
+                        filtered = filtered.filter(s => typeof s.star_count === 'number' && s.star_count > 0 && s.url && s.url.toLowerCase().includes('github.com'));
+                    }
+
+                    if (starSort.value === 'desc') {
+                        filtered = [...filtered].sort((a, b) => (b.star_count || 0) - (a.star_count || 0));
+                    } else if (starSort.value === 'asc') {
+                        filtered = [...filtered].sort((a, b) => (a.star_count || 0) - (b.star_count || 0));
+                    }
+
                     return filtered;
                 });
 
@@ -504,9 +534,11 @@
                     onlyOfficialAwesome.value = false;
                     selectedSourceType.value = 'all';
                     officialTypes.value = ['reference', 'integration', 'community'];
+                    starSort.value = 'default';
+                    onlyWithStars.value = false;
                 };
 
-                watch([activeTab, searchQuery, selectedCategories, selectedLanguages, selectedScopes, selectedPlatforms, onlyOfficialAwesome, officialTypes, selectedSourceType], () => {
+                watch([activeTab, searchQuery, selectedCategories, selectedLanguages, selectedScopes, selectedPlatforms, onlyOfficialAwesome, officialTypes, selectedSourceType, starSort, onlyWithStars], () => {
                     window.scrollTo({ top: 0, behavior: 'smooth' });
                 });
 
@@ -525,6 +557,8 @@
                     onlyOfficialAwesome,
                     selectedSourceType,
                     officialTypes,
+                    starSort,
+                    onlyWithStars,
                     currentFilteredList,
                     displayedItems,
                     toggleLanguage,

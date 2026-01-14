@@ -2,6 +2,7 @@ import re
 import json
 import os
 import requests
+import time
 
 def fetch_content(url):
     """Fetch content from a URL."""
@@ -12,6 +13,93 @@ def fetch_content(url):
     except Exception as e:
         print(f"Error fetching {url}: {e}")
         return None
+
+def get_github_stars(servers, token):
+    """
+    Fetch GitHub stars using GraphQL API in batches.
+    Updates the servers list in-place with 'star_count'.
+    """
+    if not token:
+        print("No GITHUB_TOKEN provided, skipping star count fetch.")
+        return
+
+    print("Fetching GitHub stars...")
+    
+    # Filter for GitHub URLs and extract owner/repo
+    github_repos = {} # map "owner/repo" -> list of server objects
+    # Regex to capture owner/repo from various github url formats
+    # Supports: https://github.com/owner/repo, http://github.com/owner/repo, https://github.com/owner/repo/tree/...
+    repo_pattern = re.compile(r'github\.com/([^/]+)/([^/]+)')
+    
+    for server in servers:
+        url = server.get('url', '')
+        if not url:
+            continue
+            
+        match = repo_pattern.search(url)
+        if match:
+            owner, repo = match.group(1), match.group(2)
+            # Remove .git suffix if present
+            if repo.endswith('.git'):
+                repo = repo[:-4]
+            full_name = f"{owner}/{repo}"
+            
+            if full_name not in github_repos:
+                github_repos[full_name] = []
+            github_repos[full_name].append(server)
+
+    # Prepare batches (GraphQL limits check to usually 100 nodes, sticking to 50-80 is safe)
+    repo_names = list(github_repos.keys())
+    batch_size = 80 
+    
+    api_url = "https://api.github.com/graphql"
+    headers = {
+        "Authorization": f"bearer {token}",
+        "Content-Type": "application/json"
+    }
+
+    for i in range(0, len(repo_names), batch_size):
+        batch = repo_names[i:i + batch_size]
+        print(f"Fetching batch {i//batch_size + 1}/{(len(repo_names) + batch_size - 1)//batch_size} ({len(batch)} repos)...")
+        
+        # Build GraphQL query
+        # alias: repository(owner: "...", name: "...") { stargazers { totalCount } }
+        query_parts = []
+        for idx, full_name in enumerate(batch):
+            owner, repo = full_name.split('/', 1)
+            # GraphQL aliases must be alphanumeric
+            alias = f"repo_{idx}"
+            query_parts.append(f'{alias}: repository(owner: "{owner}", name: "{repo}") {{ stargazers {{ totalCount }} }}')
+            
+        query = "query { " + " ".join(query_parts) + " }"
+        
+        try:
+            response = requests.post(api_url, json={'query': query}, headers=headers)
+            if response.status_code == 200:
+                data = response.json()
+                if 'errors' in data:
+                    # Partial errors can happen (e.g. repo deleted, renamed, or private)
+                    # We just log and continue processing successful ones
+                    print(f"  Note: GraphQL returned some errors (likely missing/private repos)")
+                
+                results = data.get('data', {})
+                if results:
+                    for idx, full_name in enumerate(batch):
+                        alias = f"repo_{idx}"
+                        repo_data = results.get(alias)
+                        if repo_data and 'stargazers' in repo_data:
+                            stars = repo_data['stargazers']['totalCount']
+                            # Update all servers matching this repo
+                            for server in github_repos[full_name]:
+                                server['star_count'] = stars
+            else:
+                print(f"  Error: API returned {response.status_code}: {response.text}")
+                
+        except Exception as e:
+            print(f"  Exception during batch fetch: {e}")
+            
+        # Slight delay to be nice to the API
+        time.sleep(1)
 
 def is_open_source_url(url):
     """
@@ -207,9 +295,7 @@ def main():
             
     if awesome_content:
         awesome_data = parse_awesome_mcp(awesome_content)
-        with open('awesome_mcp_servers.json', 'w', encoding='utf-8') as f:
-            json.dump(awesome_data, f, indent=2, ensure_ascii=False)
-        print(f"Saved {len(awesome_data)} servers to awesome_mcp_servers.json")
+        # Note: We postpone saving until we fetch stars
     else:
         print("Skipping Awesome MCP update due to fetch failure")
 
@@ -219,6 +305,34 @@ def main():
             
     if official_content:
         official_data = parse_official_mcp(official_content)
+        
+        # Collect all servers from official list for star fetching
+        official_all_servers = []
+        official_all_servers.extend(official_data["reference_servers"])
+        official_all_servers.extend(official_data["third_party"]["official_integrations"])
+        official_all_servers.extend(official_data["third_party"]["community_servers"])
+        
+        # Combine with Awesome list for single batch processing to save requests
+        # Note: We need to be careful if we want to fetch stars for both lists efficiently.
+        # Actually, simpler to fetch separately or just pass a combined list of *objects* to the function.
+        # The function modifies objects in-place, so we can pass a giant list.
+        
+        all_servers_to_fetch = []
+        if 'awesome_data' in locals():
+            all_servers_to_fetch.extend(awesome_data)
+        all_servers_to_fetch.extend(official_all_servers)
+        
+        # Fetch stars for all collected servers
+        token = os.environ.get("GITHUB_TOKEN")
+        get_github_stars(all_servers_to_fetch, token)
+        
+        # Save Awesome data (now with stars)
+        if 'awesome_data' in locals():
+            with open('awesome_mcp_servers.json', 'w', encoding='utf-8') as f:
+                json.dump(awesome_data, f, indent=2, ensure_ascii=False)
+            print(f"Saved {len(awesome_data)} servers to awesome_mcp_servers.json")
+
+        # Save Official data (now with stars)
         with open('mcp_official_servers.json', 'w', encoding='utf-8') as f:
             json.dump(official_data, f, indent=2, ensure_ascii=False)
         print(f"Saved official servers to mcp_official_servers.json")
