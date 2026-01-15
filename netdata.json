@@ -1,0 +1,83 @@
+{
+    "id": "netdata",
+    "name": "Netdata",
+    "description": "让 AI 访问你的基础设施监控数据。支持查看指标、日志、告警及实时系统信息 (CPU, 进程, 容器等)。",
+    "author": "Netdata Inc.",
+    "icon": "https://www.netdata.cloud/favicon.ico",
+    "version": "latest",
+    "modes": [
+        {
+            "type": "stdio",
+            "runner": "binary",
+            "isDefault": true,
+            "description": "标准桥接模式 (推荐)。适用于 Claude Desktop 或 Cursor，通过本地 nd-mcp 程序连接 Netdata Agent。",
+            "inputs": [
+                {
+                    "id": "bridge_path",
+                    "label": "nd-mcp 桥接程序路径",
+                    "type": "path",
+                    "required": true,
+                    "placeholder": "/usr/bin/nd-mcp",
+                    "markdownDescription": "请根据您的安装方式选择路径：\n- **Linux (Native)**: `/usr/bin/nd-mcp`\n- **Linux (Static)**: `/opt/netdata/usr/bin/nd-mcp`\n- **macOS**: `/usr/local/netdata/usr/bin/nd-mcp`\n- **Windows**: `C:\\Program Files\\Netdata\\usr\\bin\\nd-mcp.exe`"
+                },
+                {
+                    "id": "netdata_url",
+                    "label": "Netdata 地址",
+                    "type": "text",
+                    "required": true,
+                    "defaultValue": "ws://localhost:19999/mcp",
+                    "description": "格式通常为 ws://IP:PORT/mcp"
+                },
+                {
+                    "id": "api_key",
+                    "label": "API Key",
+                    "type": "password",
+                    "required": true,
+                    "markdownDescription": "Netdata 会自动生成 API Key。请在 Netdata 安装的服务器上运行以下命令查看：\n\n```bash\nsudo cat /var/lib/netdata/mcp_dev_preview_api_key\n```\n\n如果是静态安装，路径可能是 `/opt/netdata/var/lib/netdata/...`"
+                }
+            ],
+            "commandTemplate": {
+                "command": "{{bridge_path}}",
+                "args": [
+                    "--bearer",
+                    "{{api_key}}",
+                    "{{netdata_url}}"
+                ]
+            }
+        },
+        {
+            "type": "sse",
+            "runner": "npx",
+            "isDefault": false,
+            "description": "远程直连模式。适用于支持 SSE 的客户端，无需本地 nd-mcp 桥接程序。",
+            "inputs": [
+                {
+                    "id": "netdata_http_url",
+                    "label": "Netdata HTTP 地址",
+                    "type": "text",
+                    "required": true,
+                    "defaultValue": "http://localhost:19999/mcp",
+                    "description": "注意这里是 HTTP 协议，例如 http://192.168.1.5:19999/mcp"
+                },
+                {
+                    "id": "api_key",
+                    "label": "API Key",
+                    "type": "password",
+                    "required": true,
+                    "markdownDescription": "请在服务器上运行 `sudo cat /var/lib/netdata/mcp_dev_preview_api_key` 获取。"
+                }
+            ],
+            "commandTemplate": {
+                "command": "npx",
+                "args": [
+                    "-y",
+                    "@modelcontextprotocol/remote-mcp",
+                    "--sse",
+                    "{{netdata_http_url}}",
+                    "--header",
+                    "Authorization: Bearer {{api_key}}"
+                ]
+            }
+        }
+    ]
+}

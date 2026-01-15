@@ -29,7 +29,6 @@
                         </h1>
                     </div>
                     
-                    <!-- Tabs -->
                     <nav class="flex bg-gray-100 p-1 rounded-lg ml-4">
                         <button 
                             @click="activeTab = 'official'"
@@ -48,6 +47,15 @@
                             ]"
                         >
                             社区源 (Awesome)
+                        </button>
+                        <button 
+                            @click="activeTab = 'top'"
+                            :class="[
+                                'px-4 py-1.5 text-sm font-medium rounded-md transition-all',
+                                activeTab === 'top' ? 'bg-white shadow-sm text-blue-600' : 'text-gray-500 hover:text-gray-700'
+                            ]"
+                        >
+                            Top 100
                         </button>
                     </nav>
                 </div>
@@ -69,7 +77,6 @@
         <main class="max-w-7xl mx-auto px-4 py-8 sm:px-6 lg:px-8 flex-1 w-full">
             <div class="flex flex-col lg:flex-row gap-8">
                 
-                <!-- Sidebar Filters (Only for Awesome tab) -->
                 <aside v-if="activeTab === 'awesome'" class="w-full lg:w-64 space-y-8 flex-shrink-0">
                     <div>
                         <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-3 flex justify-between items-center">
@@ -152,7 +159,28 @@
                     </div>
                 </aside>
 
-                <!-- Sidebar Filters (Only for Official tab) -->
+                <aside v-else-if="activeTab === 'top'" class="w-full lg:w-64 space-y-8 flex-shrink-0">
+                    <div>
+                        <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-3 flex justify-between items-center">
+                            开源状态
+                        </h3>
+                        <div class="flex flex-col gap-2">
+                            <label class="flex items-center gap-2 cursor-pointer group text-sm">
+                                <input type="radio" value="all" v-model="selectedSourceType" class="text-blue-600 focus:ring-blue-500">
+                                <span class="text-gray-700 group-hover:text-blue-600 transition-colors">全部</span>
+                            </label>
+                            <label class="flex items-center gap-2 cursor-pointer group text-sm">
+                                <input type="radio" value="open" v-model="selectedSourceType" class="text-blue-600 focus:ring-blue-500">
+                                <span class="text-gray-700 group-hover:text-blue-600 transition-colors">仅开源 (GitHub/GitLab等)</span>
+                            </label>
+                            <label class="flex items-center gap-2 cursor-pointer group text-sm">
+                                <input type="radio" value="closed" v-model="selectedSourceType" class="text-blue-600 focus:ring-blue-500">
+                                <span class="text-gray-700 group-hover:text-blue-600 transition-colors">非开源/其他</span>
+                            </label>
+                        </div>
+                    </div>
+                </aside>
+
                 <aside v-else class="w-full lg:w-64 space-y-8 flex-shrink-0">
                     <div>
                         <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-3 flex justify-between items-center">
@@ -210,7 +238,7 @@
                     <div v-else>
                         <div class="mb-6 flex justify-between items-center">
                             <h2 class="text-lg font-bold text-gray-800">
-                                {{ activeTab === 'official' ? 'Model Context Protocol 官方仓库列表' : 'Awesome MCP 社区精选列表' }}
+                                {{ activeTab === 'official' ? 'Model Context Protocol 官方仓库列表' : (activeTab === 'awesome' ? 'Awesome MCP 社区精选列表' : 'GitHub Star Top 100 热门 MCP 服务') }}
                             </h2>
                             <div class="flex items-center gap-4">
                                 <span class="text-sm text-gray-500">已显示 {{ displayedItems.length }} / {{ currentFilteredList.length }}</span>
@@ -347,6 +375,7 @@
                     reference_servers: [],
                     third_party: { official_integrations: [], community_servers: [] }
                 });
+                const topData = ref([]);
                 const loading = ref(true);
                 const searchQuery = ref('');
                 const starSort = ref('default');
@@ -454,7 +483,7 @@
                             }
                             return true;
                         });
-                    } else {
+                    } else if (activeTab.value === 'awesome') {
                         filtered = awesomeData.value.filter(s => {
                             if (selectedCategories.value.length > 0 && !selectedCategories.value.includes(s.category)) return false;
                             if (selectedLanguages.value.length > 0) {
@@ -467,6 +496,15 @@
                                 if (!s.platforms || !selectedPlatforms.value.some(p => s.platforms.includes(p))) return false;
                             }
                             if (onlyOfficialAwesome.value && !s.is_official) return false;
+                            if (query) {
+                                return s.name.toLowerCase().includes(query) || 
+                                       (s.description && s.description.toLowerCase().includes(query)) ||
+                                       (s.category && s.category.toLowerCase().includes(query));
+                            }
+                            return true;
+                        });
+                    } else {
+                        filtered = topData.value.filter(s => {
                             if (query) {
                                 return s.name.toLowerCase().includes(query) || 
                                        (s.description && s.description.toLowerCase().includes(query)) ||
@@ -515,6 +553,16 @@
                         ]);
                         awesomeData.value = await awesomeRes.json();
                         officialData.value = await officialRes.json();
+                        try {
+                            const topRes = await fetch('mcp_top100_servers.json');
+                            if (topRes.ok) {
+                                topData.value = await topRes.json();
+                            } else {
+                                topData.value = [];
+                            }
+                        } catch (e) {
+                            topData.value = [];
+                        }
                     } catch (error) {
                         console.error('加载数据失败:', error);
                     } finally {
