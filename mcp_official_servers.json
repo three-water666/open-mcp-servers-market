@@ -4,43 +4,50 @@
       "name": "Everything",
       "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/everything",
       "description": "Reference / test server with prompts, resources, and tools.",
-      "is_open_source": true
+      "is_open_source": true,
+      "star_count": 84528
     },
     {
       "name": "Fetch",
       "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/fetch",
       "description": "Web content fetching and conversion for efficient LLM usage.",
-      "is_open_source": true
+      "is_open_source": true,
+      "star_count": 84528
     },
     {
       "name": "Filesystem",
       "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem",
       "description": "Secure file operations with configurable access controls.",
-      "is_open_source": true
+      "is_open_source": true,
+      "star_count": 84528
     },
     {
       "name": "Git",
       "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/git",
       "description": "Tools to read, search, and manipulate Git repositories.",
-      "is_open_source": true
+      "is_open_source": true,
+      "star_count": 84528
     },
     {
       "name": "Memory",
       "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/memory",
       "description": "Knowledge graph-based persistent memory system.",
-      "is_open_source": true
+      "is_open_source": true,
+      "star_count": 84528
     },
     {
       "name": "Sequential Thinking",
       "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking",
       "description": "Dynamic and reflective problem-solving through thought sequences.",
-      "is_open_source": true
+      "is_open_source": true,
+      "star_count": 84528
     },
     {
       "name": "Time",
       "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/time",
       "description": "Time and timezone conversion capabilities.",
-      "is_open_source": true
+      "is_open_source": true,
+      "star_count": 84528
     }
   ],
   "third_party": {
