@@ -32,7 +32,7 @@
     ],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 469
+    "star_count": 470
   },
   {
     "name": "2s-io/sdk",
@@ -360,7 +360,7 @@
     ],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 471
+    "star_count": 472
   },
   {
     "name": "cinderwright-ai/cinderwright-api",
@@ -453,7 +453,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 1145
+    "star_count": 1148
   },
   {
     "name": "edgarriba/prolink",
@@ -627,7 +627,7 @@
     ],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 147
+    "star_count": 148
   },
   {
     "name": "isaac-levine/forage",
@@ -752,7 +752,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 1731
+    "star_count": 1730
   },
   {
     "name": "juspay/neurolink",
@@ -952,7 +952,7 @@
     ],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 2512
+    "star_count": 2514
   },
   {
     "name": "MikkoParkkola/mcp-gateway",
@@ -984,7 +984,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 39386
+    "star_count": 39393
   },
   {
     "name": "mroops0111/openapi-mcp-gateway",
@@ -1039,7 +1039,7 @@
     ],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 845
+    "star_count": 846
   },
   {
     "name": "oxgeneral/agentnet",
@@ -1764,7 +1764,7 @@
     ],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 612
+    "star_count": 613
   },
   {
     "name": "austenstone/myinstants-mcp",
@@ -1799,7 +1799,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 23657
+    "star_count": 23702
   },
   {
     "name": "albertnahas/icogenie-mcp",
@@ -1942,7 +1942,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 279
+    "star_count": 280
   },
   {
     "name": "cantian-ai/bazi-mcp",
@@ -2032,7 +2032,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 222
+    "star_count": 223
   },
   {
     "name": "cswkim/discogs-mcp-server",
@@ -2104,7 +2104,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 278
+    "star_count": 279
   },
   {
     "name": "djalal/quran-mcp-server",
@@ -2205,7 +2205,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 1550
+    "star_count": 1554
   },
   {
     "name": "j-east/pixel-surgeon-mcp",
@@ -2532,7 +2532,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 1505
+    "star_count": 1541
   },
   {
     "name": "shunshi-ai/bazi-reader-mcp",
@@ -2647,7 +2647,7 @@
     ],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 98
+    "star_count": 99
   },
   {
     "name": "betterhyq/mermaid-grammer-inspector-mcp",
@@ -3259,7 +3259,7 @@
     ],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 224
+    "star_count": 225
   },
   {
     "name": "the-momentum/fhir-mcp-server",
@@ -3309,7 +3309,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 128
+    "star_count": 129
   },
   {
     "name": "34892002/bilibili-mcp-js",
@@ -3343,7 +3343,7 @@
     ],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 145
+    "star_count": 149
   },
   {
     "name": "agent-infra/mcp-server-browser",
@@ -3359,7 +3359,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 37878
+    "star_count": 37909
   },
   {
     "name": "aparajithn/agent-scraper-mcp",
@@ -3520,7 +3520,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 6796
+    "star_count": 6801
   },
   {
     "name": "brutalzinn/simple-mcp-selenium",
@@ -3550,7 +3550,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 827
+    "star_count": 828
   },
   {
     "name": "corralimited/snapdiff-mcp",
@@ -3649,7 +3649,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 301
+    "star_count": 302
   },
   {
     "name": "feedthrough/feedthrough",
@@ -3703,7 +3703,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 289
+    "star_count": 293
   },
   {
     "name": "segentic-lab/periscope-mcp",
@@ -3719,7 +3719,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 3
+    "star_count": 5
   },
   {
     "name": "sh6drack/zen-mcp",
@@ -3938,7 +3938,7 @@
     ],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 66
+    "star_count": 67
   },
   {
     "name": "LvcidPsyche/auto-browser",
@@ -3958,7 +3958,7 @@
     ],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 703
+    "star_count": 705
   },
   {
     "name": "Lyosis/claudeForSafari",
@@ -4004,7 +4004,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 34895
+    "star_count": 34932
   },
   {
     "name": "Mingye-Lu/AgenticCrawler",
@@ -4746,7 +4746,7 @@
     "platforms": [],
     "is_official": true,
     "is_open_source": true,
-    "star_count": 122
+    "star_count": 124
   },
   {
     "name": "awslabs/mcp",
@@ -4760,7 +4760,7 @@
     "platforms": [],
     "is_official": true,
     "is_open_source": true,
-    "star_count": 9412
+    "star_count": 9422
   },
   {
     "name": "bright8192/esxi-mcp-server",
@@ -5228,7 +5228,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 1785
+    "star_count": 1793
   },
   {
     "name": "mikusnuz/dynadot-mcp",
@@ -5539,7 +5539,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 170
+    "star_count": 172
   },
   {
     "name": "rohitg00/kubectl-mcp-server",
@@ -5983,7 +5983,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 57
+    "star_count": 58
   },
   {
     "name": "zw008/VMware-AVI",
@@ -6314,7 +6314,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 18300
+    "star_count": 18369
   },
   {
     "name": "r33drichards/mcp-js",
@@ -6679,7 +6679,7 @@
     ],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 652
+    "star_count": 654
   },
   {
     "name": "danieldoderlein/llm-bus",
@@ -6965,7 +6965,7 @@
     ],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 3
+    "star_count": 4
   },
   {
     "name": "louis030195/terminator-mcp-agent",
@@ -6986,7 +6986,7 @@
     ],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 1550
+    "star_count": 1551
   },
   {
     "name": "maxim-saplin/mcp_safe_local_python_executor",
@@ -7126,7 +7126,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 26271
+    "star_count": 26307
   },
   {
     "name": "OthmaneBlial/term_mcp_deepseek",
@@ -7231,7 +7231,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 1264
+    "star_count": 1265
   },
   {
     "name": "shashankss1205/codegraphcontext",
@@ -7251,7 +7251,7 @@
     ],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 3902
+    "star_count": 3904
   },
   {
     "name": "sim-xia/blind-auditor",
@@ -7374,7 +7374,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 246
+    "star_count": 247
   },
   {
     "name": "tufantunc/ssh-mcp",
@@ -7393,7 +7393,7 @@
     ],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 531
+    "star_count": 533
   },
   {
     "name": "Touchpoint-Labs/touchpoint",
@@ -7485,7 +7485,7 @@
     ],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 6593
+    "star_count": 7339
   },
   {
     "name": "x51xxx/codex-mcp-tool",
@@ -7778,7 +7778,7 @@
     ],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 19
+    "star_count": 20
   },
   {
     "name": "blinkingbit-oss/execkit",
@@ -7990,7 +7990,7 @@
     ],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 301
+    "star_count": 302
   },
   {
     "name": "chaindead/telegram-mcp",
@@ -8022,7 +8022,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 1282
+    "star_count": 1284
   },
   {
     "name": "clawaimail/mcp",
@@ -8115,7 +8115,7 @@
     ],
     "is_official": true,
     "is_open_source": true,
-    "star_count": 65
+    "star_count": 66
   },
   {
     "name": "cseguinlz/doubletick-cli",
@@ -8147,7 +8147,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 11579
+    "star_count": 11588
   },
   {
     "name": "EthanQC/feishu-user-plugin",
@@ -8717,7 +8717,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 1716
+    "star_count": 1718
   },
   {
     "name": "lanchuske/local-mcp",
@@ -8770,7 +8770,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 5887
+    "star_count": 5889
   },
   {
     "name": "liuboacean/agent-comm-hub",
@@ -9227,7 +9227,7 @@
     ],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 390
+    "star_count": 395
   },
   {
     "name": "sawa-zen/vrchat-mcp",
@@ -9293,7 +9293,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 828
+    "star_count": 831
   },
   {
     "name": "Spix-HQ/spix-mcp",
@@ -9660,7 +9660,7 @@
     "platforms": [],
     "is_official": true,
     "is_open_source": true,
-    "star_count": 4224
+    "star_count": 4227
   },
   {
     "name": "ckalima/pipedrive-mcp-server",
@@ -9692,7 +9692,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 249
+    "star_count": 250
   },
   {
     "name": "hustcc/mcp-mermaid",
@@ -9708,7 +9708,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 606
+    "star_count": 607
   },
   {
     "name": "iaptic/mcp-server-iaptic",
@@ -9788,7 +9788,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 163
+    "star_count": 165
   },
   {
     "name": "sergehuber/inoyu-mcp-unomi-server",
@@ -9864,7 +9864,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 207
+    "star_count": 209
   },
   {
     "name": "Aiven-Open/mcp-aiven",
@@ -9925,7 +9925,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 11
+    "star_count": 12
   },
   {
     "name": "andyWang1688/sql-query-mcp",
@@ -9957,7 +9957,7 @@
     "platforms": [],
     "is_official": true,
     "is_open_source": true,
-    "star_count": 1011
+    "star_count": 1012
   },
   {
     "name": "Arun-kc/schemabrain",
@@ -10008,7 +10008,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 1929
+    "star_count": 1933
   },
   {
     "name": "bram2w/baserow",
@@ -10020,7 +10020,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 5291
+    "star_count": 5304
   },
   {
     "name": "c4pt0r/mcp-server-tidb",
@@ -10089,7 +10089,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 100
+    "star_count": 99
   },
   {
     "name": "chroma-core/chroma-mcp",
@@ -10122,7 +10122,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 819
+    "star_count": 820
   },
   {
     "name": "codeurali/mcp-dataverse",
@@ -10221,7 +10221,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 3030
+    "star_count": 3038
   },
   {
     "name": "Dataring-engineering/mcp-server-trino",
@@ -10269,7 +10269,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 1330
+    "star_count": 1331
   },
   {
     "name": "domdomegg/airtable-mcp-server",
@@ -10415,7 +10415,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 397
+    "star_count": 399
   },
   {
     "name": "furey/mongodb-lens",
@@ -10495,7 +10495,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 15917
+    "star_count": 15925
   },
   {
     "name": "GreptimeTeam/greptimedb-mcp-server",
@@ -11041,7 +11041,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 494
+    "star_count": 495
   },
   {
     "name": "pgtuner_mcp",
@@ -11115,7 +11115,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 1459
+    "star_count": 1460
   },
   {
     "name": "QuantGeekDev/mongo-mcp",
@@ -11350,7 +11350,7 @@
     "platforms": [],
     "is_official": true,
     "is_open_source": true,
-    "star_count": 2796
+    "star_count": 2797
   },
   {
     "name": "SurajKGoyal/amnesic",
@@ -11466,7 +11466,7 @@
     "platforms": [],
     "is_official": true,
     "is_open_source": true,
-    "star_count": 90
+    "star_count": 91
   },
   {
     "name": "weaviate/mcp-server-weaviate",
@@ -12368,7 +12368,7 @@
     ],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 29211
+    "star_count": 29737
   },
   {
     "name": "forgemeshlabs/aso-audit-mcp",
@@ -12586,7 +12586,7 @@
     ],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 3183
+    "star_count": 3191
   },
   {
     "name": "drhalto/agentmako",
@@ -12749,7 +12749,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 5363
+    "star_count": 5375
   },
   {
     "name": "runyourempire/4DA",
@@ -12960,7 +12960,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 59
+    "star_count": 60
   },
   {
     "name": "aashari/mcp-server-atlassian-jira",
@@ -13009,7 +13009,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 10
+    "star_count": 11
   },
   {
     "name": "abrinsmead/mindpilot-mcp",
@@ -13255,7 +13255,7 @@
     ],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 17
+    "star_count": 19
   },
   {
     "name": "Explorer-64/imagcon-mcp",
@@ -13477,7 +13477,7 @@
     ],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 28
+    "star_count": 29
   },
   {
     "name": "augmnt/augments-mcp-server",
@@ -13654,7 +13654,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 1243
+    "star_count": 1244
   },
   {
     "name": "muvon/octocode",
@@ -13674,7 +13674,7 @@
     ],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 419
+    "star_count": 422
   },
   {
     "name": "bgauryy/octocode-mcp",
@@ -13694,7 +13694,7 @@
     ],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 881
+    "star_count": 882
   },
   {
     "name": "bitrise-io/bitrise-mcp",
@@ -13769,7 +13769,7 @@
     ],
     "is_official": true,
     "is_open_source": true,
-    "star_count": 51
+    "star_count": 52
   },
   {
     "name": "carloshpdoc/memorydetective",
@@ -14418,7 +14418,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 27805
+    "star_count": 27820
   },
   {
     "name": "eyaushev/swagger-testcase-mcp",
@@ -14482,7 +14482,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 401
+    "star_count": 407
   },
   {
     "name": "freema/mcp-design-system-extractor",
@@ -14539,7 +14539,7 @@
     ],
     "is_official": true,
     "is_open_source": true,
-    "star_count": 430
+    "star_count": 431
   },
   {
     "name": "vkhanhqui/figma-mcp-go",
@@ -14574,7 +14574,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 15358
+    "star_count": 15366
   },
   {
     "name": "gofireflyio/firefly-mcp",
@@ -14672,7 +14672,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 4005
+    "star_count": 4006
   },
   {
     "name": "hechtcarmel/jetbrains-debugger-mcp-plugin",
@@ -14704,7 +14704,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 278
+    "star_count": 279
   },
   {
     "name": "hidai25/eval-view",
@@ -14844,7 +14844,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 418
+    "star_count": 420
   },
   {
     "name": "Hypersequent/qasphere-mcp",
@@ -14876,7 +14876,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 8243
+    "star_count": 8244
   },
   {
     "name": "IgorGanapolsky/ThumbGate",
@@ -14940,7 +14940,7 @@
     ],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 306
+    "star_count": 307
   },
   {
     "name": "Ivy-Innovation/cubelife",
@@ -15041,7 +15041,7 @@
     ],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 2090
+    "star_count": 2091
   },
   {
     "name": "isaacphi/mcp-language-server",
@@ -15180,7 +15180,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 8
+    "star_count": 9
   },
   {
     "name": "janaraj/tnl",
@@ -15383,7 +15383,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 2843
+    "star_count": 2844
   },
   {
     "name": "jsdelivr/globalping-mcp-server",
@@ -15470,7 +15470,7 @@
     ],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 167
+    "star_count": 168
   },
   {
     "name": "kenneives/design-token-bridge-mcp",
@@ -15784,7 +15784,7 @@
     ],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 1337
+    "star_count": 1341
   },
   {
     "name": "lpigeon/unitree-go2-mcp-server",
@@ -16100,7 +16100,7 @@
     ],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 5407
+    "star_count": 5414
   },
   {
     "name": "MobileReality/mdma",
@@ -16121,7 +16121,7 @@
     ],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 35
+    "star_count": 36
   },
   {
     "name": "saranshbamania/mobile-device-mcp",
@@ -17039,7 +17039,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 490
+    "star_count": 491
   },
   {
     "name": "Quantum3-Labs/ARBuilder",
@@ -17078,7 +17078,7 @@
     ],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 385
+    "star_count": 384
   },
   {
     "name": "ReAPI-com/mcp-openapi",
@@ -17284,7 +17284,7 @@
     ],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 211
+    "star_count": 251
   },
   {
     "name": "SDGLBL/mcp-claude-code",
@@ -17509,7 +17509,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 897
+    "star_count": 898
   },
   {
     "name": "softvoyagers/linkshrink-api",
@@ -17972,7 +17972,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 195
+    "star_count": 196
   },
   {
     "name": "ukkit/memcord",
@@ -18095,7 +18095,7 @@
     ],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 186
+    "star_count": 188
   },
   {
     "name": "vercel/next-devtools-mcp",
@@ -18111,7 +18111,7 @@
     "platforms": [],
     "is_official": true,
     "is_open_source": true,
-    "star_count": 783
+    "star_count": 784
   },
   {
     "name": "vighriday/Veris",
@@ -18160,7 +18160,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 567
+    "star_count": 568
   },
   {
     "name": "VikrantSingh01/adaptive-cards-mcp",
@@ -18615,7 +18615,7 @@
     ],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 50
+    "star_count": 51
   },
   {
     "name": "zaizaizhao/mcp-swagger-server",
@@ -18632,7 +18632,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 70
+    "star_count": 71
   },
   {
     "name": "zcaceres/fetch-mcp",
@@ -18790,7 +18790,7 @@
     ],
     "is_official": true,
     "is_open_source": true,
-    "star_count": 2542
+    "star_count": 2550
   },
   {
     "name": "NazarKalytiuk/tarn",
@@ -18957,7 +18957,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 642
+    "star_count": 643
   },
   {
     "name": "xfloukiex-lab/laugh-tale",
@@ -19187,7 +19187,7 @@
     ],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 1027
+    "star_count": 1029
   },
   {
     "name": "kannajune/mcp-architect",
@@ -19467,7 +19467,7 @@
     ],
     "is_official": true,
     "is_open_source": true,
-    "star_count": 721
+    "star_count": 722
   },
   {
     "name": "datalayer/jupyter-mcp-server",
@@ -19483,7 +19483,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 1203
+    "star_count": 1206
   },
   {
     "name": "growthbook/growthbook-mcp",
@@ -19502,7 +19502,8 @@
       "Linux"
     ],
     "is_official": true,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 23
   },
   {
     "name": "gpartin/WaveGuardClient",
@@ -19521,7 +19522,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 4
   },
   {
     "name": "HumanSignal/label-studio-mcp-server",
@@ -19540,7 +19542,8 @@
       "Linux"
     ],
     "is_official": true,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 33
   },
   {
     "name": "jjsantos01/jupyter-notebook-mcp",
@@ -19555,7 +19558,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 130
   },
   {
     "name": "kdqed/zaturn",
@@ -19574,7 +19578,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 74
   },
   {
     "name": "leap-laboratories/discovery-engine",
@@ -19589,7 +19594,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 7
   },
   {
     "name": "lihtness/gnomon-mcp",
@@ -19608,7 +19614,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1
   },
   {
     "name": "mckinsey/vizro-mcp",
@@ -19623,7 +19630,8 @@
     ],
     "platforms": [],
     "is_official": true,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 3717
   },
   {
     "name": "optuna/optuna-mcp",
@@ -19641,7 +19649,8 @@
       "Linux"
     ],
     "is_official": true,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 81
   },
   {
     "name": "Whatsonyourmind/oraclaw",
@@ -19661,7 +19670,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 11
   },
   {
     "name": "playidea-lab/pcq",
@@ -19680,7 +19690,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1
   },
   {
     "name": "phisanti/MCPR",
@@ -19697,7 +19708,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 26
   },
   {
     "name": "phuongrealmax/code-guardian",
@@ -19712,7 +19724,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 6
   },
   {
     "name": "pramod/kaggle",
@@ -19725,7 +19738,8 @@
     "scopes": [],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 4
   },
   {
     "name": "reading-plus-ai/mcp-server-data-exploration",
@@ -19740,7 +19754,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 544
   },
   {
     "name": "ShipItAndPray/mcp-compress",
@@ -19760,7 +19775,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 2
   },
   {
     "name": "ShipItAndPray/mcp-turboquant",
@@ -19779,7 +19795,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 4
   },
   {
     "name": "98lukehall/renoun-mcp",
@@ -19794,7 +19811,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 2
   },
   {
     "name": "subelsky/bundler_mcp",
@@ -19809,7 +19827,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 19
   },
   {
     "name": "zcaceres/markdownify-mcp",
@@ -19824,7 +19843,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 2772
   },
   {
     "name": "laszlopere/mcp-gnu-units",
@@ -19841,7 +19861,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1
   },
   {
     "name": "KyuRish/mcp-dashboards",
@@ -19860,7 +19881,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 39
   },
   {
     "name": "marzukia/charted",
@@ -19879,7 +19901,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 7
   },
   {
     "name": "pushtodisplay/cli",
@@ -19898,7 +19921,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 2
   },
   {
     "name": "Ratnaditya-J/csvglow",
@@ -19917,7 +19941,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 13
   },
   {
     "name": "nteract/semiotic",
@@ -19936,7 +19961,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 2684
   },
   {
     "name": "subhatta123/twilize",
@@ -19970,7 +19996,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 8
   },
   {
     "name": "adancurusul/embedded-debugger-mcp",
@@ -19985,7 +20012,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 123
   },
   {
     "name": "adancurusul/serial-mcp-server",
@@ -20000,7 +20028,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 74
   },
   {
     "name": "ByteAsk/ByteAsk-Embedded-MCP",
@@ -20016,7 +20045,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 23
   },
   {
     "name": "horw/esp-mcp",
@@ -20029,7 +20059,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 154
   },
   {
     "name": "kukapay/modbus-mcp",
@@ -20044,7 +20075,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 25
   },
   {
     "name": "kukapay/opcua-mcp",
@@ -20059,7 +20091,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 28
   },
   {
     "name": "octoco-ltd/sheetsdata-mcp",
@@ -20075,7 +20108,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 8
   },
   {
     "name": "stack-chan/stack-chan",
@@ -20090,7 +20124,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1581
   },
   {
     "name": "yoelbassin/gnuradioMCP",
@@ -20106,7 +20141,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 46
   },
   {
     "name": "catallo/misterclaw",
@@ -20125,7 +20161,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 6
   },
   {
     "name": "zackpeters93/ugs-mcp",
@@ -20143,7 +20180,8 @@
       "macOS"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 3
   },
   {
     "name": "admin978/canvas-mcp",
@@ -20162,7 +20200,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 2
   },
   {
     "name": "Connectry-io/connectrylab-architect-cert-mcp",
@@ -20181,7 +20220,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 28
   },
   {
     "name": "JuhongPark/mcp-server-pronunciation",
@@ -20200,7 +20240,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 3
   },
   {
     "name": "RohanMuppa/brightspace-mcp-server",
@@ -20219,7 +20260,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 25
   },
   {
     "name": "agentcentral-to/agent-central-mcp",
@@ -20234,7 +20276,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 5
   },
   {
     "name": "agentlux/agentlux-mcp",
@@ -20253,7 +20296,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1
   },
   {
     "name": "BuyWhere/buywhere-mcp",
@@ -20272,7 +20316,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 6
   },
   {
     "name": "justadityaraj/amazon-in-mcp",
@@ -20291,7 +20336,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 5
   },
   {
     "name": "mrslbt/rakuten-mcp",
@@ -20306,7 +20352,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 3
   },
   {
     "name": "laundromatic/shopgraph",
@@ -20351,7 +20398,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1
   },
   {
     "name": "OFODevelopment/cerebrochain-mcp-server",
@@ -20366,7 +20414,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1
   },
   {
     "name": "ONE8943/ai-furniture-hub",
@@ -20386,7 +20435,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1
   },
   {
     "name": "patchistry/patchistry-mcp-server",
@@ -20405,7 +20455,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1
   },
   {
     "name": "samrothschild23/intelligence-api",
@@ -20420,7 +20471,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 2
   },
   {
     "name": "the402ai/mcp-server",
@@ -20439,7 +20491,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 2
   },
   {
     "name": "cmcgrabby-hue/syndicate-links",
@@ -20477,7 +20530,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 11
   },
   {
     "name": "vitrine3d/mcp",
@@ -20496,7 +20550,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1
   },
   {
     "name": "pepabo/colormeshop-mcp",
@@ -20509,7 +20564,8 @@
     ],
     "platforms": [],
     "is_official": true,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1
   },
   {
     "name": "nicktcode/swissgroceries-mcp",
@@ -20528,7 +20584,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 21
   },
   {
     "name": "slookisen/lokal",
@@ -20547,7 +20604,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1
   },
   {
     "name": "tokenofesteem/mcp",
@@ -20562,7 +20620,8 @@
     ],
     "platforms": [],
     "is_official": true,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1
   },
   {
     "name": "aliafsahnoudeh/wildfire-mcp-server",
@@ -20581,7 +20640,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1
   },
   {
     "name": "atmospore/atmospore-mcp",
@@ -20600,7 +20660,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1
   },
   {
     "name": "nalediym/touch-grass",
@@ -20619,7 +20680,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 2
   },
   {
     "name": "Zhonghao1995/agentic-swmm-workflow",
@@ -20639,7 +20701,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 19
   },
   {
     "name": "8b-is/smart-tree",
@@ -20658,7 +20721,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 258
   },
   {
     "name": "aadilr/changethisfile-mcp",
@@ -20673,7 +20737,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 3
   },
   {
     "name": "box/mcp-server-box-remote",
@@ -20686,7 +20751,8 @@
     ],
     "platforms": [],
     "is_official": true,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 5
   },
   {
     "name": "bzsanti/oxidize-python",
@@ -20705,7 +20771,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 3
   },
   {
     "name": "ckanthony/Chisel",
@@ -20724,7 +20791,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 15
   },
   {
     "name": "cyberchitta/llm-context.py",
@@ -20739,7 +20807,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 306
   },
   {
     "name": "Dissimilis/DirForge",
@@ -20758,7 +20827,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 4
   },
   {
     "name": "drolosoft/go-docs-mcp",
@@ -20776,7 +20846,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 8
   },
   {
     "name": "ebbfijsf/agent-reader",
@@ -20814,7 +20885,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 58
   },
   {
     "name": "ellmos-ai/ellmos-filecommander-mcp",
@@ -20833,7 +20905,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 4
   },
   {
     "name": "exoticknight/mcp-file-merger",
@@ -20848,7 +20921,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 27
   },
   {
     "name": "filesystem@quarkiverse/quarkus-mcp-servers",
@@ -20879,7 +20953,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1
   },
   {
     "name": "hmk/box-mcp-server",
@@ -20894,7 +20969,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 11
   },
   {
     "name": "isaacphi/mcp-gdrive",
@@ -20909,7 +20985,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 283
   },
   {
     "name": "j0hanz/filesystem-context-mcp-server",
@@ -20924,7 +21001,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 9
   },
   {
     "name": "jeannier/homebrew-mcp",
@@ -20941,7 +21019,8 @@
       "macOS"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 29
   },
   {
     "name": "mamertofabian/mcp-everything-search",
@@ -20958,7 +21037,8 @@
       "Windows"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 344
   },
   {
     "name": "MarceauSolutions/md-to-pdf-mcp",
@@ -20977,7 +21057,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 8
   },
   {
     "name": "mark3labs/mcp-filesystem-server",
@@ -20992,7 +21073,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 665
   },
   {
     "name": "LincolnBurrows2017/filesystem-mcp",
@@ -21007,7 +21089,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1
   },
   {
     "name": "mickaelkerjean/filestash",
@@ -21022,7 +21105,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 14364
   },
   {
     "name": "microsoft/markitdown",
@@ -21037,7 +21121,8 @@
     ],
     "platforms": [],
     "is_official": true,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 164676
   },
   {
     "name": "modelcontextprotocol/server-filesystem",
@@ -21069,7 +21154,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 4
   },
   {
     "name": "colapsis/transfa",
@@ -21084,7 +21170,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 17
   },
   {
     "name": "UseJunior/safe-docx",
@@ -21103,7 +21190,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 36
   },
   {
     "name": "velyan/pdf-card-mcp",
@@ -21122,7 +21210,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 2
   },
   {
     "name": "willianpinho/large-file-mcp",
@@ -21141,7 +21230,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 18
   },
   {
     "name": "Xuanwo/mcp-server-opendal",
@@ -21157,7 +21247,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 35
   },
   {
     "name": "xxczaki/local-history-mcp",
@@ -21191,7 +21282,8 @@
       "macOS"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1
   },
   {
     "name": "wkalidev/multichain-mcp",
@@ -21211,7 +21303,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1
   },
   {
     "name": "InnarM/blank-invoice-maker-mcp",
@@ -21230,7 +21323,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1
   },
   {
     "name": "qinisolabs/bizdays",
@@ -21246,7 +21340,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1
   },
   {
     "name": "0rkz/byte-mcp-server",
@@ -21266,7 +21361,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 2
   },
   {
     "name": "Savvly/savvly-mcp",
@@ -21282,7 +21378,8 @@
     ],
     "platforms": [],
     "is_official": true,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 2
   },
   {
     "name": "eliasfire617/crypto-market-data-mcp",
@@ -21297,7 +21394,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1
   },
   {
     "name": "ocbenji/bitcoinbenji-mcp",
@@ -21316,7 +21414,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1
   },
   {
     "name": "teodorofodocrispin-cmyk/intelica-mcp",
@@ -21331,7 +21430,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1
   },
   {
     "name": "AMKRS3/keycae-mcp",
@@ -21365,7 +21465,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1
   },
   {
     "name": "infaton/MCP35",
@@ -21380,7 +21481,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 27
   },
   {
     "name": "mrslbt/xendit-mcp",
@@ -21395,7 +21497,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 4
   },
   {
     "name": "@arbitova/mcp-server",
@@ -21410,7 +21513,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 2
   },
   {
     "name": "@asterpay/mcp-server",
@@ -21444,7 +21548,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 12
   },
   {
     "name": "@czagents/cnb",
@@ -21464,7 +21569,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 3
   },
   {
     "name": "@frihet/mcp-server",
@@ -21479,7 +21585,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 8
   },
   {
     "name": "@iiatlas/hledger-mcp",
@@ -21497,7 +21604,8 @@
       "Windows"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 58
   },
   {
     "name": "Fabio662/yieldagentx402-sdks",
@@ -21512,7 +21620,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1
   },
   {
     "name": "@openpulsechain/mcp-server",
@@ -21527,7 +21636,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 2
   },
   {
     "name": "0xDegenMo/lighter-mcp",
@@ -21547,7 +21657,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 2
   },
   {
     "name": "aaronjmars/web3-research-mcp",
@@ -21562,7 +21673,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 161
   },
   {
     "name": "ahmetsbilgin/finbrain-mcp",
@@ -21578,7 +21690,8 @@
     ],
     "platforms": [],
     "is_official": true,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 9
   },
   {
     "name": "ahnlabio/bicscan-mcp",
@@ -21593,7 +21706,8 @@
     ],
     "platforms": [],
     "is_official": true,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 17
   },
   {
     "name": "AletaIndex/aletaindex-fin-narratives",
@@ -21612,7 +21726,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 2
   },
   {
     "name": "AlexanderLawson17/revettr-python",
@@ -21627,7 +21742,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 3
   },
   {
     "name": "KK6BZB/signallord-mcp-server",
@@ -21642,7 +21758,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1
   },
   {
     "name": "unixlamadev-spec/aiprox-mcp",
@@ -21657,7 +21774,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1
   },
   {
     "name": "alchemy/alchemy-mcp-server",
@@ -21672,7 +21790,8 @@
     ],
     "platforms": [],
     "is_official": true,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 88
   },
   {
     "name": "alforge-labs/alpha-forge-mcp",
@@ -21691,7 +21810,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1
   },
   {
     "name": "AlvisoOculus/optionsahoy-mcp",
@@ -21706,7 +21826,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 5
   },
   {
     "name": "anjor/coinmarket-mcp-server",
@@ -21721,7 +21842,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 50
   },
   {
     "name": "araa47/jupiter-mcp",
@@ -21736,7 +21858,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1
   },
   {
     "name": "jorkal-crypto/jorkal-nft-mcp",
@@ -21751,7 +21874,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1
   },
   {
     "name": "arcadia-finance/mcp-server",
@@ -21767,7 +21891,8 @@
     ],
     "platforms": [],
     "is_official": true,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 5
   },
   {
     "name": "ariadng/metatrader-mcp-server",
@@ -21784,7 +21909,8 @@
       "Windows"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 622
   },
   {
     "name": "aranjan/kite-mcp",
@@ -21799,7 +21925,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 4
   },
   {
     "name": "armorwallet/armor-crypto-mcp",
@@ -21814,7 +21941,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 180
   },
   {
     "name": "atomno-labs/mcp-cbr-rates",
@@ -21829,7 +21957,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 2
   },
   {
     "name": "atomno-labs/mcp-egrul",
@@ -21844,7 +21973,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 2
   },
   {
     "name": "atomno-labs/mcp-fns-check",
@@ -21859,7 +21989,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 5
   },
   {
     "name": "jackrain19743/hou-tea-mcp-server",
@@ -21874,7 +22005,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1
   },
   {
     "name": "autonsol/sol-mcp",
@@ -21889,7 +22021,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1
   },
   {
     "name": "vatnode/vatnode-mcp",
@@ -21904,7 +22037,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1
   },
   {
     "name": "vdalhambra/axiom-calculator-mcp",
@@ -21923,7 +22057,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1
   },
   {
     "name": "azeth-protocol/mcp-server",
@@ -21938,7 +22073,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 3
   },
   {
     "name": "Claynsn/agent-discovery-mcp",
@@ -21957,7 +22093,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 5
   },
   {
     "name": "bakyang2/kr-crypto-intelligence",
@@ -21972,7 +22109,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1
   },
   {
     "name": "whdrnr2583-cmd/koreanpulse",
@@ -21988,7 +22126,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 3
   },
   {
     "name": "cuthongthai-vn/vimo-mcp-server",
@@ -22003,7 +22142,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1
   },
   {
     "name": "bankless/onchain-mcp",
@@ -22018,7 +22158,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 80
   },
   {
     "name": "bolivian-peru/baozi-mcp",
@@ -22033,7 +22174,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1
   },
   {
     "name": "base/base-mcp",
@@ -22048,7 +22190,8 @@
     ],
     "platforms": [],
     "is_official": true,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 353
   },
   {
     "name": "clicks-protocol/mcp-server",
@@ -22063,7 +22206,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 2
   },
   {
     "name": "up2itnow0822/clawpay-mcp",
@@ -22078,7 +22222,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 5
   },
   {
     "name": "berlinbra/alpha-vantage-mcp",
@@ -22093,7 +22238,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 101
   },
   {
     "name": "bitcompare/mcp-server",
@@ -22108,7 +22254,8 @@
     ],
     "platforms": [],
     "is_official": true,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1
   },
   {
     "name": "bitteprotocol/mcp",
@@ -22121,7 +22268,8 @@
     "scopes": [],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 14
   },
   {
     "name": "jf-cmyk/blocksize-agentic-payments-mcp",
@@ -22136,7 +22284,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1
   },
   {
     "name": "Cyberweasel777/botindex-mcp-server",
@@ -22151,7 +22300,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1
   },
   {
     "name": "Bortlesboat/bitcoin-mcp",
@@ -22170,7 +22320,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 3
   },
   {
     "name": "botwallet-co/mcp",
@@ -22190,7 +22341,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 3
   },
   {
     "name": "bubilife1202/crossfin",
@@ -45982,7 +46134,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 62
   },
   {
     "name": "j3k0/speech.sh",
@@ -45995,7 +46148,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 8
   },
   {
     "name": "jagan-shanmugam/climatiq-mcp-server",
@@ -46010,7 +46164,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 11
   },
   {
     "name": "jen6/ticktick-mcp",
@@ -46025,7 +46180,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 67
   },
   {
     "name": "Salen-Project/ticktick-mcp",
@@ -46040,7 +46196,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 4
   },
   {
     "name": "jimfilippou/things-mcp",
@@ -46057,7 +46214,8 @@
       "macOS"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 9
   },
   {
     "name": "johannesbrandenburger/typst-mcp",
@@ -46072,7 +46230,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 168
   },
   {
     "name": "joshuarileydev/mac-apps-launcher-mcp-server",
@@ -46087,7 +46246,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 19
   },
   {
     "name": "justinstimatze/gemot",
@@ -46103,7 +46263,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 3
   },
   {
     "name": "k-jarzyna/mcp-miro",
@@ -46118,7 +46279,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 66
   },
   {
     "name": "kelvin6365/plane-mcp-server",
@@ -46133,7 +46295,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 40
   },
   {
     "name": "kenliao94/mcp-server-rabbitmq",
@@ -46148,7 +46311,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 39
   },
   {
     "name": "kiarash-portfolio-mcp",
@@ -46174,7 +46338,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 2
   },
   {
     "name": "kiwamizamurai/mcp-kibela-server",
@@ -46189,7 +46354,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 7
   },
   {
     "name": "kj455/mcp-kibela",
@@ -46204,7 +46370,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 13
   },
   {
     "name": "Klavis-AI/YouTube",
@@ -46218,7 +46385,8 @@
     "scopes": [],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 5766
   },
   {
     "name": "KS-GEN-AI/confluence-mcp-server",
@@ -46236,7 +46404,8 @@
       "Windows"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 14
   },
   {
     "name": "KS-GEN-AI/jira-mcp-server",
@@ -46254,7 +46423,8 @@
       "Windows"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 26
   },
   {
     "name": "kw510/strava-mcp",
@@ -46269,7 +46439,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 27
   },
   {
     "name": "latex-mcp-server",
@@ -46280,7 +46451,8 @@
     "scopes": [],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 7
   },
   {
     "name": "louiscklaw/hko-mcp",
@@ -46295,7 +46467,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 2
   },
   {
     "name": "magarcia/mcp-server-giphy",
@@ -46310,7 +46483,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 33
   },
   {
     "name": "MAG-Cie/mcp-microsoft-todo",
@@ -46329,7 +46503,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 7
   },
   {
     "name": "marcelmarais/Spotify",
@@ -46344,7 +46519,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 384
   },
   {
     "name": "MariusAure/needhuman-mcp",
@@ -46359,7 +46535,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1
   },
   {
     "name": "MarkusPfundstein/mcp-obsidian",
@@ -46375,7 +46552,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 4062
   },
   {
     "name": "mediar-ai/screenpipe",
@@ -46392,7 +46570,8 @@
       "macOS"
     ],
     "is_official": true,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 19749
   },
   {
     "name": "metorial/metorial",
@@ -46407,7 +46586,8 @@
     ],
     "platforms": [],
     "is_official": true,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 3314
   },
   {
     "name": "modelcontextprotocol/server-everything",
@@ -46422,7 +46602,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 88314
   },
   {
     "name": "MonadsAG/capsulecrm-mcp",
@@ -46437,7 +46618,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1
   },
   {
     "name": "mrjoshuak/godoc-mcp",
@@ -46452,7 +46634,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 125
   },
   {
     "name": "Mtehabsim/ScreenPilot",
@@ -46467,7 +46650,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 54
   },
   {
     "name": "muammar-yacoob/GMail-Manager-MCP",
@@ -46502,7 +46686,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 74
   },
   {
     "name": "nach-dakwale/instadomain-mcp",
@@ -46517,7 +46702,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 3
   },
   {
     "name": "NakaokaRei/swift-mcp-gui",
@@ -46532,7 +46718,8 @@
       "macOS"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 62
   },
   {
     "name": "nanana-app/mcp-server-nano-banana",
@@ -46551,7 +46738,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 10
   },
   {
     "name": "nguyenvanduocit/all-in-one-model-context-protocol",
@@ -46566,7 +46754,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 105
   },
   {
     "name": "NON906/omniparser-autogui-mcp",
@@ -46579,7 +46768,8 @@
     "scopes": [],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 70
   },
   {
     "name": "offorte/offorte-mcp-server",
@@ -46598,7 +46788,8 @@
       "Linux"
     ],
     "is_official": true,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 5
   },
   {
     "name": "olalonde/mcp-human",
@@ -46613,7 +46804,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 26
   },
   {
     "name": "olgasafonova/productplan-mcp-server",
@@ -46628,7 +46820,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 3
   },
   {
     "name": "orellazi/coda-mcp",
@@ -46643,7 +46836,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 61
   },
   {
     "name": "osinmv/funciton-lookup-mcp",
@@ -46661,7 +46855,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 4
   },
   {
     "name": "osulivan/skill4agent-mcp-server",
@@ -46676,7 +46871,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 3
   },
   {
     "name": "Pantrist-dev/pantrist-mcp",
@@ -46691,7 +46887,8 @@
     ],
     "platforms": [],
     "is_official": true,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 2
   },
   {
     "name": "pierrebrunelle/mcp-server-openai",
@@ -46706,7 +46903,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 83
   },
   {
     "name": "PSPDFKit/nutrient-dws-mcp-server",
@@ -46725,7 +46923,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 68
   },
   {
     "name": "PSPDFKit/nutrient-document-engine-mcp-server",
@@ -46744,7 +46943,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 61
   },
   {
     "name": "pskill9/hn-server",
@@ -46759,7 +46959,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 40
   },
   {
     "name": "PV-Bhat/vibe-check-mcp-server",
@@ -46774,7 +46975,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 497
   },
   {
     "name": "pwh-pwh/cal-mcp",
@@ -46785,7 +46987,8 @@
     "scopes": [],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 14
   },
   {
     "name": "pyroprompts/any-chat-completions-mcp",
@@ -46796,7 +46999,8 @@
     "scopes": [],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 156
   },
   {
     "name": "quarkiverse/mcp-server-jfx",
@@ -46827,7 +47031,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 9
   },
   {
     "name": "r-huijts/ethics-check-mcp",
@@ -46842,7 +47047,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 5
   },
   {
     "name": "rae-api-com/rae-mcp",
@@ -46861,7 +47067,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 6
   },
   {
     "name": "Rai220/think-mcp",
@@ -46876,7 +47083,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 106
   },
   {
     "name": "reeeeemo/ancestry-mcp",
@@ -46891,7 +47099,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 35
   },
   {
     "name": "rember/rember-mcp",
@@ -46906,7 +47115,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 62
   },
   {
     "name": "ReplenishRadar/MCP",
@@ -46921,7 +47131,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 2
   },
   {
     "name": "roychri/mcp-server-asana",
@@ -46936,7 +47147,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 145
   },
   {
     "name": "rusiaaman/wcgw",
@@ -46951,7 +47163,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 666
   },
   {
     "name": "SecretiveShell/MCP-wolfram-alpha",
@@ -46966,7 +47179,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 75
   },
   {
     "name": "Seym0n/tiktok-mcp",
@@ -46981,7 +47195,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 179
   },
   {
     "name": "Shopify/dev-mcp",
@@ -47011,7 +47226,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 7
   },
   {
     "name": "sirmews/apple-notes-mcp",
@@ -47026,7 +47242,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 130
   },
   {
     "name": "rogertheunissenmerge-oss/mcp-server",
@@ -47041,7 +47258,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1
   },
   {
     "name": "suekou/mcp-notion-server",
@@ -47056,7 +47274,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 913
   },
   {
     "name": "kirvigen/notion-private-api-mcp",
@@ -47075,7 +47294,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 3
   },
   {
     "name": "Swih/mistral-mcp",
@@ -47094,7 +47314,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 11
   },
   {
     "name": "tacticlaunch/mcp-linear",
@@ -47113,7 +47334,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 142
   },
   {
     "name": "tan-yong-sheng/ai-vision-mcp",
@@ -47132,7 +47354,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 63
   },
   {
     "name": "tanigami/mcp-server-perplexity",
@@ -47147,7 +47370,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 94
   },
   {
     "name": "tevonsb/homeassistant-mcp",
@@ -47162,7 +47386,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 574
   },
   {
     "name": "TheoBrigitte/mcp-time",
@@ -47181,7 +47406,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 24
   },
   {
     "name": "thingsboard/thingsboard-mcp",
@@ -47201,7 +47427,8 @@
       "Linux"
     ],
     "is_official": true,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 99
   },
   {
     "name": "thinq-connect/thinqconnect-mcp",
@@ -47216,7 +47443,8 @@
     ],
     "platforms": [],
     "is_official": true,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 29
   },
   {
     "name": "tjclaude88/mcp-bling",
@@ -47235,7 +47463,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1
   },
   {
     "name": "tomekkorbak/oura-mcp-server",
@@ -47250,7 +47479,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 38
   },
   {
     "name": "Tommertom/plugwise-mcp",
@@ -47269,7 +47499,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 2
   },
   {
     "name": "tqiqbal/mcp-confluence-server",
@@ -47282,7 +47513,8 @@
     "scopes": [],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 4
   },
   {
     "name": "ttommyth/interactive-mcp",
@@ -47301,7 +47533,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 352
   },
   {
     "name": "tumf/web3-mcp",
@@ -47316,7 +47549,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 7
   },
   {
     "name": "W3Ship/w3ship-mcp-server",
@@ -47332,7 +47566,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1
   },
   {
     "name": "ujisati/anki-mcp",
@@ -47347,7 +47582,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 7
   },
   {
     "name": "UnitVectorY-Labs/mcp-graphql-forge",
@@ -47366,7 +47602,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 5
   },
   {
     "name": "wanaku-ai/wanaku",
@@ -47380,7 +47617,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 127
   },
   {
     "name": "megberts/mcp-websitepublisher-ai",
@@ -47393,7 +47631,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 3
   },
   {
     "name": "wishfinity/wishfinity-mcp-plusw",
@@ -47409,7 +47648,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1
   },
   {
     "name": "wong2/mcp-cli",
@@ -47424,7 +47664,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 442
   },
   {
     "name": "ws-mcp",
@@ -47435,7 +47676,8 @@
     "scopes": [],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 21
   },
   {
     "name": "0xMassi/webclaw",
@@ -47453,7 +47695,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1714
   },
   {
     "name": "yuna0x0/hackmd-mcp",
@@ -47468,7 +47711,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 64
   },
   {
     "name": "ZeparHyfar/mcp-datetime",
@@ -47479,7 +47723,8 @@
     "scopes": [],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 29
   },
   {
     "name": "zueai/mcp-manager",
@@ -47494,7 +47739,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 290
   },
   {
     "name": "us-all/mlflow-mcp-server",
@@ -47513,7 +47759,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1
   },
   {
     "name": "SPL-BGU/PlanningCopilot",
@@ -47528,7 +47775,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 4
   },
   {
     "name": "yyyhy/nash-arena",
@@ -47543,7 +47791,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 3
   },
   {
     "name": "aarifmms/keyblind",
@@ -47562,7 +47811,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 3
   },
   {
     "name": "wundervault/wundervault-mcp",
@@ -47577,7 +47827,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 2
   },
   {
     "name": "escapeboy/agent-fleet-o",
@@ -47591,7 +47842,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 38
   },
   {
     "name": "Epistates/TurboMCP",
@@ -47604,7 +47856,8 @@
     "scopes": [],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 91
   },
   {
     "name": "heymrun/heym",
@@ -47620,7 +47873,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 700
   },
   {
     "name": "zhangpanda/gomcp",
@@ -47633,7 +47887,8 @@
     "scopes": [],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 14
   },
   {
     "name": "kioie/tiny-go-mcp-server",
@@ -47652,7 +47907,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1
   },
   {
     "name": "joinwell52-AI/FCoP",
@@ -47667,7 +47923,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 2
   },
   {
     "name": "FastMCP",
@@ -47680,7 +47937,8 @@
     "scopes": [],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 26101
   },
   {
     "name": "jamjet-labs/jamjet",
@@ -47694,7 +47952,8 @@
     "scopes": [],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 19
   },
   {
     "name": "FastMCP",
@@ -47707,7 +47966,8 @@
     "scopes": [],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 3220
   },
   {
     "name": "SonAIengine/graph-tool-call",
@@ -47722,7 +47982,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 6
   },
   {
     "name": "vinkius-labs/mcp-fusion",
@@ -47735,7 +47996,8 @@
     "scopes": [],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 255
   },
   {
     "name": "MervinPraison/praisonai-mcp",
@@ -47748,7 +48010,8 @@
     "scopes": [],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1
   },
   {
     "name": "rocketride-org/rocketride-server",
@@ -47763,7 +48026,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 5060
   },
   {
     "name": "shaqmughal/seekstone",
@@ -47782,7 +48046,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 9
   },
   {
     "name": "vivek081166/japan-utils-mcp",
@@ -47801,6 +48066,7 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 0
   }
 ]
