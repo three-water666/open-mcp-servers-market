@@ -44564,6 +44564,21 @@
     "is_open_source": true
   },
   {
+    "name": "Fronesis-Labs/dcl-webhook",
+    "url": "https://github.com/Fronesis-Labs/dcl-webhook",
+    "description": "Deterministic AI audit layer: evaluates LLM/agent outputs against configurable policies (jailbreak, safety, quality, wallet, trade, MEV compliance) and writes every verdict to a tamper-evident SHA-256 hash chain — metadata only, never raw content. 17 tools including a full crypto-trading compliance suite. Pay-per-call via x402 (USDC on Base), from $0.01. `mcp.fronesislabs.com/mcp`",
+    "category": "Security",
+    "languages": [
+      "Python"
+    ],
+    "scopes": [
+      "Cloud"
+    ],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
     "name": "hernaninverso/eleion-scanner-mcp",
     "url": "https://github.com/hernaninverso/eleion-scanner-mcp",
     "description": "Register/verify your domains, queue security scans (headers, TLS, DNS, ports, CVEs + AI-specific checks) and read findings, for AI agents. Install with `npx -y eleion-scanner-mcp`.",
