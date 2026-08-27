@@ -4251,6 +4251,19 @@
     "is_open_source": true
   },
   {
+    "name": "browserless/browserless-mcp",
+    "url": "https://github.com/browserless/browserless-mcp",
+    "description": "Headless browser automation and web scraping infrastructure. Exposes the Browserless smart scraper API to LLM clients over MCP.",
+    "category": "Browser Automation",
+    "languages": [],
+    "scopes": [
+      "Cloud"
+    ],
+    "platforms": [],
+    "is_official": true,
+    "is_open_source": true
+  },
+  {
     "name": "browsermcp/mcp",
     "url": "https://github.com/browsermcp/mcp",
     "description": "Automate your local Chrome browser",
