@@ -9701,6 +9701,23 @@
     "is_open_source": true
   },
   {
+    "name": "parasxos/apple-mail-mcp",
+    "url": "https://github.com/parasxos/apple-mail-mcp",
+    "description": "Full-featured MCP server for Apple Mail. Indexed search over 300k+ message mailboxes in milliseconds, full-text body search with Exchange backfill, verified multi-identity sending (SMTP/Keychain, SSH bastion, pipe), server-side scheduled sends with cancel, reviewed plan-then-apply triage, and a local audit ledger. 21 tools, frozen v1 wire contract.",
+    "category": "Communication",
+    "languages": [
+      "Python"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [
+      "macOS"
+    ],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
     "name": "sethbang/proton-mail-mcp",
     "url": "https://github.com/sethbang/proton-mail-mcp",
     "description": "Unofficial Proton Mail MCP server — send, read, search, and organize email over SMTP and IMAP (via Proton Mail Bridge). Bulk ops with dry-run previews, read-only mode, and Trash-by-default deletes. Not affiliated with Proton AG.",
