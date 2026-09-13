@@ -5172,7 +5172,7 @@
     "platforms": [],
     "is_official": true,
     "is_open_source": true,
-    "star_count": 3405
+    "star_count": 3407
   },
   {
     "name": "browserless/browserless-mcp",
@@ -44083,7 +44083,8 @@
       "Linux"
     ],
     "is_official": true,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 136
   },
   {
     "name": "edgedelta/edgedelta-mcp-server",
@@ -54242,8 +54243,7 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true,
-    "star_count": 685
+    "is_open_source": true
   },
   {
     "name": "sgateway/s-gw",
