@@ -5651,7 +5651,7 @@
     "platforms": [],
     "is_official": true,
     "is_open_source": true,
-    "star_count": 3409
+    "star_count": 3411
   },
   {
     "name": "browserless/browserless-mcp",
@@ -14786,7 +14786,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 664
+    "star_count": 665
   },
   {
     "name": "centralmind/gateway",
@@ -15925,7 +15925,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 49
   },
   {
     "name": "qdrant/mcp-server-qdrant",
@@ -21021,8 +21022,7 @@
     ],
     "platforms": [],
     "is_official": true,
-    "is_open_source": true,
-    "star_count": 23
+    "is_open_source": true
   },
   {
     "name": "icohangar-ops/codesentinel",
@@ -21103,8 +21103,7 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true,
-    "star_count": 47
+    "is_open_source": true
   },
   {
     "name": "imatza-rh/mcp-zuul",
@@ -47046,7 +47045,7 @@
     ],
     "is_official": true,
     "is_open_source": true,
-    "star_count": 136
+    "star_count": 137
   },
   {
     "name": "edgedelta/edgedelta-mcp-server",
@@ -57971,7 +57970,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 686
+    "star_count": 687
   },
   {
     "name": "sgateway/s-gw",
