@@ -5651,7 +5651,7 @@
     "platforms": [],
     "is_official": true,
     "is_open_source": true,
-    "star_count": 3411
+    "star_count": 3412
   },
   {
     "name": "browserless/browserless-mcp",
@@ -6458,7 +6458,7 @@
     ],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 1239
+    "star_count": 1238
   },
   {
     "name": "ofershap/real-browser-mcp",
@@ -21022,7 +21022,8 @@
     ],
     "platforms": [],
     "is_official": true,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 23
   },
   {
     "name": "icohangar-ops/codesentinel",
@@ -21103,7 +21104,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 47
   },
   {
     "name": "imatza-rh/mcp-zuul",
@@ -24169,7 +24171,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 270
+    "star_count": 271
   },
   {
     "name": "tactual-dev/tactual",
@@ -47045,7 +47047,7 @@
     ],
     "is_official": true,
     "is_open_source": true,
-    "star_count": 137
+    "star_count": 138
   },
   {
     "name": "edgedelta/edgedelta-mcp-server",
@@ -51794,7 +51796,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 208
+    "star_count": 207
   },
   {
     "name": "atlasprzetargow/mcp-server",
