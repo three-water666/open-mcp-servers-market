@@ -543,6 +543,25 @@
     "is_open_source": true
   },
   {
+    "name": "AIsa-public/AIsa-mcp-server",
+    "url": "https://github.com/AIsa-public/AIsa-mcp-server",
+    "description": "One MCP server in front of 950+ data APIs — SEO and AI visibility, finance, social, web search, sales and agent mail. `tools/list` returns five meta tools rather than hundreds: `search` finds an operation from a plain-language task, `get_details` gives its contract and price, `use` runs it, and `max_price_usd` refuses anything above a cap before any spend. OAuth, nothing to paste. Install: `npx -y @aisa-one/mcp`, or point a remote client straight at `https://mcp.aisa.one/mcp`.",
+    "category": "Aggregators",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Cloud"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "is_official": true,
+    "is_open_source": true
+  },
+  {
     "name": "api7/aisix",
     "url": "https://github.com/api7/aisix",
     "description": "MCP gateway that registers upstream MCP servers and fronts them behind one governed Streamable HTTP endpoint (`/mcp`): per-tool access control by caller API key, guardrails over tool arguments and results, rate limits, and usage logs. The same self-hosted gateway also proxies LLM and A2A agent traffic.",
@@ -2592,6 +2611,21 @@
     "is_open_source": true
   },
   {
+    "name": "sttruji/mundane-mcp",
+    "url": "https://github.com/sttruji/mundane-mcp",
+    "description": "Hire ID-verified people for work that needs hands, eyes, or physical presence: errands, photos of a real place, queue-sitting, and in-person bookings. Agents post a task with location, budget, deadline, and required capabilities, search nearby workers by skill and rating, and make an escrow-backed offer — funds are held until proof of completion is reviewed. Covers the full lifecycle: wallet top-up and spend limits, task updates and cancellation, two-way chat and file attachments, long-poll waits on task state, proof retrieval, accept/reject review, and ratings. Remote streamable HTTP at https://api.mundane.market/mcp, or local stdio via `pip install mundane-mcp`.",
+    "category": "Agreements & Coordination",
+    "languages": [
+      "Python"
+    ],
+    "scopes": [
+      "Cloud"
+    ],
+    "platforms": [],
+    "is_official": true,
+    "is_open_source": true
+  },
+  {
     "name": "kinti/a11y-toolkit",
     "url": "https://github.com/kinti/a11y-toolkit",
     "description": "MCP server + CLI for WCAG 2.2 accessibility: color contrast (pairs plus pixel-level text-over-image sampling), EU accessibility declaration generation (RD 1112/2018, Ley 11/2023 / European Accessibility Act, EN 301 549), and an aria-live announcement monitor. Multilanguage es/en, zero dependencies.",
@@ -2632,6 +2666,21 @@
     "category": "Art & Culture",
     "languages": [
       "Python"
+    ],
+    "scopes": [
+      "Cloud"
+    ],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
+    "name": "musajala/musajala-mcp",
+    "url": "https://github.com/musajala/musajala-mcp",
+    "description": "Living collaborative Arabic poetry arena & Poetic Equity protocol connecting Claude, Cursor, and AI agents with human poets.",
+    "category": "Art & Culture",
+    "languages": [
+      "TypeScript"
     ],
     "scopes": [
       "Cloud"
@@ -3183,6 +3232,23 @@
       "Linux"
     ],
     "is_official": true,
+    "is_open_source": true
+  },
+  {
+    "name": "flamexnreal/davinci-resolve-ai-bridge-mcp",
+    "url": "https://github.com/flamexnreal/davinci-resolve-ai-bridge-mcp",
+    "description": "Local MCP bridge for DaVinci Resolve Free and Studio, with timeline inspection, zoom animation, supported color adjustments, and duplicate-timeline review. Windows/Linux need live verification.",
+    "category": "Art & Culture",
+    "languages": [
+      "Python"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [
+      "macOS"
+    ],
+    "is_official": false,
     "is_open_source": true
   },
   {
@@ -5717,6 +5783,25 @@
     "is_open_source": true
   },
   {
+    "name": "autokeren/ghostfox",
+    "url": "https://github.com/autokeren/ghostfox",
+    "description": "Self-hosted stealth browser for AI agents: own Firefox engine fork (C++-level fingerprint spoofing) + Rust MCP runtime. page_a11y semantic vision pierces shadow DOM, login_state detection, evidence recording, Android personas. 19 tools, 6 platforms. Glama 100% quality score.",
+    "category": "Browser Automation",
+    "languages": [
+      "Rust"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
     "name": "blackwhite084/playwright-plus-python-mcp",
     "url": "https://github.com/blackwhite084/playwright-plus-python-mcp",
     "description": "An MCP python server using Playwright for browser automation,more suitable for llm",
@@ -5741,7 +5826,7 @@
     "platforms": [],
     "is_official": true,
     "is_open_source": true,
-    "star_count": 3412
+    "star_count": 3413
   },
   {
     "name": "browserless/browserless-mcp",
@@ -7314,6 +7399,25 @@
       "Local"
     ],
     "platforms": [],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
+    "name": "AkaciaNL/basicdeploy-mcp",
+    "url": "https://github.com/AkaciaNL/basicdeploy-mcp",
+    "description": "Deploy and manage [BasicDeploy](https://basicdeploy.com) containers, each with a PostgreSQL database, S3-compatible object storage, env vars, and a public URL provisioned automatically. Create containers, deploy apps (Node/Python/Go/Docker, auto-detected), run commands, read logs, and toggle always-on. Install: `npx -y basicdeploy-mcp`.",
+    "category": "Cloud Platforms",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Cloud"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
     "is_official": false,
     "is_open_source": true
   },
@@ -13169,6 +13273,26 @@
     "is_open_source": true
   },
   {
+    "name": "kojott/mailmcp-dist",
+    "url": "https://github.com/kojott/mailmcp-dist",
+    "description": "Self-hosted multi-account email server for ChatGPT and Claude: Gmail, iCloud, Fastmail or any IMAP/SMTP mailbox, as many as you like. Search, read, threaded replies, drafts, allowlisted sending and attachments; passwords are encrypted in the browser and the server stores nothing. Remote (OAuth) or Claude Desktop (.mcpb).",
+    "category": "Communication",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Cloud",
+      "Local"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
     "name": "korotovsky/slack-mcp-server",
     "url": "https://github.com/korotovsky/slack-mcp-server",
     "description": "The most powerful MCP server for Slack Workspaces.",
@@ -15157,7 +15281,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 665
+    "star_count": 666
   },
   {
     "name": "centralmind/gateway",
@@ -18142,6 +18266,25 @@
     "is_open_source": true
   },
   {
+    "name": "Jarroslav/agentic-os",
+    "url": "https://github.com/Jarroslav/agentic-os",
+    "description": "Read-only server exposing the agentic-os governance, SDLC, and QE methodology to any MCP host; never writes to your repo and never executes code. Ships install planning and install verification. `npx -y agentic-os-mcp`",
+    "category": "Developer Tools",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
     "name": "rm-rf-prod/GroundTruth-MCP",
     "url": "https://github.com/rm-rf-prod/GroundTruth-MCP",
     "description": "Self-hosted MCP for live docs, code audits, snippets, and best practices across 445+ libraries. 14 tools, 107 audit patterns with file:line precision, BM25-ranked snippets, lockfile-aware version pinning, npm/PyPI/crates.io/Go fallback. No API keys, no rate limits, Context7 alternative. `npx -y @groundtruth-mcp/gt-mcp`",
@@ -20362,6 +20505,21 @@
     "is_open_source": true
   },
   {
+    "name": "canopy-labs/featureflip-mcp",
+    "url": "https://github.com/canopy-labs/featureflip-mcp",
+    "description": "Manage Featureflip feature flags from AI agents: create and toggle flags, edit targeting rules, and find stale flags.",
+    "category": "Developer Tools",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Cloud"
+    ],
+    "platforms": [],
+    "is_official": true,
+    "is_open_source": true
+  },
+  {
     "name": "carloshpdoc/memorydetective",
     "url": "https://github.com/carloshpdoc/memorydetective",
     "description": "iOS leak hunting and performance investigation. Reads `.memgraph` (`leaks(1)`) and `.trace` (`xctrace`) files, classifies retain cycles against a 34-pattern catalog (SwiftUI, Combine, Swift Concurrency, UIKit, Core Animation, Core Data, SwiftData, RxSwift, Realm), surfaces a Swift `fixTemplate` snippet for each match, and bridges to source via SourceKit-LSP. Single-call build+boot+launch fixes the macOS 26.x `leaks --outputGraph` regression; `replayScenario` + `captureScenarioState` close the verify-fix loop. 31 MCP tools, 34 catalog resources, 5 investigation prompts. CI-gateable via `verifyFix` and `compareTracesByPattern`. Apache 2.0.",
@@ -21232,6 +21390,25 @@
       "Local"
     ],
     "platforms": [],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
+    "name": "gridhra/port-keeper-mcp",
+    "url": "https://github.com/gridhra/port-keeper-mcp",
+    "description": "Local ledger for development ports: leases a block of ports to each working copy of a project (a clone or a git worktree), writes `.env` files, and resolves service names to URLs, so every parallel coding agent gets its own ports. No daemon and no network listener, so there is little to run and little to attack.",
+    "category": "Developer Tools",
+    "languages": [
+      "Go"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
     "is_official": false,
     "is_open_source": true
   },
@@ -23128,6 +23305,25 @@
       "Local"
     ],
     "platforms": [],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
+    "name": "Nagarjuna2997/ios-agent-skill",
+    "url": "https://github.com/Nagarjuna2997/ios-agent-skill",
+    "description": "Swift code reviews, local Apple references and app scaffolding in one MCP connection. Bundled simulator tools require macOS/Xcode.",
+    "category": "Developer Tools",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
     "is_official": false,
     "is_open_source": true
   },
@@ -26562,6 +26758,25 @@
     "is_open_source": true
   },
   {
+    "name": "WilliamSmithEdward/xlide_mcp",
+    "url": "https://github.com/WilliamSmithEdward/xlide_mcp",
+    "description": "Read, write, analyze and test the VBA inside Excel, Word, PowerPoint and Access files, and edit the document around it. The file layer needs no Office installation and runs anywhere. Static analysis with 119 diagnostics measured against each host's own object model, writes guarded by a content token so one edit cannot silently discard another, and a git textconv driver that makes a workbook diff as VBA instead of \"Binary files differ\". Power Query, UserForms, sheets and Visual Basic 6 projects too. `uvx xlide-mcp`.",
+    "category": "Developer Tools",
+    "languages": [
+      "Python"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
     "name": "A1-x-Tech/mcp-yandex-dostavka",
     "url": "https://github.com/A1-x-Tech/mcp-yandex-dostavka",
     "description": "Yandex Delivery B2B API — express-courier claims (price check, create, track, cancel) and pickup-point/NDD orders.",
@@ -27212,6 +27427,25 @@
     "is_open_source": true
   },
   {
+    "name": "headlessherm-creator/polymath-megablaster-mcp",
+    "url": "https://github.com/headlessherm-creator/polymath-megablaster-mcp",
+    "description": "Deterministic calculation for AI agents: exact-precision math (avoids float64 overflow), date arithmetic (leap years, business days), unit conversion, statistics, subnet math, haversine distance, base conversion, and Levenshtein distance. 15 tools, 100% local, no network calls, no API keys, no telemetry. `npx -y polymath-megablaster-mcp`.",
+    "category": "Data Science Tools",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
     "name": "HumanSignal/label-studio-mcp-server",
     "url": "https://github.com/HumanSignal/label-studio-mcp-server",
     "description": "Create, manage, and automate Label Studio projects, tasks, and predictions for data labeling workflows.",
@@ -27672,6 +27906,25 @@
     ],
     "platforms": [],
     "is_official": false,
+    "is_open_source": true
+  },
+  {
+    "name": "oscarleoo/chartlink-agents",
+    "url": "https://github.com/oscarleoo/chartlink-agents",
+    "description": "Charts and tables with live-updating embed links, built for agents: draft from one message, preview, publish, then update the numbers and every embed follows. 11 chart types including maps and sortable tables, brands, any Google Font. No account — signup returns a key. Hosted at `https://chartlink.app/mcp`, or `npx -y chartlink-mcp`.",
+    "category": "Data Visualization",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Cloud"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "is_official": true,
     "is_open_source": true
   },
   {
@@ -30029,6 +30282,21 @@
     "is_open_source": true
   },
   {
+    "name": "investorphem/AbaPay",
+    "url": "https://github.com/investorphem/AbaPay",
+    "description": "Non-custodial stablecoin bill payments (airtime, data, electricity, cable, education) on Celo mainnet — pay via x402 (zero setup, a direct signed EIP-3009 transfer, no account, no contract call), or a linked wallet's PIN-gated MCP/A2A tool catalog settling from a bounded, revocable on-chain allowance — never a deposit or custody of funds either way. On the official MCP Registry as `io.github.investorphem/abapay`; ERC-8004 identity on Celoscan (agent 9687). `https://agents.abapays.com/api/mcp`",
+    "category": "Finance & Fintech",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Cloud"
+    ],
+    "platforms": [],
+    "is_official": true,
+    "is_open_source": true
+  },
+  {
     "name": "axionquant/mcp-server",
     "url": "https://github.com/axionquant/mcp-server",
     "description": "Unified financial data API for market prices, fundamentals, disclosures, macroeconomic, and alternative data. Install: `npm i @axionquant/mcp`.",
@@ -30202,6 +30470,21 @@
     ],
     "scopes": [
       "Local"
+    ],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
+    "name": "pich/ai-economics-mcp",
+    "url": "https://github.com/pich/ai-economics-mcp",
+    "description": "AI economics calculators for budget decisions: token cost across vendors, context-window sizing, agent-hour cost, LLM energy & CO₂, joules per verified task, Proof-Adjusted Autonomy, revocation exposure, verification bottleneck, proof debt. Keyless free API, stateless — every answer carries the formula and a citable interpretation. By Michał Piszczek — https://piszczek.pl/tools. `npx -y @michalpiszczek/ai-economics-mcp`",
+    "category": "Finance & Fintech",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Cloud"
     ],
     "platforms": [],
     "is_official": false,
@@ -37538,6 +37821,22 @@
     "is_open_source": true
   },
   {
+    "name": "Dreiev/l2calendar-mcp",
+    "url": "https://github.com/Dreiev/l2calendar-mcp",
+    "description": "Query upcoming Lineage 2 private server openings by chronicle through the public L2 Calendar API. 5 tools (list/search servers, chronicle catalog, labels), no auth, JSON responses.",
+    "category": "Gaming",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Cloud",
+      "Local"
+    ],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
     "name": "drknowhow/fluxdots-mcp",
     "url": "https://github.com/drknowhow/fluxdots-mcp",
     "description": "Play [FluxDots](https://fluxdots.com) — a ranked strategy board game where humans and AI agents compete on one shared Elo ladder. Host or join live matches; agents get public profiles, ratings, and replays. Zero-dependency single-file server.",
@@ -38394,6 +38693,25 @@
     "is_open_source": true
   },
   {
+    "name": "yanjingzhaisun/cozyvtt-mcp",
+    "url": "https://github.com/yanjingzhaisun/cozyvtt-mcp",
+    "description": "MCP bridge for [CozyVTT](https://github.com/CheekyChinchilla/CozyVTT), the self-hosted virtual tabletop — lets an AI agent DM/KP a campaign over REST + WebSocket: server-authoritative dice, chat narration, tokens and maps, initiative, character sheets, rulebook documents, saved-roll macros, and DM-seat transfer. 37 tools; supports CozyVTT v1.2.2 and v1.4.0 with explicit degradation on older instances.",
+    "category": "Gaming",
+    "languages": [
+      "Python"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
     "name": "findsaunaplunge/mcp",
     "url": "https://github.com/findsaunaplunge/mcp",
     "description": "Cold plunge, sauna and contrast-therapy venues across 23 US metros, with published temperatures and prices quoted from each venue's own pages and dated. Hosted at https://findsaunaplunge.com/mcp (Streamable HTTP, no auth); tools: search_venues, get_venue, list_cities, get_city_stats, get_data_freshness.",
@@ -38645,6 +38963,25 @@
     ],
     "platforms": [],
     "is_official": true,
+    "is_open_source": true
+  },
+  {
+    "name": "ahmed-khalil-hafsi/P2Predict",
+    "url": "https://github.com/ahmed-khalil-hafsi/P2Predict",
+    "description": "Local MCP server for parametric price benchmarking: trains on your own purchasing history to predict what a part should cost, attribute the price to spec and supplier drivers, and return a calibrated likely-price range — nothing leaves your machine. Built for procurement and engineering teams. `pip install \"p2predict[mcp]\"`",
+    "category": "Industrial & IoT",
+    "languages": [
+      "Python"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "is_official": false,
     "is_open_source": true
   },
   {
@@ -45408,6 +45745,21 @@
     "is_open_source": true
   },
   {
+    "name": "atlasfetch-dev/atlasfetch-mcp",
+    "url": "https://github.com/atlasfetch-dev/atlasfetch-mcp",
+    "description": "Reverse geocode coordinates to country, region and municipality with ISO 3166 codes, and match your own GeoJSON geofences. Free demo key, no signup.",
+    "category": "Location Services",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Cloud"
+    ],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
     "name": "bamwor-dev/bamwor-mcp-server",
     "url": "https://github.com/bamwor-dev/bamwor-mcp-server",
     "description": "World geographic data for AI agents. 261 countries with 20+ statistics and 13.4M cities with population, coordinates, and timezone. Powered by Bamwor API.",
@@ -46781,6 +47133,25 @@
       "Cloud"
     ],
     "platforms": [],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
+    "name": "GlobalMatchHub/searchlink-lite",
+    "url": "https://github.com/GlobalMatchHub/searchlink-lite",
+    "description": "Google Search Console in Claude, Cursor or any MCP client. Six read-only tools: site overview with period comparison and biggest drops, any breakdown by query, page, country, device or date, opportunities (high impressions and low CTR, queries at #8-20), URL indexing status and sitemaps. Totals use the date dimension so they match the Search Console UI. Runs locally with a service account or gcloud credentials. `npx -y github:GlobalMatchHub/searchlink-lite`",
+    "category": "Marketing",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
     "is_official": false,
     "is_open_source": true
   },
@@ -49788,6 +50159,24 @@
     "is_open_source": true
   },
   {
+    "name": "guaardvark/guaardvark",
+    "url": "https://github.com/guaardvark/guaardvark",
+    "description": "Self-hosted AI studio exposing its local image, video, music-video and Film Crew generation, upscaling, RAG and code intelligence as MCP tools (default-deny policy; renders queue on your own GPU and are polled by batch id). Ships Agent Skills and a Claude Code plugin.",
+    "category": "Multimedia Process",
+    "languages": [
+      "Python"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [
+      "macOS",
+      "Linux"
+    ],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
     "name": "haljishi/vidwords-mcp",
     "url": "https://github.com/haljishi/vidwords-mcp",
     "description": "Let an agent read a YouTube video and cite the exact second. Search one video's transcript for a topic and get back only the matching moments with clickable `?t=` deep links, or analyze the frames — slides, charts, demos and on-screen text that is never spoken aloud. Every citation is checked against a recorded frame or a real transcript segment and dropped if it fails. Hosted Streamable HTTP at `https://vidwords.com/mcp`, token header or OAuth, free tier at [vidwords.com](https://vidwords.com?utm_source=gthb_awesome&utm_medium=code&utm_campaign=awesome-mcp).",
@@ -50474,6 +50863,24 @@
     "is_open_source": true
   },
   {
+    "name": "tydude001/proofcut",
+    "url": "https://github.com/tydude001/proofcut",
+    "description": "Source-available, local-first video editor for agents: recordings to a finished film. Cut by transcript, hang b-roll off phrases, score, caption, render and master over OpenTimelineIO, ffmpeg, whisper and MLT, then check the render against the edit it came from. Every tool is also a CLI command, plus a browser workspace with an agent pane.",
+    "category": "Multimedia Process",
+    "languages": [
+      "Python"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
     "name": "video-creator/ffmpeg-mcp",
     "url": "https://github.com/video-creator/ffmpeg-mcp.git",
     "description": "Using ffmpeg command line to achieve an mcp server, can be very convenient, through the dialogue to achieve the local video search, tailoring, stitching, playback and other functions",
@@ -50992,6 +51399,26 @@
     "is_open_source": true
   },
   {
+    "name": "munimtechnologies/munim-computer-use",
+    "url": "https://github.com/munimtechnologies/munim-computer-use",
+    "description": "Accessibility-first Computer Use for any agent: element ids instead of guessed pixels, background input that never moves your mouse, an agent pointer overlay, zoom with correct coordinate mapping, and an own tab group in your signed-in Chrome. Same 30 tools on macOS, Windows and Linux; npm launcher `munim-computer-use`.",
+    "category": "OS Automation",
+    "languages": [
+      "TypeScript",
+      "Rust"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
     "name": "Dominic-DK/askew-mcp",
     "url": "https://github.com/Dominic-DK/askew-mcp",
     "description": "Let an agent use a real iPhone, iPad or Mac through Apple Shortcuts: run a Shortcut on a locked phone and get the result back, send lock-screen notifications, and read what the phone sends (Calendar, Reminders, Notes, HomeKit, Wallet events). End-to-end encrypted relay, one automation on the phone. `npx -y askew-mcp`",
@@ -51370,6 +51797,25 @@
       "Linux"
     ],
     "is_official": false,
+    "is_open_source": true
+  },
+  {
+    "name": "kenzotp/mcp-server-zuuna",
+    "url": "https://github.com/kenzotp/mcp-server-zuuna",
+    "description": "MCP server for [Zuuna](https://app.zuuna.de) developer project management: 8 tools for boards, cards, moves, and comments over the Zuuna v1 API; the agent reads the board, codes in the repo, and when the PR merges, git activity moves the card. `npx -y mcp-server-zuuna`",
+    "category": "Product Management",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Cloud"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "is_official": true,
     "is_open_source": true
   },
   {
@@ -51845,6 +52291,21 @@
     "description": "French election results from 1999 to 2026 at polling-station level (55 elections), cross-referenced with INSEE socio-demographic data, elected representatives and official administrative boundaries. Electoral maps, vote-reserve analysis, cross-election panels and read-only SQL over DuckDB. Hosted, no auth, no install: `https://mcp.andre.vote/mcp`, also listed as a [hosted connector on Glama](https://glama.ai/mcp/connectors/vote.andre/elections).",
     "category": "Research",
     "languages": [],
+    "scopes": [
+      "Cloud"
+    ],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
+    "name": "jshelley/briefing-mcp",
+    "url": "https://github.com/jshelley/briefing-mcp",
+    "description": "Hourly LLM-ranked news briefings (AI, frontier labs, markets, sports, world) as structured JSON, rendered 480x800 e-ink pages and a free provenance dump of every candidate with dedupe metadata. 25 free calls/day, then a $9/month key or x402. Install via `npx -y github:jshelley/briefing-mcp`.",
+    "category": "Research",
+    "languages": [
+      "TypeScript"
+    ],
     "scopes": [
       "Cloud"
     ],
@@ -55182,6 +55643,21 @@
     "is_open_source": true
   },
   {
+    "name": "phpcip/opensolr-mcp",
+    "url": "https://github.com/phpcip/opensolr-mcp",
+    "description": "Managed Apache Solr search for AI agents: hybrid (BM25 + kNN) and semantic search, document ingestion with server-side embeddings, grounded RAG answers, and index management. In the official MCP Registry as `com.opensolr/opensolr-mcp`. Install via `uvx opensolr-mcp`.",
+    "category": "Search & Data Extraction",
+    "languages": [
+      "Python"
+    ],
+    "scopes": [
+      "Cloud"
+    ],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
     "name": "pragmar/mcp-server-webcrawl",
     "url": "https://github.com/pragmar/mcp-server-webcrawl",
     "description": "Advanced search and retrieval for web crawler data. Supports WARC, wget, Katana, SiteOne, and InterroBot crawlers.",
@@ -56546,6 +57022,25 @@
     "is_open_source": true
   },
   {
+    "name": "elang2/mcp-audit-gateway",
+    "url": "https://github.com/elang2/mcp-audit-gateway",
+    "description": "Tamper-proof audit trail for AI agent tool calls. Transparent stdio proxy with cryptographic attestation (Ed25519 signing), hash-chained records, YAML policy enforcement (allow/deny/transform), and OpenTelemetry export. Zero server modification required. `npm i @mcp-audit-gateway/core`",
+    "category": "Security",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
     "name": "sachio222/54ch10-mcp",
     "url": "https://github.com/sachio222/54ch10-mcp",
     "description": "Pre-interact JSON risk briefs for wallet/agent builders: `address` / `token` / `url` → score, band, flags, sources (phishing/scam/wallet/URL-reputation heuristics). Live OpenPhish + eth_getCode. x402 $0.01 USDC/brief or free demo 20/day. Analytics-only — not financial advice. Install: `npx -y github:sachio222/54ch10-mcp`. Site: https://54ch10.uk",
@@ -57091,9 +57586,9 @@
     "is_open_source": true
   },
   {
-    "name": "agentgraph-co/agentgraph",
-    "url": "https://github.com/agentgraph-co/agentgraph",
-    "description": "Trust verification and security scanning for AI agents. Checks security posture of third-party MCP servers and tools with signed attestations (Ed25519/JWS) before interaction.",
+    "name": "AgentAvow/AgentAvow",
+    "url": "https://github.com/AgentAvow/AgentAvow",
+    "description": "Signed, independently-recomputable safety scores for the MCP servers, packages, and tools an agent connects to: a 0–100 score plus an Ed25519/JWS attestation you can recompute offline against a public JWKS, a README badge, and a GitHub Action to gate CI merges on a minimum score. Free, no account (formerly agentgraph-co/agentgraph).",
     "category": "Security",
     "languages": [
       "Python"
@@ -58860,6 +59355,26 @@
       "TypeScript"
     ],
     "scopes": [
+      "Local"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
+    "name": "nh4ttruong/secobserve-mcp",
+    "url": "https://github.com/nh4ttruong/secobserve-mcp",
+    "description": "[SecObserve](https://github.com/MaibornWolff/SecObserve) vulnerability and license management from an agent: triage observations through the four-eyes approval workflow, manage products, branches and rules, import scan reports and SBOMs, run scans, and generate VEX. 18 tools over ~50 REST resources, with mandatory field projection and filter validation — a wrong filter name errors instead of silently returning the unfiltered list. `uvx secobserve-mcp`",
+    "category": "Security",
+    "languages": [
+      "Python"
+    ],
+    "scopes": [
+      "Cloud",
       "Local"
     ],
     "platforms": [
@@ -61071,6 +61586,25 @@
     "is_open_source": true
   },
   {
+    "name": "milcho0604/velog-mcp",
+    "url": "https://github.com/milcho0604/velog-mcp",
+    "description": "Velog (velog.io) blog server with 23 tools. Reading, search, stats, tags and series work without authentication; writing defaults to drafts and private posts, and public publishing stays behind an opt-in `VELOG_ALLOW_PUBLIC=1` flag. Documents velog's undocumented GraphQL behaviour measured against the live API. 2 runtime dependencies, Node 22.18+, MIT.",
+    "category": "Social Media",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
     "name": "mobileshop9991-star/clipwise-mcp",
     "url": "https://github.com/mobileshop9991-star/clipwise-mcp",
     "description": "AI platform for short-form video creators (TikTok, Instagram Reels, YouTube Shorts, Facebook Reels). Three tools — viral TikTok trend search across 20+ countries, service info, and use-case scenarios for video analysis, competitor research, and content strategy. Install: `npx -y clipwise-mcp-server`. Free plan at tryclipwise.com.",
@@ -61251,6 +61785,21 @@
     "name": "sofya-co/sofya-mcp",
     "url": "https://github.com/sofya-co/sofya-mcp",
     "description": "Web tools for AI agents through the Sofya API. Search the web for full page content instead of snippets, fetch URLs as clean markdown (including PDFs), extract structured data from a page with a prompt, and run multi-source deep research that returns a cited report.",
+    "category": "Social Media",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Cloud"
+    ],
+    "platforms": [],
+    "is_official": true,
+    "is_open_source": true
+  },
+  {
+    "name": "glennprime/synthnet-mcp",
+    "url": "https://github.com/glennprime/synthnet-mcp",
+    "description": "Official MCP server for SynthNet ([synthnet.io](https://synthnet.io)), an independent social network for AI agents. Agents join with an ed25519 keypair they hold, paint one self-portrait a day with their own image model (SVG or p5.js as a fallback), reply to the humans and agents who talk to them, and keep a reputation that persists across context resets. Free, no API key needed. Install: `npx -y @synthnet/mcp`.",
     "category": "Social Media",
     "languages": [
       "TypeScript"
@@ -62236,6 +62785,22 @@
     "is_open_source": true
   },
   {
+    "name": "shkyyy18/mi_fitness_data_bridge",
+    "url": "https://github.com/shkyyy18/mi_fitness_data_bridge",
+    "description": "Unofficial, experimental Mi Fitness connector with local SQLite storage, JSON/CSV exports, and a local stdio MCP server for sleep, activity, workouts, and other available records. Cloud sync depends on device and account region; includes an account-free synthetic demo.",
+    "category": "Sports",
+    "languages": [
+      "Python"
+    ],
+    "scopes": [
+      "Cloud",
+      "Local"
+    ],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
     "name": "slaat/garmin-connect-workouts-mcp",
     "url": "https://github.com/slaat/garmin-connect-workouts-mcp",
     "description": "Create structured Garmin Connect workouts from natural language - pace/HR/power/cadence targets, repeat blocks, swim strokes and pool lengths.",
@@ -62248,6 +62813,22 @@
     ],
     "platforms": [],
     "is_official": false,
+    "is_open_source": true
+  },
+  {
+    "name": "TheRundown/data-mcp",
+    "url": "https://github.com/TheRundown/data-mcp",
+    "description": "Official server for sports, markets, affiliates, events, futures, and open main-line odds. Six read-only tools with a customer API key. Remote endpoint `https://mcp.therundown.io/mcp`, or run locally over stdio from Node.js 22+ source and an official ZIP.",
+    "category": "Sports",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Cloud",
+      "Local"
+    ],
+    "platforms": [],
+    "is_official": true,
     "is_open_source": true
   },
   {
@@ -62307,6 +62888,25 @@
       "Cloud"
     ],
     "platforms": [],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
+    "name": "wmmg101/kilter-mcp",
+    "url": "https://github.com/wmmg101/kilter-mcp",
+    "description": "Read-only access to your own Kilter Board climbing logbook: sessions, sends, projects, grade pyramid, hardest sends, month-by-month progression and wall-angle comparison. Unofficial; signs in with your own Kilter account, tokens kept in memory only. `uvx kilter-mcp`",
+    "category": "Sports",
+    "languages": [
+      "Python"
+    ],
+    "scopes": [
+      "Cloud"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
     "is_official": false,
     "is_open_source": true
   },
@@ -66882,7 +67482,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 1223
+    "star_count": 1224
   },
   {
     "name": "Badhansen/notion-mcp",
@@ -68262,6 +68862,25 @@
     "is_open_source": true
   },
   {
+    "name": "neufagents/mcp-triage",
+    "url": "https://github.com/neufagents/mcp-triage",
+    "description": "Client-side diagnostics and mechanical fixes for MCP config files across Claude Desktop, Claude Code, Codex, Cursor, VS Code, Windsurf, OpenClaw and dsh: broken JSON (comments, trailing commas), commands missing from PATH, missing env vars, relative paths, transport mismatches, cross-client config drift. `npx mcp-triage` is read-only by default; `--fix` repairs with backups. Zero runtime dependencies.",
+    "category": "Other Tools and Integrations",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
     "name": "nguyenvanduocit/all-in-one-model-context-protocol",
     "url": "https://github.com/nguyenvanduocit/all-in-one-model-context-protocol",
     "description": "Some useful tools for developer, almost everything an engineer need: confluence, Jira, Youtube, run script, knowledge base RAG, fetch URL, Manage youtube channel, emails, calendar, gitlab",
@@ -69047,6 +69666,25 @@
     "name": "ttommyth/interactive-mcp",
     "url": "https://github.com/ttommyth/interactive-mcp",
     "description": "Enables interactive LLM workflows by adding local user prompts and chat capabilities directly into the MCP loop.",
+    "category": "Other Tools and Integrations",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
+    "name": "mohamed-khairy-5i/tossinbox",
+    "url": "https://github.com/mohamed-khairy-5i/tossinbox",
+    "description": "Disposable email (temp mail) CLI + MCP server for AI agents. Spawn a throwaway inbox, wait for the OTP verification code, toss it — no sign-up, no API keys, `--json` on every command, exit codes 0-4. Install: `npx -y tossinbox` or `brew install mohamed-khairy-5i/tap/tossinbox`.",
     "category": "Other Tools and Integrations",
     "languages": [
       "TypeScript"
