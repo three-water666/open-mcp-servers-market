@@ -5826,7 +5826,7 @@
     "platforms": [],
     "is_official": true,
     "is_open_source": true,
-    "star_count": 3413
+    "star_count": 3412
   },
   {
     "name": "browserless/browserless-mcp",
@@ -6652,7 +6652,7 @@
     ],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 1238
+    "star_count": 1237
   },
   {
     "name": "ofershap/real-browser-mcp",
@@ -13768,7 +13768,7 @@
     ],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 34
+    "star_count": 33
   },
   {
     "name": "ni-c/smtp-mcp",
@@ -18232,6 +18232,25 @@
       "Cloud"
     ],
     "platforms": [],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
+    "name": "bricelancasterwcp-sudo/sensorium",
+    "url": "https://github.com/bricelancasterwcp-sudo/sensorium",
+    "description": "Record Python/Rust/TypeScript program runs to local SQLite; query call trees, exceptions, and value flow over MCP (refuses rather than guesses). Local-first for coding agents — not LLM-prompt tracing; not the unrelated Telegram `sensorium-mcp`.",
+    "category": "Developer Tools",
+    "languages": [
+      "Python",
+      "TypeScript",
+      "Rust"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [
+      "Linux"
+    ],
     "is_official": false,
     "is_open_source": true
   },
@@ -23151,6 +23170,26 @@
       "Cloud"
     ],
     "platforms": [],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
+    "name": "MnemeHQ/mneme",
+    "url": "https://github.com/MnemeHQ/mneme",
+    "description": "Deterministic architectural decision governance for agentic software development. Six local stdio tools let agents submit non-authoritative proposals and query canonical decisions, applicability, and lineage while human acceptance and enforcement authority remain outside the MCP surface. `uvx --from \"mneme-hq[mcp]==0.9.1\" mneme decision-mcp`",
+    "category": "Developer Tools",
+    "languages": [
+      "Python",
+      "TypeScript"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
     "is_official": false,
     "is_open_source": true
   },
@@ -47060,6 +47099,21 @@
     "is_open_source": true
   },
   {
+    "name": "dhawalshah/tiktok-ads-mcp",
+    "url": "https://github.com/dhawalshah/tiktok-ads-mcp",
+    "description": "TikTok Ads MCP server with video performance metrics, creative fatigue scoring, industry benchmarks, and Smart+ campaign support.",
+    "category": "Marketing",
+    "languages": [
+      "Python"
+    ],
+    "scopes": [
+      "Cloud"
+    ],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
     "name": "elfsight/beamtrace-mcp",
     "url": "https://github.com/elfsight/beamtrace-mcp",
     "description": "AI visibility tracking & website fixes for better AI search presence",
@@ -55244,6 +55298,21 @@
     "is_open_source": true
   },
   {
+    "name": "mambalabsdev/mcp-review-platform-reputation-enricher",
+    "url": "https://github.com/mambalabsdev/mcp-review-platform-reputation-enricher",
+    "description": "Resolves a company domain to its Trustpilot rating, review count, and claimed status.",
+    "category": "Search & Data Extraction",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Cloud"
+    ],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
     "name": "Marvy101/pod-mcp",
     "url": "https://github.com/Marvy101/pod-mcp",
     "description": "Search firsthand observations that agents recorded while doing real work — what actually happened with a product, API, service, or place, rather than what its documentation claims. Agents can also write back what they observed. No API key; hosted Streamable HTTP at `https://api.askpod.ai/mcp/read`.",
@@ -61046,6 +61115,21 @@
     "name": "HasData/instagram-mcp",
     "url": "https://github.com/HasData/instagram-mcp",
     "description": "Remote MCP server for public Instagram data: profiles and post feeds by handle with follower counts, captions, hashtags and mentions parsed, as JSON.",
+    "category": "Social Media",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Cloud"
+    ],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
+    "name": "HasData/facebook-mcp",
+    "url": "https://github.com/HasData/facebook-mcp",
+    "description": "Remote MCP server for public Facebook pages and profiles: likes, followers, talking-about counts, contact details and the post feed with reactions, as JSON.",
     "category": "Social Media",
     "languages": [
       "TypeScript"
