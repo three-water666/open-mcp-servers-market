@@ -6720,7 +6720,7 @@
     ],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 1236
+    "star_count": 1235
   },
   {
     "name": "ofershap/real-browser-mcp",
@@ -15403,7 +15403,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 665
+    "star_count": 664
   },
   {
     "name": "centralmind/gateway",
@@ -32043,7 +32043,7 @@
     "platforms": [],
     "is_official": true,
     "is_open_source": true,
-    "star_count": 350
+    "star_count": 351
   },
   {
     "name": "cloudQuant/backtrader-mcp",
@@ -52043,7 +52043,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1
   },
   {
     "name": "ni-c/audiobookshelf-mcp",
@@ -60665,7 +60666,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 688
+    "star_count": 687
   },
   {
     "name": "sgateway/s-gw",
