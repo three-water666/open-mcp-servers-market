@@ -67599,7 +67599,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 2025
+    "star_count": 2024
   },
   {
     "name": "cnghockey/sats4ai-mcp-server",
@@ -68998,7 +68998,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 71
   },
   {
     "name": "PSPDFKit/nutrient-document-engine-mcp-server",
