@@ -4539,6 +4539,25 @@
     "is_open_source": true
   },
   {
+    "name": "swebsy/MCP",
+    "url": "https://github.com/swebsy/MCP",
+    "description": "Build and edit real websites from the coding agent you already pay for — no per-token AI fees. Browse the template catalogue, create and open a site, rewrite sections, add and link pages, insert blocks, keep reusable symbols in sync, screenshot any viewport, and export static HTML/CSS/JS. Drives an open Swebsy Studio tab over a local `127.0.0.1` WebSocket relay; nothing is proxied through our servers and Studio redacts secrets before anything crosses the bridge. Install via NPM: `npx -y @swebsy/mcp setup`",
+    "category": "Architecture & Design",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "is_official": true,
+    "is_open_source": true
+  },
+  {
     "name": "Tommkruix/archprint",
     "url": "https://github.com/Tommkruix/archprint",
     "description": "Report the architecture rules a TypeScript repo already follows, inferred from its import graph, with the evidence for each, and check whether a change breaks them.",
@@ -6496,6 +6515,25 @@
     "is_open_source": true
   },
   {
+    "name": "Miladmet/quickcast-mcp",
+    "url": "https://github.com/Miladmet/quickcast-mcp",
+    "description": "Screen-to-Action Protocol: Turn screen recordings directly into automated Playwright E2E reproduction tests, structured GitHub bug reports with video timestamps, and SOP walkthroughs.",
+    "category": "Browser Automation",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
     "name": "Mingye-Lu/AgenticCrawler",
     "url": "https://github.com/Mingye-Lu/AgenticCrawler",
     "description": "Autonomous, goal-driven LLM web crawler with stealth browsing, distributed as a single binary.",
@@ -7407,6 +7445,21 @@
     "is_open_source": true
   },
   {
+    "name": "AIops-tools/Proxmox-AIops",
+    "url": "https://github.com/AIops-tools/Proxmox-AIops",
+    "description": "Governed Proxmox VE operations — VM/LXC lifecycle, snapshots, cluster, storage, backup, and HA (43 tools) with unbypassable audit logging (MCP + CLI), budget/runaway guards, dry-run, and undo/rollback.",
+    "category": "Cloud Platforms",
+    "languages": [
+      "Python"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
     "name": "agentmetal/mcp",
     "url": "https://github.com/agentmetal/mcp",
     "description": "Provision, SSH into, run commands on and manage Linux VPSes, paying with USDC over x402 or by card.",
@@ -7871,6 +7924,23 @@
     ],
     "platforms": [],
     "is_official": false,
+    "is_open_source": true
+  },
+  {
+    "name": "gitayg/appcrane-mcp",
+    "url": "https://github.com/gitayg/appcrane-mcp",
+    "description": "Self-hosted, MCP-native deployment platform (AppCrane): AI agents deploy apps, manage secrets, read logs, and roll back on your own server. Enterprise SSO (SAML/OIDC/SCIM) and per-user audit.",
+    "category": "Cloud Platforms",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [
+      "Linux"
+    ],
+    "is_official": true,
     "is_open_source": true
   },
   {
@@ -10167,6 +10237,23 @@
     "is_open_source": true
   },
   {
+    "name": "EngMarchG/agent-bridge",
+    "url": "https://github.com/EngMarchG/agent-bridge",
+    "description": "Lets Claude Code and Codex steer each other's live desktop chats through Windows UI Automation: list and read chats, send messages or mid-turn steers, and pause, resume or edit Codex goals.",
+    "category": "Coding Agents",
+    "languages": [
+      "Python"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [
+      "Windows"
+    ],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
     "name": "ezyang/codemcp",
     "url": "https://github.com/ezyang/codemcp",
     "description": "Coding agent with basic read, write and command line tools.",
@@ -11744,6 +11831,21 @@
     "is_open_source": true
   },
   {
+    "name": "A1-x-Tech/mcp-google-chat",
+    "url": "https://github.com/A1-x-Tech/mcp-google-chat",
+    "description": "Google Chat API: list and search spaces, read and send messages, and work with threads and reactions.",
+    "category": "Communication",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Cloud"
+    ],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
     "name": "A1-x-Tech/mcp-google-gmail",
     "url": "https://github.com/A1-x-Tech/mcp-google-gmail",
     "description": "Gmail API: search, read and send email, and manage drafts, labels and the trash.",
@@ -12811,6 +12913,25 @@
     "scopes": [
       "Cloud",
       "Local"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
+    "name": "phuryn/askone",
+    "url": "https://github.com/phuryn/askone",
+    "description": "Run live audience Q&A and polls with AskOne, with free AI moderation: start rooms, launch polls, moderate and answer questions, and draft a FAQ from the Q&A. Also hosted at `https://askone.org/api/mcp`.",
+    "category": "Communication",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Cloud"
     ],
     "platforms": [
       "macOS",
@@ -14233,6 +14354,21 @@
     "is_open_source": true
   },
   {
+    "name": "wsapi-chat/wsapi-mcp",
+    "url": "https://github.com/wsapi-chat/wsapi-mcp",
+    "description": "WhatsApp through the WSAPI REST API: send messages and media, and manage chats, groups, communities and contacts on a connected number. Open source, self-hosted or managed.",
+    "category": "Communication",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Cloud"
+    ],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
     "name": "wyattjoh/imessage-mcp",
     "url": "https://github.com/wyattjoh/imessage-mcp",
     "description": "Read iMessage data on macOS.",
@@ -14533,6 +14669,21 @@
     ],
     "platforms": [],
     "is_official": false,
+    "is_open_source": true
+  },
+  {
+    "name": "zihin-ai/zihin-mcp",
+    "url": "https://github.com/zihin-ai/zihin-mcp",
+    "description": "Build and operate AI agents on the Zihin.ai platform: manage agents, schemas, triggers, budgets and approvals, run diagnostics and chat with your agents.",
+    "category": "Conversational AI",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Cloud"
+    ],
+    "platforms": [],
+    "is_official": true,
     "is_open_source": true
   },
   {
@@ -14972,6 +15123,21 @@
       "Windows",
       "Linux"
     ],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
+    "name": "AIops-tools/Queue-AIops",
+    "url": "https://github.com/AIops-tools/Queue-AIops",
+    "description": "Governed Redis + RabbitMQ operations — memory-pressure, latency, backlog, and churn RCA, plus guardrailed queue and key operations (28 tools) with unbypassable audit logging (MCP + CLI), budget/runaway guards, and undo/rollback.",
+    "category": "Databases",
+    "languages": [
+      "Python"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [],
     "is_official": false,
     "is_open_source": true
   },
@@ -15486,6 +15652,25 @@
       "Cloud"
     ],
     "platforms": [],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
+    "name": "elekto-com-br/elekto-mcp-sql",
+    "url": "https://github.com/elekto-com-br/elekto-mcp-sql",
+    "description": "Read-only SQL Server introspection for .NET projects: schema, DDL, dependency graphs, index health and data profiling, reading connection strings from appsettings.json or web.config, and reporting which GRANTs the login lacks.",
+    "category": "Databases",
+    "languages": [
+      "C#"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
     "is_official": false,
     "is_open_source": true
   },
@@ -17887,6 +18072,25 @@
     "category": "Developer Tools",
     "languages": [
       "Go"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
+    "name": "huanglizhuo/OctoCounts",
+    "url": "https://github.com/huanglizhuo/OctoCounts",
+    "description": "SLOC counts for any public GitHub repository from any MCP client: files, code, comment and blank lines per language, plus side-by-side repo comparisons.",
+    "category": "Developer Tools",
+    "languages": [
+      "TypeScript"
     ],
     "scopes": [
       "Local"
@@ -21266,6 +21470,23 @@
       "Local"
     ],
     "platforms": [],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
+    "name": "FidelisMM/shipstores",
+    "url": "https://github.com/FidelisMM/shipstores",
+    "description": "Ship iOS and Android apps end to end: App Store Connect, Google Play Console and Expo EAS builds, listings, screenshots, privacy labels, review submission and App Review replies.",
+    "category": "Developer Tools",
+    "languages": [
+      "Python"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [
+      "macOS"
+    ],
     "is_official": false,
     "is_open_source": true
   },
@@ -25025,6 +25246,25 @@
     "is_open_source": true
   },
   {
+    "name": "toprakahmetaydogmus/TZeroAlgorithm",
+    "url": "https://github.com/toprakahmetaydogmus/TZeroAlgorithm",
+    "description": "Hierarchical context tree and 13-tool MCP server for AI code context management.",
+    "category": "Developer Tools",
+    "languages": [
+      "Python"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
     "name": "tosin2013/mcp-adr-analysis-server",
     "url": "https://github.com/tosin2013/mcp-adr-analysis-server",
     "description": "Architectural analysis for software projects: technology stack detection, ADR management, security checks, TDD workflow and deployment readiness validation.",
@@ -28416,6 +28656,25 @@
     "is_open_source": true
   },
   {
+    "name": "TantiE100/pktctl",
+    "url": "https://github.com/TantiE100/pktctl",
+    "description": "Drive Cisco Packet Tracer for CCNA labs: build and cable topologies, configure IOS, test with ping and simulation mode, and reach its whole IPC API over native PTMP.",
+    "category": "Education",
+    "languages": [
+      "Rust"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
     "name": "peopleworks/SignsofAI",
     "url": "https://github.com/peopleworks/SignsofAI/tree/main/src/SignsOfAI.Mcp",
     "description": "Explainable AI-writing detection and originality checking in English and Spanish, plus citation checks and hidden-character detection.",
@@ -30326,6 +30585,25 @@
     ],
     "platforms": [],
     "is_official": true,
+    "is_open_source": true
+  },
+  {
+    "name": "bartosz-kuc/honest-vies-mcp",
+    "url": "https://github.com/bartosz-kuc/honest-vies-mcp",
+    "description": "Validates EU VAT numbers against the European Commission's VIES API, locally with no API key or third-party middleman. `check_vat` returns validity, name and address where available, and a consultation number as audit proof when you pass your own VAT; `list_supported_countries` lists the 27 EU states plus XI (Northern Ireland).",
+    "category": "Finance & Fintech",
+    "languages": [
+      "Python"
+    ],
+    "scopes": [
+      "Cloud"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "is_official": false,
     "is_open_source": true
   },
   {
@@ -37096,6 +37374,21 @@
     "is_open_source": true
   },
   {
+    "name": "D-Asce/pandastocksdk",
+    "url": "https://github.com/D-Asce/pandastocksdk",
+    "description": "A-share realtime market data via MCP: NATS-pushed quotes, Level2, DDX, capital flow, news. 22 tools, free public test account. Install: `pip install pandastock-mcp`",
+    "category": "Finance & Fintech",
+    "languages": [
+      "Python"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
     "name": "26048608982lp-ai/gamenumerics",
     "url": "https://github.com/26048608982lp-ai/gamenumerics",
     "description": "Game balance design and auditing: import xlsx config tables, audit growth curves, simulate battle and gacha systems, and reverse-engineer spreadsheet formulas.",
@@ -38070,6 +38363,25 @@
       "Cloud"
     ],
     "platforms": [],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
+    "name": "Sarg338/steam-mcp",
+    "url": "https://github.com/Sarg338/steam-mcp",
+    "description": "Read-only Steam, 41 tools. Store details, reviews that match the store page, sales, regional prices, community tags, live player counts, Steam Deck compatibility, one-call game briefs, side-by-side game comparisons and how each patch moved the reviews all need **no API key**; a free Steam Web API key adds library, playtime, friends, achievements, wishlist and inventory. Also does backlog analysis, taste-based recommendations and co-op night planning across a group's libraries.",
+    "category": "Gaming",
+    "languages": [
+      "Python"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
     "is_official": false,
     "is_open_source": true
   },
@@ -41537,6 +41849,25 @@
     "is_open_source": true
   },
   {
+    "name": "jaydubya818/Agentic-KB",
+    "url": "https://github.com/jaydubya818/Agentic-KB",
+    "description": "Persistent engineering knowledge base with source-backed wiki, agent-runtime and repository-context tools, contradiction and staleness checks, and PIN-gated private scopes and writes.",
+    "category": "Knowledge & Memory",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
     "name": "jcdickinson/simplemem",
     "url": "https://github.com/jcdickinson/simplemem",
     "description": "Simple memory for coding agents using DuckDB and VoyageAI.",
@@ -42857,6 +43188,21 @@
       "Windows",
       "Linux"
     ],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
+    "name": "renezander030/graphiti-local",
+    "url": "https://github.com/renezander030/graphiti-local",
+    "description": "Local temporal knowledge graph with six read-only retrieval tools, Ollama inference, embedded LadybugDB, and a separate human-approved CLI write queue.",
+    "category": "Knowledge & Memory",
+    "languages": [
+      "Python"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [],
     "is_official": false,
     "is_open_source": true
   },
@@ -45120,6 +45466,25 @@
     "is_open_source": true
   },
   {
+    "name": "bartosz-kuc/honest-imgw-mcp",
+    "url": "https://github.com/bartosz-kuc/honest-imgw-mcp",
+    "description": "Polish weather and hydrology data from the IMGW-PIB public API, no API key: hourly synoptic observations (`get_weather`), river levels and flow with a computed normal/warning/alarm status (`get_hydro`), active weather warnings (`get_warnings`), and station lists. Queries IMGW directly, no middleman.",
+    "category": "Location Services",
+    "languages": [
+      "Python"
+    ],
+    "scopes": [
+      "Cloud"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
     "name": "HasData/yellowpages-mcp",
     "url": "https://github.com/HasData/yellowpages-mcp",
     "description": "Yellow Pages local business search by category and location, with full listings including services, brands and payment methods.",
@@ -46537,6 +46902,20 @@
     ],
     "scopes": [
       "Cloud"
+    ],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
+    "name": "dhawalshah/google-tag-manager-mcp",
+    "url": "https://github.com/dhawalshah/google-tag-manager-mcp",
+    "description": "Google Tag Manager MCP server for managing tags, triggers, and variables from Claude, local or remote.",
+    "category": "Marketing",
+    "languages": [],
+    "scopes": [
+      "Cloud",
+      "Local"
     ],
     "platforms": [],
     "is_official": false,
@@ -48102,6 +48481,23 @@
     ],
     "platforms": [],
     "is_official": true,
+    "is_open_source": true
+  },
+  {
+    "name": "Edge-Echo/mcp-netassist",
+    "url": "https://github.com/Edge-Echo/mcp-netassist",
+    "description": "Network and proxy diagnostics: GitHub reachability, system proxy status, local proxy port probing, DNS/TCP/HTTP checks, hosts conflict scan, and a doctor that suggests what to change.",
+    "category": "Monitoring",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [
+      "Windows"
+    ],
+    "is_official": false,
     "is_open_source": true
   },
   {
@@ -52339,6 +52735,25 @@
     "is_open_source": true
   },
   {
+    "name": "SokolskyNikita/annas-mcp",
+    "url": "https://github.com/SokolskyNikita/annas-mcp",
+    "description": "Search Anna's Archive for books and journal articles by title, author, topic or DOI, and download the chosen file.",
+    "category": "Research",
+    "languages": [
+      "Go"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
     "name": "thinkchainai/agentinterviews_mcp",
     "url": "https://github.com/thinkchainai/agentinterviews_mcp",
     "description": "",
@@ -56473,6 +56888,25 @@
     "is_open_source": true
   },
   {
+    "name": "retracn/automationnation-mcp",
+    "url": "https://github.com/retracn/automationnation-mcp",
+    "description": "17 data tools backed by Apify Actors: Google Flights and Hotels prices, Google Shopping, News, Images, Videos, Jobs and Trends, YouTube transcripts, Google Maps leads, Ads Transparency, app reviews and AI-search visibility; pay per result with a spending cap on every run.",
+    "category": "Search & Data Extraction",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Cloud"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
     "name": "smeet666/mcp-ptitchef",
     "url": "https://github.com/smeet666/mcp-ptitchef",
     "description": "Search Ptitchef recipes, browse ingredient categories, read ingredients, method, cost and nutrition, find dishes from fridge contents and rescale servings.",
@@ -56716,6 +57150,25 @@
     "category": "Security",
     "languages": [
       "Python"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
+    "name": "noor202401938-netizen/cyber-chef-mcp",
+    "url": "https://github.com/noor202401938-netizen/cyber-chef-mcp",
+    "description": "CyberChef MCP server providing 28 core data transformations, ciphers, hashing, JWT decoding, representation-calibrated Shannon entropy, and multi-layer payload deobfuscation for AI coding and security agents. `npx -y @noorfatima123456/cyber-chef-mcp`",
+    "category": "Security",
+    "languages": [
+      "TypeScript"
     ],
     "scopes": [
       "Local"
@@ -62721,6 +63174,22 @@
     "is_open_source": true
   },
   {
+    "name": "Trainzilla/tzilla-mcp",
+    "url": "https://github.com/Trainzilla/tzilla-mcp",
+    "description": "Trainzilla for personal trainers: manage clients, workout and diet plans, check-ins, habits, sessions and billing (hosted OAuth endpoint or local).",
+    "category": "Sports",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Cloud",
+      "Local"
+    ],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
     "name": "XWeaponX7/rundida-mcp",
     "url": "https://github.com/XWeaponX7/rundida-mcp",
     "description": "Running calculators: pace, time and distance, race time predictions (Riegel formula), heart rate training zones (Karvonen method) and marathon event data.",
@@ -63316,6 +63785,20 @@
       "Windows",
       "Linux"
     ],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
+    "name": "cuqu-net/cuqu-skill",
+    "url": "https://github.com/cuqu-net/cuqu-skill",
+    "description": "Find, book, and pay for local offline social activities (board games, badminton, hiking, frisbee and 100+ hobby categories) across cities in China via natural language. Hosted MCP gateway (agent.cuqu.net) with per-user API keys; also supports organizer-side event creation and venue search.",
+    "category": "Travel & Transportation",
+    "languages": [],
+    "scopes": [
+      "Cloud",
+      "Local"
+    ],
+    "platforms": [],
     "is_official": false,
     "is_open_source": true
   },
@@ -64809,6 +65292,21 @@
     "name": "A1-x-Tech/mcp-google-slides",
     "url": "https://github.com/A1-x-Tech/mcp-google-slides",
     "description": "Google Slides API: create and edit presentations, slides, shapes, tables and images, speaker notes and exports.",
+    "category": "Workplace & Productivity",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Cloud"
+    ],
+    "platforms": [],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
+    "name": "A1-x-Tech/mcp-google-tasks",
+    "url": "https://github.com/A1-x-Tech/mcp-google-tasks",
+    "description": "Google Tasks API: manage task lists, and create and organize tasks with due dates, notes and subtasks.",
     "category": "Workplace & Productivity",
     "languages": [
       "TypeScript"
