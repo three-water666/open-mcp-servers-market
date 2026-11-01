@@ -38760,7 +38760,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 2
   },
   {
     "name": "0x-devc/novai-mcp-server",
@@ -74174,7 +74175,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 40
   },
   {
     "name": "anaisbetts/mcp-installer",
@@ -76160,7 +76162,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 677
+    "star_count": 678
   },
   {
     "name": "SecretiveShell/MCP-wolfram-alpha",
