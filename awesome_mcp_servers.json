@@ -45933,6 +45933,24 @@
     "is_open_source": true
   },
   {
+    "name": "jackjin1997/markindex",
+    "url": "https://github.com/jackjin1997/markindex",
+    "description": "Vectorless, structure-first retrieval over large Markdown libraries: walk library, folder, document and section trees, read original text with line numbers for citations, and fall back to mixed Chinese/English BM25 search. Five read-only tools, no embeddings, no API key.",
+    "category": "Knowledge & Memory",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [
+      "macOS",
+      "Linux"
+    ],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
     "name": "jaimenbell/rag-mcp",
     "url": "https://github.com/jaimenbell/rag-mcp",
     "description": "Minimal local RAG that vector-searches a document corpus and returns cited passages.",
@@ -70973,8 +70991,7 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true,
-    "star_count": 68
+    "is_open_source": true
   },
   {
     "name": "github/github-mcp-server",
