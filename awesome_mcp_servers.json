@@ -10955,6 +10955,25 @@
     "is_open_source": true
   },
   {
+    "name": "Arkz-Deepak/neurocode",
+    "url": "https://github.com/Arkz-Deepak/neurocode",
+    "description": "In-memory Code Property Graph context slicer for local models (Ollama, Cursor, Claude Desktop): extracts sub-1,200 token reachability closures for autonomous repository bug repair on consumer edge hardware (4GB–8GB VRAM) without cloud API dependency.",
+    "category": "Coding Agents",
+    "languages": [
+      "Python"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
     "name": "abnegate/magents",
     "url": "https://github.com/abnegate/magents",
     "description": "Shared session bus for coding agents such as Claude Code, Codex and Grok: list, read, hand off, message and spawn live agent sessions via MCP or CLI.",
@@ -74548,8 +74567,7 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true,
-    "star_count": 2021
+    "is_open_source": true
   },
   {
     "name": "cnghockey/sats4ai-mcp-server",
@@ -75392,7 +75410,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 5829
+    "star_count": 5828
   },
   {
     "name": "KS-GEN-AI/confluence-mcp-server",
