@@ -6188,7 +6188,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 39590
   },
   {
     "name": "Agent360dk/browser-mcp",
@@ -76200,7 +76201,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 678
+    "star_count": 679
   },
   {
     "name": "SecretiveShell/MCP-wolfram-alpha",
