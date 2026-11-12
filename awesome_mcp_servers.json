@@ -1485,7 +1485,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 2762
   },
   {
     "name": "MikeyPetrillo/Agent402",
@@ -6189,7 +6190,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 39595
+    "star_count": 39598
   },
   {
     "name": "Agent360dk/browser-mcp",
@@ -71012,7 +71013,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 68
   },
   {
     "name": "github/github-mcp-server",
@@ -76201,7 +76203,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 679
+    "star_count": 680
   },
   {
     "name": "SecretiveShell/MCP-wolfram-alpha",
