@@ -1486,7 +1486,7 @@
     ],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 2762
+    "star_count": 2761
   },
   {
     "name": "MikeyPetrillo/Agent402",
@@ -72633,7 +72633,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1
   },
   {
     "name": "ianaleck/harvest-mcp-server",
