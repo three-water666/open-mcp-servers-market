@@ -6190,7 +6190,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 39598
+    "star_count": 39600
   },
   {
     "name": "Agent360dk/browser-mcp",
@@ -75520,7 +75520,8 @@
     ],
     "platforms": [],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 36
   },
   {
     "name": "MAG-Cie/mcp-microsoft-todo",
@@ -76204,7 +76205,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 680
+    "star_count": 679
   },
   {
     "name": "SecretiveShell/MCP-wolfram-alpha",
