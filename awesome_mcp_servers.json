@@ -1569,7 +1569,7 @@
     ],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 2762
+    "star_count": 2761
   },
   {
     "name": "MikeyPetrillo/Agent402",
@@ -4728,6 +4728,25 @@
     "is_open_source": true
   },
   {
+    "name": "taddeimania/lathe",
+    "url": "https://github.com/taddeimania/lathe",
+    "description": "A free, open-source DAW with its own MCP server: read the session, play any bars, build tracks and plug-in chains, write MIDI in a compact note notation, mix with channel EQ and sends, set the song's keys, convert audio to MIDI and export audio, each change one undo step in the app.",
+    "category": "Art & Culture",
+    "languages": [
+      "C/C++"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "is_official": true,
+    "is_open_source": true
+  },
+  {
     "name": "tasopen/mcp-alphabanana",
     "url": "https://github.com/tasopen/mcp-alphabanana",
     "description": "Generate image assets with Google Gemini (Nano Banana 2 and Pro): transparent PNG/WebP, exact resizing and cropping, reference images and Search grounding.",
@@ -6822,7 +6841,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 39605
+    "star_count": 39598
   },
   {
     "name": "Agent360dk/browser-mcp",
@@ -62995,6 +63014,25 @@
       "Cloud"
     ],
     "platforms": [],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
+    "name": "scrapecrate/mcp-server",
+    "url": "https://github.com/scrapecrate/mcp-server",
+    "description": "One API key for YouTube transcripts and metadata, Google Maps places and reviews, Trustpilot reviews and the Meta Ad Library, via the ScrapeCrate API.",
+    "category": "Search & Data Extraction",
+    "languages": [
+      "Python"
+    ],
+    "scopes": [
+      "Cloud"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
     "is_official": false,
     "is_open_source": true
   },
