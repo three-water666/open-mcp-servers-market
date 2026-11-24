@@ -6841,7 +6841,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 39598
+    "star_count": 39592
   },
   {
     "name": "Agent360dk/browser-mcp",
@@ -21721,6 +21721,21 @@
       "Windows",
       "Linux"
     ],
+    "is_official": true,
+    "is_open_source": true
+  },
+  {
+    "name": "neoma-pcam/pcam-live",
+    "url": "https://github.com/neoma-pcam/pcam-live",
+    "description": "Connects Frontier LLMs directly to a physical hardware enclave for sub-millisecond (0.85ms) non-linear physical equilibrium, mechanical resonance damping, and cryptographic PUF attestation via cloud.",
+    "category": "Developer Tools",
+    "languages": [
+      "Python"
+    ],
+    "scopes": [
+      "Cloud"
+    ],
+    "platforms": [],
     "is_official": true,
     "is_open_source": true
   },
@@ -41448,6 +41463,25 @@
       "Local"
     ],
     "platforms": [],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
+    "name": "luca-network/spr",
+    "url": "https://github.com/luca-network/spr",
+    "description": "Records each payment an AI agent makes as a signed record on your own machine: what it declared before paying, what it paid, and whether it stayed inside its limit. Anyone can check the records. `npx -y @luca-network/spr-mcp`",
+    "category": "Finance & Fintech",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Local"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
     "is_official": false,
     "is_open_source": true
   },
@@ -81552,7 +81586,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 5823
+    "star_count": 5821
   },
   {
     "name": "KS-GEN-AI/confluence-mcp-server",
