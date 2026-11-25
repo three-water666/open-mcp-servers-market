@@ -1569,7 +1569,7 @@
     ],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 2761
+    "star_count": 2760
   },
   {
     "name": "MikeyPetrillo/Agent402",
@@ -6841,7 +6841,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 39592
+    "star_count": 39590
   },
   {
     "name": "Agent360dk/browser-mcp",
@@ -66335,6 +66335,25 @@
     ],
     "platforms": [],
     "is_official": true,
+    "is_open_source": true
+  },
+  {
+    "name": "pecopeko/mcp-public-intel",
+    "url": "https://github.com/pecopeko/mcp-public-intel",
+    "description": "Zero-API-key public intelligence extraction across SEC EDGAR XBRL financials and Form D raises, Greenhouse/Lever/Ashby engineering job boards, Shopify catalogs, Substack full-text Markdown, and Podcasting 2.0 RSS transcripts.",
+    "category": "Search & Data Extraction",
+    "languages": [
+      "Python"
+    ],
+    "scopes": [
+      "Cloud"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "is_official": false,
     "is_open_source": true
   },
   {
