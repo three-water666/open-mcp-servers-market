@@ -1569,7 +1569,7 @@
     ],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 2760
+    "star_count": 2759
   },
   {
     "name": "MikeyPetrillo/Agent402",
@@ -6841,7 +6841,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 39590
+    "star_count": 39596
   },
   {
     "name": "Agent360dk/browser-mcp",
@@ -35147,6 +35147,25 @@
     ],
     "scopes": [
       "Local"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "is_official": false,
+    "is_open_source": true
+  },
+  {
+    "name": "ethereaglehq/privatools-mcp",
+    "url": "https://github.com/ethereaglehq/privatools-mcp",
+    "description": "Privacy-first file tools: 140+ stateless PDF, image, audio, video, OCR and document operations (compress, merge, split, convert, OCR, watermark and more) via the PrivaTools API, exposed through 6 progressive-discovery tools. Local stdio via `npx -y @privatools/mcp` (optional folder allow-list) or hosted at `https://api.privatools.me/mcp`; no account needed.",
+    "category": "File Systems",
+    "languages": [
+      "TypeScript"
+    ],
+    "scopes": [
+      "Cloud"
     ],
     "platforms": [
       "macOS",
@@ -78251,7 +78270,8 @@
       "Linux"
     ],
     "is_official": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "star_count": 1
   },
   {
     "name": "Developyn/laver-mcp",
@@ -81605,7 +81625,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 5821
+    "star_count": 5823
   },
   {
     "name": "KS-GEN-AI/confluence-mcp-server",
@@ -82410,7 +82430,7 @@
     "platforms": [],
     "is_official": false,
     "is_open_source": true,
-    "star_count": 679
+    "star_count": 678
   },
   {
     "name": "SecretiveShell/MCP-wolfram-alpha",
